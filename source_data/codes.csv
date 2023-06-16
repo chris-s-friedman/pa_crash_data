@@ -1,0 +1,5244 @@
+code,value,column
+Y,Yes,y_n_values
+N,No,y_n_values
+1,Yes,y_n_values
+0,No,y_n_values
+1,Limited Access,ACCESS_CTRL 
+2,Partial Access,ACCESS_CTRL 
+3,No Access Control,ACCESS_CTRL 
+00,Not Deployed,AIRBAG1 through AIRBAG4 
+01,Curtain,AIRBAG1 through AIRBAG4 
+02,Front,AIRBAG1 through AIRBAG4 
+03,Side,AIRBAG1 through AIRBAG4 
+04,Other,AIRBAG1 through AIRBAG4 
+98,Not Applicable,AIRBAG1 through AIRBAG4 
+M,Multiple (unspecified),AIRBAG1 through AIRBAG4 
+00,None used or not applicable,AIRBAG_PADS 
+05,Motorcycle eye protection,AIRBAG_PADS 
+06,"Bicyclist wearing elbow, knee or other pads",AIRBAG_PADS 
+08,Airbag(s) Deployed,AIRBAG_PADS 
+09,Airbag(s) Not Deployed,AIRBAG_PADS 
+13,Air bag removed (prior to crash),AIRBAG_PADS 
+19,Unknown if air bag deployed,AIRBAG_PADS 
+99,Unknown,AIRBAG_PADS 
+0,No avoidance maneuver,AVOID_MAN_CD 
+1,Braking - skid marks evident,AVOID_MAN_CD 
+2,"Braking - no skid marks, driver stated",AVOID_MAN_CD 
+3,Braking - other evidence,AVOID_MAN_CD 
+4,Steering - evidence or driver stated,AVOID_MAN_CD 
+5,Steering and braking - evidence or stated,AVOID_MAN_CD 
+6,Other avoidance maneuver,AVOID_MAN_CD 
+7,Inconclusive,AVOID_MAN_CD 
+01,Convertible,BODY_TYPE 
+02,"2-Door sedan, hardtop or coupe",BODY_TYPE 
+03,3-Door hatch back,BODY_TYPE 
+04,4-Door sedan or hardtop,BODY_TYPE 
+05,5-Door sedan or hatch back,BODY_TYPE 
+06,Station wagon. Excluding van and truck-based,BODY_TYPE 
+08,Other automobile type,BODY_TYPE 
+09,Unknown automobile type,BODY_TYPE 
+10,Automobile-based pickup,BODY_TYPE 
+11,Automobile-based panel truck,BODY_TYPE 
+12,Compact utility e.g. Tracker; Cherokee; etc.,BODY_TYPE 
+13,Large limousine,BODY_TYPE 
+14,3-wheel automobile or auto derivative,BODY_TYPE 
+15,Large utility; Tahoe; Range Rover; Etc.,BODY_TYPE 
+16,Utility Station Wagon,BODY_TYPE 
+19,Unknown utility style body type,BODY_TYPE 
+20,Motorcycle,BODY_TYPE 
+21,Moped,BODY_TYPE 
+22,Three-wheeled motorcycle or moped,BODY_TYPE 
+23,Off-road motorcycle,BODY_TYPE 
+24,ATV - all terrain vehicle,BODY_TYPE 
+25,Mini-bike or motor scooter,BODY_TYPE 
+28,Other motorcycle type,BODY_TYPE 
+29,Unknown motorcycle type,BODY_TYPE 
+30,School bus,BODY_TYPE 
+31,Cross country or inner-city bus (i.e. Greyhound bus),BODY_TYPE 
+32,Transit bus,BODY_TYPE 
+38,Other bus,BODY_TYPE 
+39,Unknown bus,BODY_TYPE 
+40,Mini-van,BODY_TYPE 
+41,Large van,BODY_TYPE 
+42,Step-in or walk-in van,BODY_TYPE 
+43,Van-based motor home,BODY_TYPE 
+44,Van-based school bus,BODY_TYPE 
+45,Van-based transit bus,BODY_TYPE 
+48,Other type van,BODY_TYPE 
+49,Unknown van type,BODY_TYPE 
+50,Compact pickup,BODY_TYPE 
+51,Standard pickup,BODY_TYPE 
+52,Pickup with slide in camper,BODY_TYPE 
+53,Convertible pickup,BODY_TYPE 
+58,Other pickup type,BODY_TYPE 
+59,Unknown pickup type,BODY_TYPE 
+60,"Cab chassis-based (includes light stake, dump, tow trucks)",BODY_TYPE 
+61,Truck-based panel,BODY_TYPE 
+62,Light truck-based motor home,BODY_TYPE 
+68,Other light conventional truck,BODY_TYPE 
+69,Unknown light truck,BODY_TYPE 
+70,"Single unit straight truck (10000<=""19500)",BODY_TYPE 
+71,"Single unit straight truck (19500<=""26000)",BODY_TYPE 
+72,Single unit straight truck (GVWR>26000),BODY_TYPE 
+73,Single unit straight truck (GVWR unknown),BODY_TYPE 
+74,Medium or heavy truck-based motor home,BODY_TYPE 
+75,Truck tractor with or without trailers,BODY_TYPE 
+76,Big step van,BODY_TYPE 
+78,Camper or motor home unknown truck type,BODY_TYPE 
+79,Unknown heavy truck,BODY_TYPE 
+80,Snowmobile,BODY_TYPE 
+81,Farm equipment other than trucks,BODY_TYPE 
+82,Construction equipment other than trucks,BODY_TYPE 
+88,Other type special vehicles,BODY_TYPE 
+90,Unicycle or bicycle or tricycle,BODY_TYPE 
+91,Other pedal cycle,BODY_TYPE 
+92,Horse and Buggy,BODY_TYPE 
+93,Horse and rider,BODY_TYPE 
+94,Train,BODY_TYPE 
+95,Trolley,BODY_TYPE 
+98,Other body type,BODY_TYPE 
+99,Unknown body type,BODY_TYPE 
+0,Not Applicable,CARGO_BD_TYPE 
+1,Van/Enclosed Box,CARGO_BD_TYPE 
+2,Cargo Tank,CARGO_BD_TYPE 
+3,Flat Bed,CARGO_BD_TYPE 
+4,Dump,CARGO_BD_TYPE 
+5,Concrete Mixer,CARGO_BD_TYPE 
+6,Auto Transport,CARGO_BD_TYPE 
+7,Garbage/Refuse,CARGO_BD_TYPE 
+8,Bus,CARGO_BD_TYPE 
+9,Unknown (Expired 1-1-2022),CARGO_BD_TYPE 
+10,Grain/Chips/Gravel,CARGO_BD_TYPE 
+11,Intermodal Container Chassis,CARGO_BD_TYPE 
+12,Log/Pole Carrier,CARGO_BD_TYPE 
+13,Vehicle Towing Another Vehicle,CARGO_BD_TYPE 
+98,Other,CARGO_BD_TYPE 
+99,Unknown,CARGO_BD_TYPE 
+1,Light,CLOTHING_TYPE 
+2,Dark,CLOTHING_TYPE 
+3,Reflective,CLOTHING_TYPE 
+9,Unknown,CLOTHING_TYPE 
+0,Non-collision,COLLISION TYPE 
+1,Rear-end,COLLISION TYPE 
+2,Head-on,COLLISION TYPE 
+3,Backing,COLLISION TYPE 
+4,Angle,COLLISION TYPE 
+5,Sideswipe (same dir.),COLLISION TYPE 
+6,Sideswipe (Opposite dir.),COLLISION TYPE 
+7,Hit fixed object,COLLISION TYPE 
+8,Hit pedestrian,COLLISION TYPE 
+9,Other/Unknown (Expired),COLLISION TYPE 
+98,Other,COLLISION TYPE 
+99,Unknown,COLLISION TYPE 
+01,ADAMS,COUNTY 
+02,ALLEGHENY,COUNTY 
+03,ARMSTRONG,COUNTY 
+04,BEAVER,COUNTY 
+05,BEDFORD,COUNTY 
+06,BERKS,COUNTY 
+07,BLAIR,COUNTY 
+08,BRADFORD,COUNTY 
+09,BUCKS,COUNTY 
+10,BUTLER,COUNTY 
+11,CAMBRIA,COUNTY 
+12,CAMERON,COUNTY 
+13,CARBON,COUNTY 
+14,CENTRE,COUNTY 
+15,CHESTER,COUNTY 
+16,CLARION,COUNTY 
+17,CLEARFIELD,COUNTY 
+18,CLINTON,COUNTY 
+19,COLUMBIA,COUNTY 
+20,CRAWFORD,COUNTY 
+21,CUMBERLAND,COUNTY 
+22,DAUPHIN,COUNTY 
+23,DELAWARE,COUNTY 
+24,ELK,COUNTY 
+25,ERIE,COUNTY 
+26,FAYETTE,COUNTY 
+27,FOREST,COUNTY 
+28,FRANKLIN,COUNTY 
+29,FULTON,COUNTY 
+30,GREENE,COUNTY 
+31,HUNTINGDON,COUNTY 
+32,INDIANA,COUNTY 
+33,JEFFERSON,COUNTY 
+34,JUNIATA,COUNTY 
+35,LACKAWANNA,COUNTY 
+36,LANCASTER,COUNTY 
+37,LAWRENCE,COUNTY 
+38,LEBANON,COUNTY 
+39,LEHIGH,COUNTY 
+40,LUZERNE,COUNTY 
+41,LYCOMING,COUNTY 
+42,MCKEAN,COUNTY 
+43,MERCER,COUNTY 
+44,MIFFLIN,COUNTY 
+45,MONROE,COUNTY 
+46,MONTGOMERY,COUNTY 
+47,MONTOUR,COUNTY 
+48,NORTHAMPTON,COUNTY 
+49,NORTHUMBERLAND,COUNTY 
+50,PERRY,COUNTY 
+51,PIKE,COUNTY 
+52,POTTER,COUNTY 
+53,SCHUYLKILL,COUNTY 
+54,SNYDER,COUNTY 
+55,SOMERSET,COUNTY 
+56,SULLIVAN,COUNTY 
+57,SUSQUEHANNA,COUNTY 
+58,TIOGA,COUNTY 
+59,UNION,COUNTY 
+60,VENANGO,COUNTY 
+61,WARREN,COUNTY 
+62,WASHINGTON,COUNTY 
+63,WAYNE,COUNTY 
+64,WESTMORELAND,COUNTY 
+65,WYOMING,COUNTY 
+66,YORK,COUNTY 
+67,PHILADELPHIA,COUNTY 
+0,,DAMAGE_IND 
+1,Minor (Drivable),DAMAGE_IND 
+2,Functional (mod. - may be undrivable,DAMAGE_IND 
+3,Disabling (severe,not drivable)
+9,Unknown,DAMAGE_IND 
+1,Sunday,DAY_OF_WEEK 
+2,Monday,DAY_OF_WEEK 
+3,Tuesday,DAY_OF_WEEK 
+4,Wednesday,DAY_OF_WEEK 
+5,Thursday,DAY_OF_WEEK 
+6,Friday,DAY_OF_WEEK 
+7,Saturday,DAY_OF_WEEK 
+9,Unknown,DAY_OF_WEEK 
+01,"District 1 (Crawford, Erie, Forest, Mercer, Venango, Warren Counties)",DISTRICT 
+02,"District 2 (Cameron, Centre, Clearfield, Clinton, Elk, Juniata, McKean, Mifflin, Potter Counties)",DISTRICT 
+03,"District 3 (Bradford, Columbia, Lycoming, Montour, Northumberland, Snyder, Sullivan, Tioga, Union Counties)",DISTRICT 
+04,"District 4 (Lackawanna, Luzerne, Pike, Susquehanna, Wayne, Wyoming Counties)",DISTRICT 
+05,"District 5 (Berks, Carbon, Lehigh, Monroe, Northampton, Schuylkill Counties)",DISTRICT 
+06,"District 6 (Bucks, Chester, Delaware, Montgomery, Philadelphia Counties)",DISTRICT 
+08,"District 8 (Adams, Cumberland, Dauphin, Franklin, Lancaster, Lebanon, Perry, York Counties)",DISTRICT 
+09,"District 9 (Bedford, Blair, Cambria, Fulton, Huntington, Somerset Counties)",DISTRICT 
+10,"District 10 (Armstrong, Butler, Clarion, Indiana, Jefferson Counties)",DISTRICT 
+11,"District 11 (Allegheny, Beaver, Lawrence Counties)",DISTRICT 
+12,"District 12 (Fayette, Greene, Washington, Westmoreland Counties)",DISTRICT 
+1,Apparently Normal,DVR_PED_CONDITION 
+2,Had Been Drinking,DVR_PED_CONDITION 
+3,Illegal Drug Use,DVR_PED_CONDITION 
+4,Sick,DVR_PED_CONDITION 
+5,Fatigue,DVR_PED_CONDITION 
+6,Asleep,DVR_PED_CONDITION 
+7,Medication,DVR_PED_CONDITION 
+9,Unknown,DVR_PED_CONDITION 
+1,Driver Operated Vehicle,DVR_PRES_IND 
+2,No Driver,DVR_PRES_IND 
+3,Driver Fled Scene,DVR_PRES_IND 
+4,Hit and Run,DVR_PRES_IND 
+9,Unknown,DVR_PRES_IND 
+0,Not Ejected / Not Applicable,EJECT_PATH_CD 
+1,Through side door opening,EJECT_PATH_CD 
+2,Through side window,EJECT_PATH_CD 
+3,Through windshield,EJECT_PATH_CD 
+4,Through back door,EJECT_PATH_CD 
+5,Through back door tailgate opening,EJECT_PATH_CD 
+6,Through roof opening sunroof or Convertible top down,EJECT_PATH_CD 
+7,Through roof opening (Convertible Top Up),EJECT_PATH_CD 
+8,From Vehicle Exterior,EJECT_PATH_CD 
+9,Unknown,EJECT_PATH_CD 
+0,Not in Emergency Use,EMERG_VEH_USE_CD 
+1,Lights Flashing,EMERG_VEH_USE_CD 
+2,Siren Sounding,EMERG_VEH_USE_CD 
+3,Both Lights and Siren,EMERG_VEH_USE_CD 
+9,Unknown,EMERG_VEH_USE_CD 
+0,Not applicable,EXTRIC_IND 
+1,Not extricated,EXTRIC_IND 
+2,Extricated by mechanical means,EXTRIC_IND 
+3,Freed by non,EXTRIC_IND 
+8,Other,EXTRIC_IND 
+1,Level Roadway,GRADE 
+2,Uphill,GRADE 
+3,Downhill,GRADE 
+4,Sag or bottom of hill,GRADE 
+5,Crest or top of hill,GRADE 
+9,Unknown,GRADE 
+0,Not Applicable - No Hazardous Material,HAZMAT CODE 
+1,Explosives,HAZMAT CODE 
+2,Gases - Compressed or Dissolved or Refrigerated,HAZMAT CODE 
+3,Flammable Liquid,HAZMAT CODE 
+4,Flammable Solids - Combustible or Water Reactive,HAZMAT CODE 
+5,Oxidizing Substances - Organic Peroxides,HAZMAT CODE 
+6,Poisonous (toxic) and Infectious Substances,HAZMAT CODE 
+7,Radioactive Material,HAZMAT CODE 
+8,Corrosives,HAZMAT CODE 
+9,Miscellaneous Dangerous Goods,HAZMAT CODE 
+U,Unknown if any Hazardous Material Present,HAZMAT CODE 
+1,No Release,HAZMAT_RELEASE_IND 
+2,Release occurred,HAZMAT_RELEASE_IND 
+9,Unknown,HAZMAT_RELEASE_IND 
+1,Daylight,ILLUMINATION 
+2,Dark – no streetlights,ILLUMINATION 
+3,Dark – streetlights,ILLUMINATION 
+4,Dusk,ILLUMINATION 
+5,Dawn,ILLUMINATION 
+6,Dark – unknown roadway lighting,ILLUMINATION 
+8,Other,ILLUMINATION 
+9,Unknown,ILLUMINATION 
+0,Not injured,INJ_SEVERITY 
+1,Killed,INJ_SEVERITY 
+2,Suspected Serious injury,INJ_SEVERITY 
+3,Suspected Minor injury,INJ_SEVERITY 
+4,Possible Injury,INJ_SEVERITY 
+8,Injury/ Unknown Severity,INJ_SEVERITY 
+9,Unknown if Injured,INJ_SEVERITY 
+00,Mid-block,INTERSECT_TYPE 
+01,Four-way intersection,INTERSECT_TYPE 
+02,“T” intersection,INTERSECT_TYPE 
+03,“Y” intersection,INTERSECT_TYPE 
+04,Traffic Circle/Roundabout (EXPIRED 1/1/18),INTERSECT_TYPE 
+05,Multi-leg intersection,INTERSECT_TYPE 
+06,Ramp End,INTERSECT_TYPE 
+07,Ramp Begin,INTERSECT_TYPE 
+08,Crossover,INTERSECT_TYPE 
+09,Railroad crossing,INTERSECT_TYPE 
+10,Other,INTERSECT_TYPE 
+11,“L” Intersection,INTERSECT_TYPE 
+12,Traffic Circle,INTERSECT_TYPE 
+13,Roundabout,INTERSECT_TYPE 
+99,Unknown,INTERSECT_TYPE 
+00,Non-collision,IMPACT_POINT 
+01,1 O-Clock Position,IMPACT_POINT 
+02,2 O-Clock Position,IMPACT_POINT 
+03,3 O-Clock Position,IMPACT_POINT 
+04,4 O-Clock Position,IMPACT_POINT 
+05,5 O-Clock Position,IMPACT_POINT 
+06,6 O-Clock Position,IMPACT_POINT 
+07,7 O-Clock Position,IMPACT_POINT 
+08,8 O-Clock Position,IMPACT_POINT 
+09,9 O-Clock Position,IMPACT_POINT 
+10,10 O-Clock Position,IMPACT_POINT 
+11,11 O-Clock Position,IMPACT_POINT 
+12,12 O-Clock Position,IMPACT_POINT 
+13,Top,IMPACT_POINT 
+14,Undercarriage,IMPACT_POINT 
+15,Towed Unit,IMPACT_POINT 
+99,Unknown,IMPACT_POINT 
+1,North,LANE CLOSURE DIECTION 
+2,South,LANE CLOSURE DIECTION 
+3,East,LANE CLOSURE DIECTION 
+4,West,LANE CLOSURE DIECTION 
+5,North and South,LANE CLOSURE DIECTION 
+6,East and West,LANE CLOSURE DIECTION 
+7,"All (N,S,E,W)",LANE CLOSURE DIECTION 
+0,Not applicable,LOCATION_TYPE 
+1,Underpass,LOCATION_TYPE 
+2,Ramp,LOCATION_TYPE 
+3,Bridge,LOCATION_TYPE 
+4,Tunnel,LOCATION_TYPE 
+5,Toll Booth,LOCATION_TYPE 
+6,Cross over related,LOCATION_TYPE 
+7,Driveway or Parking Lot,LOCATION_TYPE 
+8,Ramp and bridge,LOCATION_TYPE 
+9,Unknown,LOCATION_TYPE 
+0,Property Damage Only,MAX_SEVEIRTY_LEVEL 
+1,Fatal,MAX_SEVEIRTY_LEVEL 
+2,Suspected Serious Injury,MAX_SEVEIRTY_LEVEL 
+3,Suspected Minor Injury,MAX_SEVEIRTY_LEVEL 
+4,Possible Injury,MAX_SEVEIRTY_LEVEL 
+8,Injury – Unknown Severity,MAX_SEVEIRTY_LEVEL 
+9,Unknown if Injured,MAX_SEVEIRTY_LEVEL 
+00,Not Applicable,OWNER_DRIVER 
+01,Private Vehicle Owned/Leased by Driver,OWNER_DRIVER 
+02,Private Vehicle Not Owned/Leased by Driver,OWNER_DRIVER 
+03,Rented Vehicle,OWNER_DRIVER 
+04,State Police Vehicle,OWNER_DRIVER 
+05,PennDOT Vehicle,OWNER_DRIVER 
+06,Other State Gov Veh,OWNER_DRIVER 
+07,Municipal Police Vehicle,OWNER_DRIVER 
+08,Other Municipal Government Vehicle,OWNER_DRIVER 
+09,Federal Gov Veh,OWNER_DRIVER 
+98,Other,OWNER_DRIVER 
+99,Unknown,OWNER_DRIVER 
+01,Marked crosswalks at intersection,PED_LOCATION 
+02,At intersection: no crosswalks,PED_LOCATION 
+03,Non-intersection - crosswalks,PED_LOCATION 
+04,Driveway access,PED_LOCATION 
+05,In Roadway,PED_LOCATION 
+06,Not in Roadway,PED_LOCATION 
+07,Median,PED_LOCATION 
+08,Island,PED_LOCATION 
+09,Shoulder 10 - Sidewalk,PED_LOCATION 
+11,Less than 10 feet off road,PED_LOCATION 
+12,Greater than 10 feet off road,PED_LOCATION 
+13,Outside Trafficway,PED_LOCATION 
+14,Shared Paths or Trails,PED_LOCATION 
+99,Unknown,PED_LOCATION 
+1,Pedestrian signal,PED_LOCATION 
+2,No pedestrian signal,PED_LOCATION 
+3,Not at intersection,PED_LOCATION 
+9,Unknown,PED_LOCATION 
+1,Driver,PERSON_TYPE 
+2,Passenger,PERSON_TYPE 
+7,Pedestrian,PERSON_TYPE 
+8,Other,PERSON_TYPE 
+9,Unknown,PERSON_TYPE 
+1,On roadway,RELATION_TO_ROAD 
+2,Shoulder,RELATION_TO_ROAD 
+3,Median,RELATION_TO_ROAD 
+4,Roadside (off trafficway; on vehicle area),RELATION_TO_ROAD 
+5,Outside trafficway (in area not meant for vehicles),RELATION_TO_ROAD 
+6,In parking lane,RELATION_TO_ROAD 
+7,Gore (intersection of ramp and highway),RELATION_TO_ROAD 
+9,Unknown,RELATION_TO_ROAD 
+00,None used or Not applicable,RESTRAINT_HELMET 
+01,Shoulder belt used,RESTRAINT_HELMET 
+02,Lap belt used,RESTRAINT_HELMET 
+03,Lap and shoulder belt used,RESTRAINT_HELMET 
+04,Child safety seat used (EXPIRED 1/1/18),RESTRAINT_HELMET 
+05,Motorcycle helmet used,RESTRAINT_HELMET 
+06,Bicycle helmet used,RESTRAINT_HELMET 
+10,Safety belt used improperly,RESTRAINT_HELMET 
+11,Child safety seat used improperly,RESTRAINT_HELMET 
+12,Helmet used improperly,RESTRAINT_HELMET 
+21,Child safety Seat (Front Facing),RESTRAINT_HELMET 
+22,Child Safety Seat (Rear Facing),RESTRAINT_HELMET 
+23,Booster Seat,RESTRAINT_HELMET 
+24,Child Restraint Unknown,RESTRAINT_HELMET 
+90,Restraint used/ Type unknown,RESTRAINT_HELMET 
+98,Other,RESTRAINT_HELMET 
+99,Unknown,RESTRAINT_HELMET 
+1,Straight,RDWY_ALIGNMENT 
+2,Curved (expired 1-1-20),RDWY_ALIGNMENT 
+3,Curve Left,RDWY_ALIGNMENT 
+4,Curve Right,RDWY_ALIGNMENT 
+9,Unknown,RDWY_ALIGNMENT 
+E,East,RDWY_ORIENT 
+N,North,RDWY_ORIENT 
+S,South,RDWY_ORIENT 
+U,Unknown,RDWY_ORIENT 
+W,West,RDWY_ORIENT 
+1,Concrete,RDWY_SURFACE_TYPE 
+2,Blacktop,RDWY_SURFACE_TYPE 
+3,Brick or Block,RDWY_SURFACE_TYPE 
+4,"Slag, Gravel, or Stone",RDWY_SURFACE_TYPE 
+5,Dirt,RDWY_SURFACE_TYPE 
+8,Other,RDWY_SURFACE_TYPE 
+9,Unknown,RDWY_SURFACE_TYPE 
+01,Dry,ROAD_CONDITION 
+02,Ice/Frost,ROAD_CONDITION 
+03,"Mud, Dirt, Gravel",ROAD_CONDITION 
+04,Oil,ROAD_CONDITION 
+05,Sand,ROAD_CONDITION 
+06,Slush,ROAD_CONDITION 
+07,Snow,ROAD_CONDITION 
+08,Water (Standing or Moving),ROAD_CONDITION 
+09,Wet,ROAD_CONDITION 
+22,"Mud, Sand, Dirt, Oil (Expired 1-1-20)",ROAD_CONDITION 
+98,Other,ROAD_CONDITION 
+99,Unknown,ROAD_CONDITION 
+1,Interstate – (non-turnpike),ROAD_OWNER 
+2,State highway,ROAD_OWNER 
+3,County road,ROAD_OWNER 
+4,Local road or street,ROAD_OWNER 
+5,East-West portion of turnpike,ROAD_OWNER 
+6,Turnpike spur (extension),ROAD_OWNER 
+7,Private Road,ROAD_OWNER 
+9,Other or Unknown,ROAD_OWNER 
+00,Not a passenger or occupant,SEAT_POSITION 
+01,Driver - all vehicles,SEAT_POSITION 
+02,Front seat middle position,SEAT_POSITION 
+03,Front seat right side,SEAT_POSITION 
+04,Second row - left side or motorcycle passenger,SEAT_POSITION 
+05,Second row - middle position,SEAT_POSITION 
+06,Second row - right side,SEAT_POSITION 
+07,Third row - left side,SEAT_POSITION 
+08,Third row - middle position,SEAT_POSITION 
+09,Third row - right side,SEAT_POSITION 
+10,Sleeper section of truck cab,SEAT_POSITION 
+11,In other enclosed passenger or cargo area,SEAT_POSITION 
+12,In open area (back of pickup etc.),SEAT_POSITION 
+13,Trailing unit,SEAT_POSITION 
+14,Riding on vehicle exterior,SEAT_POSITION 
+15,Bus passenger,SEAT_POSITION 
+21,Fourth Row – Left Side,SEAT_POSITION 
+22,Fourth Row – Middle Position,SEAT_POSITION 
+23,Fourth Row – Right Side,SEAT_POSITION 
+24,Other Row – Left Side,SEAT_POSITION 
+25,Other Row – Middle Position,SEAT_POSITION 
+26,Other Row – Right Side,SEAT_POSITION 
+27,Unknown Row – Left Side,SEAT_POSITION 
+28,Unknown Row – Middle Position,SEAT_POSITION 
+29,Unknown Row – Left Side,SEAT_POSITION 
+98,Other,SEAT_POSITION 
+99,Unknown,SEAT_POSITION 
+F,Female,SEX 
+M,Male,SEX 
+U,Unknown,SEX 
+00,Not applicable,SPECIAL_USAGE 
+01,Fire vehicle,SPECIAL_USAGE 
+02,Ambulance,SPECIAL_USAGE 
+03,Police,SPECIAL_USAGE 
+08,Other emergency vehicle,SPECIAL_USAGE 
+11,Pupil transport,SPECIAL_USAGE 
+12,Comm. passenger carrier,SPECIAL_USAGE 
+13,Taxi,SPECIAL_USAGE 
+14,Electronic Ride Hailing,SPECIAL_USAGE 
+21,Tractor trailer,SPECIAL_USAGE 
+22,Twin trailer,SPECIAL_USAGE 
+23,Triple trailer,SPECIAL_USAGE 
+31,Modified vehicle,SPECIAL_USAGE 
+41,Motorcycle – 2-Wheeled,SPECIAL_USAGE 
+42,Motorcycle – 3-Wheeled (two rear),SPECIAL_USAGE 
+43,Motorcycle – 3-Wheeled (two front),SPECIAL_USAGE 
+44,Motorcycle – Moped or Motorized Bicycle,SPECIAL_USAGE 
+45,Bicycle – Electric Assist,SPECIAL_USAGE 
+46,Van – Passenger (<9),SPECIAL_USAGE 
+47,Van – Passenger (9-12),SPECIAL_USAGE 
+48,Van – Passenger (15),SPECIAL_USAGE 
+49,Van - Cargo,SPECIAL_USAGE 
+99,Unknown,SPECIAL_USAGE 
+0,No Special Jurisdiction,SPEC_JURIS_CD 
+1,National Park,SPEC_JURIS_CD 
+2,Military,SPEC_JURIS_CD 
+3,Indian Reservation,SPEC_JURIS_CD 
+4,College/University Campus,SPEC_JURIS_CD 
+5,Other Federal Sites,SPEC_JURIS_CD 
+8,Other,SPEC_JURIS_CD 
+9,Unknown,SPEC_JURIS_CD 
+0,No Controls,TCD_FUNC_CD 
+1,Device not Functioning,TCD_FUNC_CD 
+2,Device Functioning improperly,TCD_FUNC_CD 
+3,Device Functioning properly,TCD_FUNC_CD 
+4,Emergency Preemptive Signal,TCD_FUNC_CD 
+9,Unknown,TCD_FUNC_CD 
+0,Not applicable,TCD_TYPE 
+1,Flashing traffic signal,TCD_TYPE 
+2,Traffic signal,TCD_TYPE 
+3,Stop sign,TCD_TYPE 
+4,Yield sign,TCD_TYPE 
+5,Active RR crossing controls,TCD_TYPE 
+6,Passive RR crossing controls,TCD_TYPE 
+7,Police officer or flagman,TCD_TYPE 
+8,Other Type TCD,TCD_TYPE 
+9,Unknown,TCD_TYPE 
+E,East,TRAVEL_DIRECTION 
+N,North,TRAVEL_DIRECTION 
+S,South,TRAVEL_DIRECTION 
+U,Unknown,TRAVEL_DIRECTION 
+W,West,TRAVEL_DIRECTION 
+1,Passenger vehicle,TRL_VEH_TYPE_CD 
+2,Truck,TRL_VEH_TYPE_CD 
+3,Utility trailer,TRL_VEH_TYPE_CD 
+4,Mobile or modular home,TRL_VEH_TYPE_CD 
+5,Camper,TRL_VEH_TYPE_CD 
+6,Trailer,TRL_VEH_TYPE_CD 
+7,Semi-trailer,TRL_VEH_TYPE_CD 
+8,Other,TRL_VEH_TYPE_CD 
+9,Unknown,TRL_VEH_TYPE_CD 
+0,No under ride or override,UNDER_RIDE_IND 
+1,"Under ride, compartment intrusion",UNDER_RIDE_IND 
+2,"Under ride, no compartment intrusion",UNDER_RIDE_IND 
+3,"Under ride, compartment intrusion unknown",UNDER_RIDE_IND 
+4,"Override, other vehicle",UNDER_RIDE_IND 
+9,Unknown if under ride or override,UNDER_RIDE_IND 
+01,Motor vehicle in transport,UNIT_TYPE 
+02,Legally parked,UNIT_TYPE 
+03,Illegally parked,UNIT_TYPE 
+05,Hit and run vehicle,UNIT_TYPE 
+06,Disabled from a previous crash,UNIT_TYPE 
+11,Non-motorized,UNIT_TYPE 
+21,Train,UNIT_TYPE 
+31,Pedestrian,UNIT_TYPE 
+32,"Pedestrian Conveyance (Wheelchair, etc.)",UNIT_TYPE 
+33,Personal Delivery Device,UNIT_TYPE 
+51,Phantom vehicle,UNIT_TYPE 
+1,Rural,URBAN_RURAL 
+2,Urbanized,URBAN_RURAL 
+3,Urban,URBAN_RURAL 
+01,Blue,VEH_COLOR_CD 
+02,Red,VEH_COLOR_CD 
+03,White,VEH_COLOR_CD 
+04,Green,VEH_COLOR_CD 
+05,Black,VEH_COLOR_CD 
+06,Yellow,VEH_COLOR_CD 
+07,Silver,VEH_COLOR_CD 
+08,Gold,VEH_COLOR_CD 
+09,Brown,VEH_COLOR_CD 
+10,Orange,VEH_COLOR_CD 
+11,Purple,VEH_COLOR_CD 
+12,Other,VEH_COLOR_CD 
+99,Unknown,VEH_COLOR_CD 
+00,Not Applicable,VEH_CONFIG_CD 
+01,Passenger Car Record if Hazmat Placard displayed,VEH_CONFIG_CD 
+02,"Light Truck (Van, Minivan, Panel, PU, SUV w/Hazmat",VEH_CONFIG_CD 
+03,"Single Unit Truck (2 Axles, 6 Tires)",VEH_CONFIG_CD 
+04,Single Unit Truck ( 3 or more Axles),VEH_CONFIG_CD 
+05,Single Unit Truck (Unknown Number of Axles),VEH_CONFIG_CD 
+06,Truck/Trailer,VEH_CONFIG_CD 
+07,Truck Tractor (Bobtail),VEH_CONFIG_CD 
+08,Tractor/Semi-Trailer,VEH_CONFIG_CD 
+09,Medium Heavy Truck- Cannot Classify,VEH_CONFIG_CD 
+10,Minibus,VEH_CONFIG_CD 
+11,"Bus ( Seats more than 15 People, Including the Driver (expired 1-1-20)",VEH_CONFIG_CD 
+12,School Bus,VEH_CONFIG_CD 
+13,Transit Bus,VEH_CONFIG_CD 
+14,Motor Coach,VEH_CONFIG_CD 
+15,Other Bus,VEH_CONFIG_CD 
+98,Other,VEH_CONFIG_CD 
+99,Unknown,VEH_CONFIG_CD 
+01,Going straight,VEH_MOVEMENT 
+02,Slowing or stopping in lane,VEH_MOVEMENT 
+03,Stopped in traffic lane,VEH_MOVEMENT 
+04,Passing or overtaking vehicle,VEH_MOVEMENT 
+05,Leaving a parked position (expired 1-1-20),VEH_MOVEMENT 
+06,Parked,VEH_MOVEMENT 
+07,Entering a parked position (expired 1-1-20),VEH_MOVEMENT 
+08,"Trying to avoid animal, pedestrian, object, vehicle, etc.",VEH_MOVEMENT 
+09,Turning right on red,VEH_MOVEMENT 
+10,Turning right,VEH_MOVEMENT 
+11,Turning left on red,VEH_MOVEMENT 
+12,Turning left,VEH_MOVEMENT 
+13,Making a U-turn,VEH_MOVEMENT 
+14,Backing up,VEH_MOVEMENT 
+15,Changing lanes or merging,VEH_MOVEMENT 
+16,Negotiating Curve Right,VEH_MOVEMENT 
+17,Negotiating curve - left,VEH_MOVEMENT 
+18,Entering Traffic Lane,VEH_MOVEMENT 
+19,Leaving Traffic Lane,VEH_MOVEMENT 
+98,Other,VEH_MOVEMENT 
+99,Unknown,VEH_MOVEMENT 
+00,Not applicable (for peds.),VEH_POSITION 
+01,Right lane (Curb),VEH_POSITION 
+02,Right turn lane,VEH_POSITION 
+03,Left lane,VEH_POSITION 
+04,Left turn lane,VEH_POSITION 
+05,Two-direction center turn lane,VEH_POSITION 
+06,Other forward moving lane,VEH_POSITION 
+07,Oncoming traffic lane,VEH_POSITION 
+08,Left of trafficway,VEH_POSITION 
+09,Right of trafficway,VEH_POSITION 
+10,HOV lane,VEH_POSITION 
+11,Shoulder rig,VEH_POSITION 
+12,Shoulder left,VEH_POSITION 
+13,One lane road,VEH_POSITION 
+14,Acceleration/Deceleration Lane,VEH_POSITION 
+98,Other,VEH_POSITION 
+99,Unknown,VEH_POSITION 
+0,Non-Collision,VEH_ROLE 
+1,Striking,VEH_ROLE 
+2,Struck,VEH_ROLE 
+3,Striking and Struck,VEH_ROLE 
+01,Automobile,VEH_TYPE 
+02,Motorcycle,VEH_TYPE 
+03,Bus,VEH_TYPE 
+04,Small truck,VEH_TYPE 
+05,Large truck,VEH_TYPE 
+06,SUV,VEH_TYPE 
+07,Van,VEH_TYPE 
+08,Autocycle,VEH_TYPE 
+09,ROV,VEH_TYPE 
+10,Snowmobile,VEH_TYPE 
+11,Farm Equipment,VEH_TYPE 
+12,Construction Equipment,VEH_TYPE 
+13,ATV,VEH_TYPE 
+14,Golf Cart,VEH_TYPE 
+15,Low Speed Vehicle,VEH_TYPE 
+16,Large Limo,VEH_TYPE 
+17,Motor Home (RV),VEH_TYPE 
+18,Other type special vehicle,VEH_TYPE 
+19,Unknown type special vehicle,VEH_TYPE 
+20,Bicycle,VEH_TYPE 
+21,Other Pedalcycle,VEH_TYPE 
+22,Horse and buggy,VEH_TYPE 
+23,Horse and rider,VEH_TYPE 
+24,Train,VEH_TYPE 
+25,Trolley,VEH_TYPE 
+98,Other,VEH_TYPE 
+99,Unknown,VEH_TYPE 
+MAT,All Terrain,VINA_BODY_TYPE_CD 
+MEN,Enduro,VINA_BODY_TYPE_CD 
+MMK,Mini Bike,VINA_BODY_TYPE_CD 
+MMM,Mini Moto Cross,VINA_BODY_TYPE_CD 
+MMP,Moped,VINA_BODY_TYPE_CD 
+MMR,Mini Road / Trail,VINA_BODY_TYPE_CD 
+MMS,Motor Scooter,VINA_BODY_TYPE_CD 
+MMX,Moto Cross,VINA_BODY_TYPE_CD 
+MMY,Mini Cycle,VINA_BODY_TYPE_CD 
+MRC,Racer,VINA_BODY_TYPE_CD 
+MRS,Road / Street,VINA_BODY_TYPE_CD 
+MRT,Road / Trail,VINA_BODY_TYPE_CD 
+MT,Dirt,VINA_BODY_TYPE_CD 
+MTL,Trail / Dirt MTR - Trail,VINA_BODY_TYPE_CD 
+P2D,Sedan 2 Dr.,VINA_BODY_TYPE_CD 
+P2F,Formal Hardtop 2 Dr.,VINA_BODY_TYPE_CD 
+P2H,Hatchback 2 Dr.,VINA_BODY_TYPE_CD 
+P2L,Liftback 3 Dr.,VINA_BODY_TYPE_CD 
+P2P,Pillard Hardtop 2 Dr.,VINA_BODY_TYPE_CD 
+P2T,Hardtop 2 Dr.,VINA_BODY_TYPE_CD 
+P4W,Wagon 4 Dr.,VINA_BODY_TYPE_CD 
+P5D,Sedan 5 Dr.,VINA_BODY_TYPE_CD 
+PAM,Ambulance,VINA_BODY_TYPE_CD 
+PCB,Cab & Chassis (Luv),VINA_BODY_TYPE_CD 
+PCP,Coupe,VINA_BODY_TYPE_CD 
+PCV,Convertible (Jeep),VINA_BODY_TYPE_CD 
+PHB,Hatchback,VINA_BODY_TYPE_CD 
+PHR,Hearse,VINA_BODY_TYPE_CD 
+PHT,Hardtop,VINA_BODY_TYPE_CD 
+PIN,Incomplete Passenger,VINA_BODY_TYPE_CD 
+PLB,Liftback,VINA_BODY_TYPE_CD 
+PLM,Limousine,VINA_BODY_TYPE_CD 
+PNB,Notchback,VINA_BODY_TYPE_CD 
+PPK,Pickup,VINA_BODY_TYPE_CD 
+PPN,Panel,VINA_BODY_TYPE_CD 
+PRD,Roadster,VINA_BODY_TYPE_CD 
+PSB,Sport Hatchback,VINA_BODY_TYPE_CD 
+PSC,Sport Coupe,VINA_BODY_TYPE_CD 
+T3C,3 Dr. Extended Cab Pickup,VINA_BODY_TYPE_CD 
+T4B,4 Dr. Extended Cab / Chassis,VINA_BODY_TYPE_CD 
+T4C,4 Dr. Extended Cab Pickup,VINA_BODY_TYPE_CD 
+T4W,4 Dr. Wagon / Sport Utility,VINA_BODY_TYPE_CD 
+T8V,8 Passenger Sport Van,VINA_BODY_TYPE_CD 
+TAC,Auto Carrier,VINA_BODY_TYPE_CD 
+TAR,Armored Truck,VINA_BODY_TYPE_CD 
+TBU,Bus,VINA_BODY_TYPE_CD 
+TCB,Chassis and Cab,VINA_BODY_TYPE_CD 
+TCC,Conventional Cab,VINA_BODY_TYPE_CD 
+TCG,Cargo Van,VINA_BODY_TYPE_CD 
+TCH,Crew Chassis,VINA_BODY_TYPE_CD 
+TCL,Club Chassis,VINA_BODY_TYPE_CD 
+TCM,Concrete or Transit Mixer,VINA_BODY_TYPE_CD 
+TCR,Crane,VINA_BODY_TYPE_CD 
+TCS,Super Cab / Chassis Pickup,VINA_BODY_TYPE_CD 
+TCU,Custom Pickup,VINA_BODY_TYPE_CD 
+TCV,"Convertible (Jeep Commando, Suzuki Samurai,etc)",VINA_BODY_TYPE_CD 
+TCW,Crew Pickup,VINA_BODY_TYPE_CD 
+TCY,Cargo Cutaway,VINA_BODY_TYPE_CD 
+TDP,Dump,VINA_BODY_TYPE_CD 
+TDS,"Truck, Tractor (diesel)",VINA_BODY_TYPE_CD 
+TEC,Extended Cargo Van,VINA_BODY_TYPE_CD 
+TES,Extended Sport Van,VINA_BODY_TYPE_CD 
+TEV,Ext Van,VINA_BODY_TYPE_CD 
+TEW,Extended Window Van,VINA_BODY_TYPE_CD 
+TFB,Flatbed or Platform,VINA_BODY_TYPE_CD 
+TFC,Forward Control (Land Rover),VINA_BODY_TYPE_CD 
+TFT,Fire Truck,VINA_BODY_TYPE_CD 
+TGG,Garbage or Refuse,VINA_BODY_TYPE_CD 
+TGL,Gliders,VINA_BODY_TYPE_CD 
+TGN,Grain,VINA_BODY_TYPE_CD 
+THO,Hopper,VINA_BODY_TYPE_CD 
+TIC,Incomplete Chassis,VINA_BODY_TYPE_CD 
+TIE,Incomplete External Van,VINA_BODY_TYPE_CD 
+TLG,Logger,VINA_BODY_TYPE_CD 
+TLL,Suburban & Carry All,VINA_BODY_TYPE_CD 
+TMH,Motorized Home,VINA_BODY_TYPE_CD 
+TMP,Multi-purpose,VINA_BODY_TYPE_CD 
+TMV,Maxi Van,VINA_BODY_TYPE_CD 
+TMW,Maxi Wagon,VINA_BODY_TYPE_CD 
+TMY,Motorized Cutaway,VINA_BODY_TYPE_CD 
+TPC,Club Cab Pickup,VINA_BODY_TYPE_CD 
+TPD,Parcel Delivery,VINA_BODY_TYPE_CD 
+TPK,Pickup,VINA_BODY_TYPE_CD 
+TPM,Pickup with Camper mounted on bed,VINA_BODY_TYPE_CD 
+TPN,Panel,VINA_BODY_TYPE_CD 
+TPS,Super Cab Pickup,VINA_BODY_TYPE_CD 
+TRD,"Roadster (Jeep, Jeep Commando)",VINA_BODY_TYPE_CD 
+TS1,one Seat,VINA_BODY_TYPE_CD 
+TS2,Two Seat,VINA_BODY_TYPE_CD 
+TSN,Step Van,VINA_BODY_TYPE_CD 
+TSP,Sport Pickup,VINA_BODY_TYPE_CD 
+TST,Stake or Rack,VINA_BODY_TYPE_CD 
+TSV,Sports Van,VINA_BODY_TYPE_CD 
+TSW,"Station Wagon (Jeep Wagoneer, Dodge Sportsman)",VINA_BODY_TYPE_CD 
+TTB,Tilt Cab,VINA_BODY_TYPE_CD 
+TTL,Tilt Tandem,VINA_BODY_TYPE_CD 
+TTM,Tandem,VINA_BODY_TYPE_CD 
+TTN,Tank,VINA_BODY_TYPE_CD 
+TTR,Tractor Truck (Gasoline),VINA_BODY_TYPE_CD 
+TUT,"Utility (Blazer, Jimmy, Scout, etc.)",VINA_BODY_TYPE_CD 
+TVC,Van Camper,VINA_BODY_TYPE_CD 
+TVD,Display Van,VINA_BODY_TYPE_CD 
+TVN,Van,VINA_BODY_TYPE_CD 
+TVT,Vanette (including Metro and Handy Van),VINA_BODY_TYPE_CD 
+TVW,Window Van,VINA_BODY_TYPE_CD 
+TWK,Tow Truck Wrecker,VINA_BODY_TYPE_CD 
+TWW,Wide Wheel Wagon,VINA_BODY_TYPE_CD 
+TXT,Travelall,VINA_BODY_TYPE_CD 
+TYY,Cutaway,VINA_BODY_TYPE_CD 
+01,"Blowing Sand, Soil, Dirt",WEATHER1 
+02,Blowing Snow,WEATHER1 
+03,Clear,WEATHER1 
+04,Cloudy,WEATHER1 
+05,"Fog, Smog, Smoke",WEATHER1 
+06,Freezing Rain or Freezing Drizzle,WEATHER1 
+07,Rain,WEATHER1 
+08,Severe Crosswinds,WEATHER1 
+09,Sleet or Hail,WEATHER1 
+10,Snow,WEATHER1 
+98,Other,WEATHER1 
+99,Unknown,WEATHER1 
+01,"Blowing Sand, Soil, Dirt",WEATHER2
+02,Blowing Snow,WEATHER2
+03,Clear,WEATHER2
+04,Cloudy,WEATHER2
+05,"Fog, Smog, Smoke",WEATHER2
+06,Freezing Rain or Freezing Drizzle,WEATHER2
+07,Rain,WEATHER2
+08,Severe Crosswinds,WEATHER2
+09,Sleet or Hail,WEATHER2
+10,Snow,WEATHER2
+98,Other,WEATHER2
+1,Before the 1st work zone warning sign,WORK_ZONE_LOC 
+2,Advance warning area,WORK_ZONE_LOC 
+3,Transition area,WORK_ZONE_LOC 
+4,Activity area,WORK_ZONE_LOC 
+5,Termination area,WORK_ZONE_LOC 
+8,Other,WORK_ZONE_LOC 
+1,Construction,WORK_ZONE_TYPE 
+2,Maintenance,WORK_ZONE_TYPE 
+3,Utility company,WORK_ZONE_TYPE 
+8,Other,WORK_ZONE_TYPE 
+AB,Alberta/ Can,STATE CODES 
+AG,Aguascalientes/ Mex,STATE CODES 
+AK,Alaska/ US,STATE CODES 
+AL,Alabama/ US,STATE CODES 
+AR,Arkansas/ US,STATE CODES 
+AZ,Arizona/ US,STATE CODES 
+BC,British Columbia/ Can,STATE CODES 
+BN,Baja Calif. North/ Mex,STATE CODES 
+BS,Baja Calif. South/ Mex,STATE CODES 
+CA,California/ US,STATE CODES 
+CH,Chihuahua/ Mex,STATE CODES 
+CI,Coahuila/ Mex,STATE CODES 
+CL,Colima/ Mex,STATE CODES 
+CM,Campeche/ Mex,STATE CODES 
+CO,Colorado/ US,STATE CODES 
+CS,Chiapas/ Mex,STATE CODES 
+CT,Connecticut/ US,STATE CODES 
+DC,District of Columbia,STATE CODES 
+DE,Delaware/ US,STATE CODES 
+DF,Federal District/ Mex,STATE CODES 
+DU,Durango/ Mex,STATE CODES 
+FL,Florida/ US,STATE CODES 
+GA,Georgia/ US,STATE CODES 
+GR,Guerrero/ Mex,STATE CODES 
+GT,Guanajuato/ Mex,STATE CODES 
+HG,Hidalgo/ Mex,STATE CODES 
+HI,Hawaii/ US,STATE CODES 
+IA,Iowa/ US,STATE CODES 
+ID,Idaho/ US,STATE CODES 
+IN,Indiana/ US,STATE CODES 
+KY,Kentucky/ US,STATE CODES 
+LA,Louisiana/ US,STATE CODES 
+MA,Massachusetts/ US,STATE CODES 
+MB,Manitoba/ Can,STATE CODES 
+MC,Michoacan/ Mex,STATE CODES 
+MD,Maryland/ US,STATE CODES 
+ME,Maine/ US,STATE CODES 
+MI,Michigan/ US,STATE CODES 
+ML,Morelos/ Mex,STATE CODES 
+MN,Minnesota/ US,STATE CODES 
+MO,Missouri/ US,STATE CODES 
+MS,Mississippi/ US,STATE CODES 
+MT,Montana/ US,STATE CODES 
+MX,Mexico/ Mex,STATE CODES 
+,Nayarit/ Mex,STATE CODES 
+NB,New Brunswick/ Can,STATE CODES 
+NC,North Carolina/ US,STATE CODES 
+ND,North Dakota/ US,STATE CODES 
+NE,Nebraska/ US,STATE CODES 
+NF,Newfoundland/ Can,STATE CODES 
+NH,New Hampshire/ US,STATE CODES 
+NJ,New Jersey/ US,STATE CODES 
+NL,Nuevo Leon/ Mex,STATE CODES 
+NM,New Mexico/ US,STATE CODES 
+NS,Nova Scotia/ Can,STATE CODES 
+ON,Ontario/ Can,STATE CODES 
+PR,Puerto Rico/ US,STATE CODES 
+RI,Rhode Island/ US,STATE CODES 
+SC,South Carolina/ US,STATE CODES 
+SD,South Dakota/ US,STATE CODES 
+SI,Sinaloa/ Mex,STATE CODES 
+SK,Saskatchewan/ Can,STATE CODES 
+SL,San Luis Potosi/ Mex,STATE CODES 
+SO,Sonora/ Mex,STATE CODES 
+TA,Tamaulipas/ Mex,STATE CODES 
+TB,Tabasco/ Mex,STATE CODES 
+TL,Tlaxcala/ Mex,STATE CODES 
+TN,Tennessee/ US,STATE CODES 
+TX,Texas/ US,STATE CODES 
+UT,Utah/ US,STATE CODES 
+VA,Virginia/ US,STATE CODES 
+VC,Vera Cruz/ Mex,STATE CODES 
+VT,Vermont/ US,STATE CODES 
+WA,Washington/ US,STATE CODES 
+WI,Wisconsin/ US,STATE CODES 
+WV,West Virginia/ US,STATE CODES 
+WY,Wyoming/ US,STATE CODES 
+01201,Berwick Twp,MUNICIPALITIES 
+01202,Butler Twp,MUNICIPALITIES 
+01203,Conewago Twp,MUNICIPALITIES 
+01204,Cumberland Twp,MUNICIPALITIES 
+01205,Franklin Twp,MUNICIPALITIES 
+01206,Freedom Twp,MUNICIPALITIES 
+01207,Germany Twp,MUNICIPALITIES 
+01208,Hamilton Twp,MUNICIPALITIES 
+01209,Hamiltonban Twp,MUNICIPALITIES 
+01210,Highland Twp,MUNICIPALITIES 
+01211,Huntington Twp,MUNICIPALITIES 
+01212,Latimore Twp,MUNICIPALITIES 
+01213,Liberty Twp,MUNICIPALITIES 
+01214,Menallen Twp,MUNICIPALITIES 
+01215,Mount Joy Twp,MUNICIPALITIES 
+01216,Mount Pleasant Twp,MUNICIPALITIES 
+01217,Oxford Twp,MUNICIPALITIES 
+01218,Reading Twp,MUNICIPALITIES 
+01219,Straban Twp,MUNICIPALITIES 
+01220,Tyrone Twp,MUNICIPALITIES 
+01221,Union Twp,MUNICIPALITIES 
+01401,Abbottstown Boro,MUNICIPALITIES 
+01402,Arendtsville Boro,MUNICIPALITIES 
+01403,Bendersville Boro,MUNICIPALITIES 
+01404,Biglerville Boro,MUNICIPALITIES 
+01405,East Berlin Boro,MUNICIPALITIES 
+01406,Fairfield Boro,MUNICIPALITIES 
+01407,Gettysburg Boro,MUNICIPALITIES 
+01408,Littlestown Boro,MUNICIPALITIES 
+01409,McSherrystown Boro,MUNICIPALITIES 
+01410,New Oxford Boro,MUNICIPALITIES 
+01411,York Springs Boro,MUNICIPALITIES 
+01412,Bonneauville Boro,MUNICIPALITIES 
+01413,Carroll Valley Boro,MUNICIPALITIES 
+02101,Baldwin Twp,MUNICIPALITIES 
+02102,Collier Twp,MUNICIPALITIES 
+02103,Crescent Twp,MUNICIPALITIES 
+02104,East Deer Twp,MUNICIPALITIES 
+02105,Elizabeth Twp,MUNICIPALITIES 
+02106,Harrison Twp,MUNICIPALITIES 
+02107,Leet Twp,MUNICIPALITIES 
+02108,McCandless Twp,MUNICIPALITIES 
+02109,Mount Lebanon Twp,MUNICIPALITIES 
+02110,Neville Twp,MUNICIPALITIES 
+02111,North Versailles Twp,MUNICIPALITIES 
+02112,Ohara Twp,MUNICIPALITIES 
+02113,Penn Hills Twp,MUNICIPALITIES 
+02114,Reserve Twp,MUNICIPALITIES 
+02115,Robinson Twp,MUNICIPALITIES 
+02116,Ross Twp,MUNICIPALITIES 
+02117,Scott Twp,MUNICIPALITIES 
+02118,Shaler Twp,MUNICIPALITIES 
+02119,South Fayette Twp,MUNICIPALITIES 
+02120,South Versailles Twp,MUNICIPALITIES 
+02121,Springdale Twp,MUNICIPALITIES 
+02122,Stowe Twp,MUNICIPALITIES 
+02123,Upper Saint Clair Twp,MUNICIPALITIES 
+02124,Wilkins Twp,MUNICIPALITIES 
+02125,Aleppo Twp,MUNICIPALITIES 
+02126,Kennedy Twp,MUNICIPALITIES 
+02202,Fawn Twp,MUNICIPALITIES 
+02203,Findlay Twp,MUNICIPALITIES 
+02204,Forward Twp,MUNICIPALITIES 
+02206,Frazer Twp,MUNICIPALITIES 
+02207,Hampton Twp,MUNICIPALITIES 
+02208,Harmar Twp,MUNICIPALITIES 
+02209,Indiana Twp,MUNICIPALITIES 
+02211,Kilbuck Twp,MUNICIPALITIES 
+02212,Marshall Twp,MUNICIPALITIES 
+02213,Moon Twp,MUNICIPALITIES 
+02214,North Fayette Twp,MUNICIPALITIES 
+02215,Ohio Twp,MUNICIPALITIES 
+02216,Pine Twp,MUNICIPALITIES 
+02217,Richland Twp,MUNICIPALITIES 
+02219,South Park Twp,MUNICIPALITIES 
+02220,West Deer Twp,MUNICIPALITIES 
+02301,Pittsburgh City,MUNICIPALITIES 
+02302,Clairton City,MUNICIPALITIES 
+02303,Duquesne City,MUNICIPALITIES 
+02304,McKeesport City,MUNICIPALITIES 
+02401,Aspinwall Boro,MUNICIPALITIES 
+02402,Avalon Boro,MUNICIPALITIES 
+02403,Baldwin Boro,MUNICIPALITIES 
+02404,Bellevue Boro,MUNICIPALITIES 
+02405,Ben Avon Boro,MUNICIPALITIES 
+02406,Ben Avon Heights Boro,MUNICIPALITIES 
+02407,Bethel Park Boro,MUNICIPALITIES 
+02408,Blawnox Boro,MUNICIPALITIES 
+02409,Brackenridge Boro,MUNICIPALITIES 
+02410,Braddock Boro,MUNICIPALITIES 
+02411,Braddock Hills Boro,MUNICIPALITIES 
+02412,Bradford Woods Boro,MUNICIPALITIES 
+02413,Brentwood Boro,MUNICIPALITIES 
+02414,Bridgeville Boro,MUNICIPALITIES 
+02415,Carnegie Boro,MUNICIPALITIES 
+02416,Castle Shannon Boro,MUNICIPALITIES 
+02417,Chalfant Boro,MUNICIPALITIES 
+02418,Cheswick Boro,MUNICIPALITIES 
+02419,Churchill Boro,MUNICIPALITIES 
+02420,Coraopolis Boro,MUNICIPALITIES 
+02421,Crafton Boro,MUNICIPALITIES 
+02422,Dormont Boro,MUNICIPALITIES 
+02423,Dravosburg Boro,MUNICIPALITIES 
+02424,East McKeesport Boro,MUNICIPALITIES 
+02425,East Pittsburgh Boro,MUNICIPALITIES 
+02426,Edgewood Boro,MUNICIPALITIES 
+02427,Edgeworth Boro,MUNICIPALITIES 
+02428,Elizabeth Boro,MUNICIPALITIES 
+02429,Emsworth Boro,MUNICIPALITIES 
+02430,Etna Boro,MUNICIPALITIES 
+02431,Forest Hills Boro,MUNICIPALITIES 
+02432,Fox Chapel Boro,MUNICIPALITIES 
+02433,Glassport Boro,MUNICIPALITIES 
+02434,Glenfield Boro,MUNICIPALITIES 
+02435,Green tree Boro,MUNICIPALITIES 
+02436,Haysville Boro,MUNICIPALITIES 
+02437,Heidelberg Boro,MUNICIPALITIES 
+02438,Homestead Boro,MUNICIPALITIES 
+02439,Ingram Boro,MUNICIPALITIES 
+02440,Jefferson Hills Boro,MUNICIPALITIES 
+02441,Leetsdale Boro,MUNICIPALITIES 
+02442,Liberty Boro,MUNICIPALITIES 
+02443,Lincoln Boro,MUNICIPALITIES 
+02444,McKees Rocks Boro,MUNICIPALITIES 
+02445,Millvale Boro,MUNICIPALITIES 
+02446,Monroeville Boro,MUNICIPALITIES 
+02447,Mount Oliver Boro,MUNICIPALITIES 
+02448,Munhall Boro,MUNICIPALITIES 
+02449,North Braddock Boro,MUNICIPALITIES 
+02450,Oakdale Boro,MUNICIPALITIES 
+02451,Oakmont Boro,MUNICIPALITIES 
+02452,Glen Osborne Boro,MUNICIPALITIES 
+02453,Pitcairn Boro,MUNICIPALITIES 
+02454,Pleasant Hills Boro,MUNICIPALITIES 
+02455,Port Vue Boro,MUNICIPALITIES 
+02456,Rankin Boro,MUNICIPALITIES 
+02457,Rosslyn Farms Boro,MUNICIPALITIES 
+02458,Sewickley Boro,MUNICIPALITIES 
+02459,Sewickley Heights Boro,MUNICIPALITIES 
+02460,Sewickley Hills Boro,MUNICIPALITIES 
+02461,Sharpsburg Boro,MUNICIPALITIES 
+02462,Springdale Boro,MUNICIPALITIES 
+02463,Swissvale Boro,MUNICIPALITIES 
+02464,Tarentum Boro,MUNICIPALITIES 
+02465,Thornburg Boro,MUNICIPALITIES 
+02466,Plum Boro,MUNICIPALITIES 
+02467,Turtle Creek Boro,MUNICIPALITIES 
+02468,Verona Boro,MUNICIPALITIES 
+02469,Versailles Boro,MUNICIPALITIES 
+02470,Wall Boro,MUNICIPALITIES 
+02471,West Elizabeth Boro,MUNICIPALITIES 
+02472,West Homestead Boro,MUNICIPALITIES 
+02473,West Mifflin Boro,MUNICIPALITIES 
+02474,West View Boro,MUNICIPALITIES 
+02475,Whitaker Boro,MUNICIPALITIES 
+02476,Whitehall Boro,MUNICIPALITIES 
+02477,White Oak Boro,MUNICIPALITIES 
+02478,Wilkinsburg Boro,MUNICIPALITIES 
+02479,Wilmerding Boro,MUNICIPALITIES 
+02480,Bell Acres Boro,MUNICIPALITIES 
+02481,Franklin Park Boro,MUNICIPALITIES 
+02482,Pennsbury Village Boro,MUNICIPALITIES 
+02490,McDonald Boro,MUNICIPALITIES 
+02491,Trafford Boro,MUNICIPALITIES 
+03201,Bethel Twp,MUNICIPALITIES 
+03202,Boggs Twp,MUNICIPALITIES 
+03203,Bradys Bend Twp,MUNICIPALITIES 
+03204,Burrell Twp,MUNICIPALITIES 
+03205,Cadogan Twp,MUNICIPALITIES 
+03206,Cowanshannock Twp,MUNICIPALITIES 
+03207,East Franklin Twp,MUNICIPALITIES 
+03208,Gilpin Twp,MUNICIPALITIES 
+03209,Hovey Twp,MUNICIPALITIES 
+03210,Kiskiminetas Twp,MUNICIPALITIES 
+03211,Kittanning Twp,MUNICIPALITIES 
+03212,Madison Twp,MUNICIPALITIES 
+03213,Mahoning Twp,MUNICIPALITIES 
+03214,Manor Twp,MUNICIPALITIES 
+03215,North Buffalo Twp,MUNICIPALITIES 
+03216,Parks Twp,MUNICIPALITIES 
+03217,Perry Twp,MUNICIPALITIES 
+03218,Pine Twp,MUNICIPALITIES 
+03219,Plumcreek Twp,MUNICIPALITIES 
+03220,Rayburn Twp,MUNICIPALITIES 
+03221,Redbank Twp,MUNICIPALITIES 
+03222,South Bend Twp,MUNICIPALITIES 
+03223,South Buffalo Twp,MUNICIPALITIES 
+03224,Sugar Creek Twp,MUNICIPALITIES 
+03225,Valley Twp,MUNICIPALITIES 
+03226,Washington Twp,MUNICIPALITIES 
+03227,Wayne Twp,MUNICIPALITIES 
+03228,West Franklin Twp,MUNICIPALITIES 
+03301,Parker City,MUNICIPALITIES 
+03401,Apollo Boro,MUNICIPALITIES 
+03402,Applewold Boro,MUNICIPALITIES 
+03403,Atwood Boro,MUNICIPALITIES 
+03404,Dayton Boro,MUNICIPALITIES 
+03405,Elderton Boro,MUNICIPALITIES 
+03406,Ford City Boro,MUNICIPALITIES 
+03407,Ford Cliff Boro,MUNICIPALITIES 
+03408,Freeport Boro,MUNICIPALITIES 
+03409,Kittanning Boro,MUNICIPALITIES 
+03410,Leechburg Boro,MUNICIPALITIES 
+03411,Manorville Boro,MUNICIPALITIES 
+03412,North Apollo Boro,MUNICIPALITIES 
+03414,Rural Valley Boro,MUNICIPALITIES 
+03415,South Bethlehem Boro,MUNICIPALITIES 
+03416,West Kittanning Boro,MUNICIPALITIES 
+03417,Worthington Boro,MUNICIPALITIES 
+04101,Vanport Twp,MUNICIPALITIES 
+04102,Harmony Twp,MUNICIPALITIES 
+04103,Hopewell Twp,MUNICIPALITIES 
+04104,Patterson Twp,MUNICIPALITIES 
+04105,Rochester Twp,MUNICIPALITIES 
+04201,Brighton Twp,MUNICIPALITIES 
+04202,Center Twp,MUNICIPALITIES 
+04203,Chippewa Twp,MUNICIPALITIES 
+04204,Darlington Twp,MUNICIPALITIES 
+04205,Daugherty Twp,MUNICIPALITIES 
+04206,Franklin Twp,MUNICIPALITIES 
+04207,Greene Twp,MUNICIPALITIES 
+04208,Hanover Twp,MUNICIPALITIES 
+04209,Independence Twp,MUNICIPALITIES 
+04210,Marion Twp,MUNICIPALITIES 
+04211,New Sewickley Twp,MUNICIPALITIES 
+04212,North Sewickley Twp,MUNICIPALITIES 
+04214,Potter Twp,MUNICIPALITIES 
+04215,Pulaski Twp,MUNICIPALITIES 
+04216,Raccoon Twp,MUNICIPALITIES 
+04217,South Beaver Twp,MUNICIPALITIES 
+04218,White Twp,MUNICIPALITIES 
+04301,Beaver Falls City,MUNICIPALITIES 
+04302,Aliquippa City,MUNICIPALITIES 
+04402,Ambridge Boro,MUNICIPALITIES 
+04403,Baden Boro,MUNICIPALITIES 
+04404,Beaver Boro,MUNICIPALITIES 
+04405,Big Beaver Boro,MUNICIPALITIES 
+04406,Bridgewater Boro,MUNICIPALITIES 
+04407,Conway Boro,MUNICIPALITIES 
+04408,Darlington Boro,MUNICIPALITIES 
+04409,East Rochester Boro,MUNICIPALITIES 
+04410,Eastvale Boro,MUNICIPALITIES 
+04411,Economy Boro,MUNICIPALITIES 
+04412,Fallston Boro,MUNICIPALITIES 
+04413,Frankfort Springs Boro,MUNICIPALITIES 
+04414,Freedom Boro,MUNICIPALITIES 
+04415,Georgetown Boro,MUNICIPALITIES 
+04416,Glasgow Boro,MUNICIPALITIES 
+04417,Homewood Boro,MUNICIPALITIES 
+04418,Hookstown Boro,MUNICIPALITIES 
+04419,Industry Boro,MUNICIPALITIES 
+04420,Koppel Boro,MUNICIPALITIES 
+04421,Midland Boro,MUNICIPALITIES 
+04422,Monaca Boro,MUNICIPALITIES 
+04423,New Brighton Boro,MUNICIPALITIES 
+04424,New Galilee Boro,MUNICIPALITIES 
+04425,Patterson Heights Boro,MUNICIPALITIES 
+04426,Rochester Boro,MUNICIPALITIES 
+04427,Shippingport Boro,MUNICIPALITIES 
+04428,South Heights Boro,MUNICIPALITIES 
+04429,West Mayfield Boro,MUNICIPALITIES 
+04430,Ohioville Boro,MUNICIPALITIES 
+04440,Ellwood City Boro,MUNICIPALITIES 
+05201,Bedford Twp,MUNICIPALITIES 
+05202,Bloomfield Twp,MUNICIPALITIES 
+05203,Broad top Twp,MUNICIPALITIES 
+05204,Colerain Twp,MUNICIPALITIES 
+05205,Cumberland Valley Twp,MUNICIPALITIES 
+05206,East Providence Twp,MUNICIPALITIES 
+05207,East Saint Clair Twp,MUNICIPALITIES 
+05208,Harrison Twp,MUNICIPALITIES 
+05209,Hopewell Twp,MUNICIPALITIES 
+05210,Juniata Twp,MUNICIPALITIES 
+05211,Kimmel Twp,MUNICIPALITIES 
+05212,King Twp,MUNICIPALITIES 
+05213,Liberty Twp,MUNICIPALITIES 
+05214,Lincoln Twp,MUNICIPALITIES 
+05215,Londonderry Twp,MUNICIPALITIES 
+05216,Mann Twp,MUNICIPALITIES 
+05217,Monroe Twp,MUNICIPALITIES 
+05218,Napier Twp,MUNICIPALITIES 
+05219,Snake Spring Twp,MUNICIPALITIES 
+05220,Southampton Twp,MUNICIPALITIES 
+05221,South Woodbury Twp,MUNICIPALITIES 
+05222,Pavia Twp,MUNICIPALITIES 
+05226,West Providence Twp,MUNICIPALITIES 
+05227,West Saint Clair Twp,MUNICIPALITIES 
+05228,Woodbury Twp,MUNICIPALITIES 
+05401,Bedford Boro,MUNICIPALITIES 
+05402,Coaldale Boro,MUNICIPALITIES 
+05403,Everett Boro,MUNICIPALITIES 
+05404,Hopewell Boro,MUNICIPALITIES 
+05405,Hyndman Boro,MUNICIPALITIES 
+05406,Manns Choice Boro,MUNICIPALITIES 
+05407,New Paris Boro,MUNICIPALITIES 
+05408,Pleasantville Boro,MUNICIPALITIES 
+05409,Rainsburg Boro,MUNICIPALITIES 
+05410,Saint Clairsville Boro,MUNICIPALITIES 
+05411,Saxton Boro,MUNICIPALITIES 
+05412,Schellsburg Boro,MUNICIPALITIES 
+05413,Woodbury Boro,MUNICIPALITIES 
+06101,Colebrookdale Twp,MUNICIPALITIES 
+06102,Muhlenberg Twp,MUNICIPALITIES 
+06103,Cumru Twp,MUNICIPALITIES 
+06201,Albany Twp,MUNICIPALITIES 
+06202,Alsace Twp,MUNICIPALITIES 
+06203,Amity Twp,MUNICIPALITIES 
+06204,Bern Twp,MUNICIPALITIES 
+06205,Bethel Twp,MUNICIPALITIES 
+06206,Brecknock Twp,MUNICIPALITIES 
+06207,Caernarvon Twp,MUNICIPALITIES 
+06208,Centre Twp,MUNICIPALITIES 
+06211,District Twp,MUNICIPALITIES 
+06212,Douglass Twp,MUNICIPALITIES 
+06213,Earl Twp,MUNICIPALITIES 
+06214,Exeter Twp,MUNICIPALITIES 
+06215,Greenwich Twp,MUNICIPALITIES 
+06216,Heidelberg Twp,MUNICIPALITIES 
+06217,Hereford Twp,MUNICIPALITIES 
+06218,Jefferson Twp,MUNICIPALITIES 
+06219,Longswamp Twp,MUNICIPALITIES 
+06220,Lower Alsace Twp,MUNICIPALITIES 
+06221,Lower Heidelberg Twp,MUNICIPALITIES 
+06222,Maidencreek Twp,MUNICIPALITIES 
+06223,Marion Twp,MUNICIPALITIES 
+06224,Maxatawny Twp,MUNICIPALITIES 
+06226,North Heidelberg Twp,MUNICIPALITIES 
+06227,Oley Twp,MUNICIPALITIES 
+06228,Ontelaunee Twp,MUNICIPALITIES 
+06229,Penn Twp,MUNICIPALITIES 
+06230,Perry Twp,MUNICIPALITIES 
+06231,Pike Twp,MUNICIPALITIES 
+06232,Richmond Twp,MUNICIPALITIES 
+06233,Robeson Twp,MUNICIPALITIES 
+06234,Rockland Twp,MUNICIPALITIES 
+06235,Ruscombmanor Twp,MUNICIPALITIES 
+06236,South Heidelberg Twp,MUNICIPALITIES 
+06237,Spring Twp,MUNICIPALITIES 
+06238,Tilden Twp,MUNICIPALITIES 
+06239,Tulpehocken Twp,MUNICIPALITIES 
+06240,Union Twp,MUNICIPALITIES 
+06241,Upper Bern Twp,MUNICIPALITIES 
+06242,Upper Tulpehocken Twp,MUNICIPALITIES 
+06243,Washington Twp,MUNICIPALITIES 
+06244,Windsor Twp,MUNICIPALITIES 
+06301,Reading City,MUNICIPALITIES 
+06401,Bally Boro,MUNICIPALITIES 
+06402,Bechtelsville Boro,MUNICIPALITIES 
+06403,Bernville Boro,MUNICIPALITIES 
+06404,Birdsboro Boro,MUNICIPALITIES 
+06405,Boyertown Boro,MUNICIPALITIES 
+06406,Centerport Boro,MUNICIPALITIES 
+06407,Fleetwood Boro,MUNICIPALITIES 
+06408,Hamburg Boro,MUNICIPALITIES 
+06409,Kenhorst Boro,MUNICIPALITIES 
+06410,Kutztown Boro,MUNICIPALITIES 
+06411,Laureldale Boro,MUNICIPALITIES 
+06412,Lenhartsville Boro,MUNICIPALITIES 
+06413,Lyons Boro,MUNICIPALITIES 
+06414,Mohnton Boro,MUNICIPALITIES 
+06415,Mount Penn Boro,MUNICIPALITIES 
+06416,Robesonia Boro,MUNICIPALITIES 
+06417,Saint Lawrence Boro,MUNICIPALITIES 
+06418,Shillington Boro,MUNICIPALITIES 
+06419,Shoemakersville Boro,MUNICIPALITIES 
+06420,Sinking Spring Boro,MUNICIPALITIES 
+06421,Strausstown Boro,MUNICIPALITIES 
+06422,Temple Boro,MUNICIPALITIES 
+06423,Topton Boro,MUNICIPALITIES 
+06424,Wernersville Boro,MUNICIPALITIES 
+06425,West Lawn Boro,MUNICIPALITIES 
+06426,Leesport Boro,MUNICIPALITIES 
+06427,West Reading Boro,MUNICIPALITIES 
+06428,Womelsdorf Boro,MUNICIPALITIES 
+06429,Wyomissing Boro,MUNICIPALITIES 
+06430,Wyomissing Hills Boro,MUNICIPALITIES 
+06431,New Morgan Boro,MUNICIPALITIES 
+06440,Adamstown Boro,MUNICIPALITIES 
+07201,Allegheny Twp,MUNICIPALITIES 
+07202,Antis Twp,MUNICIPALITIES 
+07203,Blair Twp,MUNICIPALITIES 
+07204,Catharine Twp,MUNICIPALITIES 
+07205,Frankstown Twp,MUNICIPALITIES 
+07206,Freedom Twp,MUNICIPALITIES 
+07207,Greenfield Twp,MUNICIPALITIES 
+07208,Huston Twp,MUNICIPALITIES 
+07209,Juniata Twp,MUNICIPALITIES 
+07210,Logan Twp,MUNICIPALITIES 
+07211,North Woodbury Twp,MUNICIPALITIES 
+07212,Snyder Twp,MUNICIPALITIES 
+07213,Taylor Twp,MUNICIPALITIES 
+07214,Tyrone Twp,MUNICIPALITIES 
+07215,Woodbury Twp,MUNICIPALITIES 
+07301,Altoona City,MUNICIPALITIES 
+07401,Bellwood Boro,MUNICIPALITIES 
+07402,Duncansville Boro,MUNICIPALITIES 
+07403,Hollidaysburg Boro,MUNICIPALITIES 
+07404,Martinsburg Boro,MUNICIPALITIES 
+07405,Newry Boro,MUNICIPALITIES 
+07406,Roaring Spring Boro,MUNICIPALITIES 
+07407,Tyrone Boro,MUNICIPALITIES 
+07408,Williamsburg Boro,MUNICIPALITIES 
+07409,Tunnelhill Boro,MUNICIPALITIES 
+08201,Albany Twp,MUNICIPALITIES 
+08202,Armenia Twp,MUNICIPALITIES 
+08203,Asylum Twp,MUNICIPALITIES 
+08204,Athens Twp,MUNICIPALITIES 
+08206,Burlington Twp,MUNICIPALITIES 
+08207,Canton Twp,MUNICIPALITIES 
+08208,Columbia Twp,MUNICIPALITIES 
+08209,Franklin Twp,MUNICIPALITIES 
+08210,Granville Twp,MUNICIPALITIES 
+08211,Herrick Twp,MUNICIPALITIES 
+08212,Leroy Twp,MUNICIPALITIES 
+08213,Litchfield Twp,MUNICIPALITIES 
+08214,Monroe Twp,MUNICIPALITIES 
+08215,North Towanda Twp,MUNICIPALITIES 
+08216,Orwell Twp,MUNICIPALITIES 
+08217,Overton Twp,MUNICIPALITIES 
+08218,Pike Twp,MUNICIPALITIES 
+08219,Ridgebury Twp,MUNICIPALITIES 
+08220,Rome Twp,MUNICIPALITIES 
+08221,Sheshequin Twp,MUNICIPALITIES 
+08222,Smithfield Twp,MUNICIPALITIES 
+08223,South Creek Twp,MUNICIPALITIES 
+08224,Springfield Twp,MUNICIPALITIES 
+08225,Standing Stone Twp,MUNICIPALITIES 
+08226,Stevens Twp,MUNICIPALITIES 
+08227,Terry Twp,MUNICIPALITIES 
+08228,Towanda Twp,MUNICIPALITIES 
+08229,Troy Twp,MUNICIPALITIES 
+08230,Tuscarora Twp,MUNICIPALITIES 
+08231,Ulster Twp,MUNICIPALITIES 
+08232,Warren Twp,MUNICIPALITIES 
+08233,Wells Twp,MUNICIPALITIES 
+08234,West Burlington Twp,MUNICIPALITIES 
+08235,Wilmot Twp,MUNICIPALITIES 
+08236,Windham Twp,MUNICIPALITIES 
+08237,Wyalusing Twp,MUNICIPALITIES 
+08238,Wysox Twp,MUNICIPALITIES 
+08401,Alba Boro,MUNICIPALITIES 
+08402,Athens Boro,MUNICIPALITIES 
+08403,Burlington Boro,MUNICIPALITIES 
+08404,Canton Boro,MUNICIPALITIES 
+08405,Le Raysville Boro,MUNICIPALITIES 
+08406,Monroe Boro,MUNICIPALITIES 
+08407,New Albany Boro,MUNICIPALITIES 
+08408,Rome Boro,MUNICIPALITIES 
+08409,Sayre Boro,MUNICIPALITIES 
+08410,South Waverly Boro,MUNICIPALITIES 
+08411,Sylvania Boro,MUNICIPALITIES 
+08412,Towanda Boro,MUNICIPALITIES 
+08413,Troy Boro,MUNICIPALITIES 
+08414,Wyalusing Boro,MUNICIPALITIES 
+09101,Bristol Twp,MUNICIPALITIES 
+09201,Bedminster Twp,MUNICIPALITIES 
+09202,Bensalem Twp,MUNICIPALITIES 
+09203,Bridgeton Twp,MUNICIPALITIES 
+09204,Buckingham Twp,MUNICIPALITIES 
+09205,Doylestown Twp,MUNICIPALITIES 
+09206,Durham Twp,MUNICIPALITIES 
+09207,East Rockhill Twp,MUNICIPALITIES 
+09208,Falls Twp,MUNICIPALITIES 
+09209,Haycock Twp,MUNICIPALITIES 
+09210,Hilltown Twp,MUNICIPALITIES 
+09211,Lower Makefield Twp,MUNICIPALITIES 
+09212,Lower Southampton Twp,MUNICIPALITIES 
+09213,Middletown Twp,MUNICIPALITIES 
+09214,Milford Twp,MUNICIPALITIES 
+09215,New Britain Twp,MUNICIPALITIES 
+09216,Newtown Twp,MUNICIPALITIES 
+09217,Nockamixon Twp,MUNICIPALITIES 
+09218,Northampton Twp,MUNICIPALITIES 
+09219,Plumstead Twp,MUNICIPALITIES 
+09220,Richland Twp,MUNICIPALITIES 
+09221,Solebury Twp,MUNICIPALITIES 
+09222,Springfield Twp,MUNICIPALITIES 
+09223,Tinicum Twp,MUNICIPALITIES 
+09224,Upper Makefield Twp,MUNICIPALITIES 
+09225,Upper Southampton Twp,MUNICIPALITIES 
+09226,Warminster Twp,MUNICIPALITIES 
+09227,Warrington Twp,MUNICIPALITIES 
+09228,Warwick Twp,MUNICIPALITIES 
+09229,West Rockhill Twp,MUNICIPALITIES 
+09230,Wrightstown Twp,MUNICIPALITIES 
+09401,Bristol Boro,MUNICIPALITIES 
+09402,Chalfont Boro,MUNICIPALITIES 
+09403,Doylestown Boro,MUNICIPALITIES 
+09404,Dublin Boro,MUNICIPALITIES 
+09405,Hulmeville Boro,MUNICIPALITIES 
+09406,Ivyland Boro,MUNICIPALITIES 
+09407,Langhorne Boro,MUNICIPALITIES 
+09408,Langhorne Manor Boro,MUNICIPALITIES 
+09409,Morrisville Boro,MUNICIPALITIES 
+09410,New Britain Boro,MUNICIPALITIES 
+09411,New Hope Boro,MUNICIPALITIES 
+09412,Newtown Boro,MUNICIPALITIES 
+09413,Penndel Boro,MUNICIPALITIES 
+09414,Perkasie Boro,MUNICIPALITIES 
+09415,Quakertown Boro,MUNICIPALITIES 
+09416,Richlandtown Boro,MUNICIPALITIES 
+09417,Riegelsville Boro,MUNICIPALITIES 
+09418,Sellersville Boro,MUNICIPALITIES 
+09419,Silverdale Boro,MUNICIPALITIES 
+09420,Trumbauersville Boro,MUNICIPALITIES 
+09421,Tullytown Boro,MUNICIPALITIES 
+09422,Yardley Boro,MUNICIPALITIES 
+09430,Telford Boro,MUNICIPALITIES 
+10101,Butler Twp,MUNICIPALITIES 
+10201,Adams Twp,MUNICIPALITIES 
+10202,Allegheny Twp,MUNICIPALITIES 
+10203,Brady Twp,MUNICIPALITIES 
+10204,Buffalo Twp,MUNICIPALITIES 
+10205,Center Twp,MUNICIPALITIES 
+10206,Cherry Twp,MUNICIPALITIES 
+10207,Clay Twp,MUNICIPALITIES 
+10208,Clearfield Twp,MUNICIPALITIES 
+10209,Clinton Twp,MUNICIPALITIES 
+10210,Concord Twp,MUNICIPALITIES 
+10211,Connoquenessing Twp,MUNICIPALITIES 
+10212,Cranberry Twp,MUNICIPALITIES 
+10213,Donegal Twp,MUNICIPALITIES 
+10214,Fairview Twp,MUNICIPALITIES 
+10215,Forward Twp,MUNICIPALITIES 
+10216,Franklin Twp,MUNICIPALITIES 
+10217,Jackson Twp,MUNICIPALITIES 
+10218,Jefferson Twp,MUNICIPALITIES 
+10219,Lancaster Twp,MUNICIPALITIES 
+10220,Marion Twp,MUNICIPALITIES 
+10221,Mercer Twp,MUNICIPALITIES 
+10222,Middlesex Twp,MUNICIPALITIES 
+10223,Muddy Creek Twp,MUNICIPALITIES 
+10224,Oakland Twp,MUNICIPALITIES 
+10225,Parker Twp,MUNICIPALITIES 
+10226,Penn Twp,MUNICIPALITIES 
+10227,Slippery Rock Twp,MUNICIPALITIES 
+10228,Summit Twp,MUNICIPALITIES 
+10229,Venango Twp,MUNICIPALITIES 
+10230,Washington Twp,MUNICIPALITIES 
+10231,Winfield Twp,MUNICIPALITIES 
+10232,Worth Twp,MUNICIPALITIES 
+10301,Butler City 10401  Bruin Boro,MUNICIPALITIES 
+10402,Callery Boro,MUNICIPALITIES 
+10403,Cherry Valley Boro,MUNICIPALITIES 
+10404,Connoquenessing Boro,MUNICIPALITIES 
+10405,East Butler Boro,MUNICIPALITIES 
+10406,Eau Claire Boro,MUNICIPALITIES 
+10407,Evans City Boro,MUNICIPALITIES 
+10408,Fairview Boro,MUNICIPALITIES 
+10409,Harmony Boro,MUNICIPALITIES 
+10410,Harrisville Boro,MUNICIPALITIES 
+10411,Karns City Boro,MUNICIPALITIES 
+10412,Mars Boro,MUNICIPALITIES 
+10413,Chicora Boro,MUNICIPALITIES 
+10414,Petrolia Boro,MUNICIPALITIES 
+10415,Portersville Boro,MUNICIPALITIES 
+10416,Prospect Boro,MUNICIPALITIES 
+10417,Saxonburg Boro,MUNICIPALITIES 
+10418,Slippery Rock Boro,MUNICIPALITIES 
+10419,Valencia Boro,MUNICIPALITIES 
+10420,West Liberty Boro,MUNICIPALITIES 
+10421,West Sunbury Boro,MUNICIPALITIES 
+10422,Zelienople Boro,MUNICIPALITIES 
+10423,Seven Fields Boro,MUNICIPALITIES 
+11101,Stonycreek Twp,MUNICIPALITIES 
+11201,Adams Twp,MUNICIPALITIES 
+11202,Allegheny Twp,MUNICIPALITIES 
+11203,Barr Twp,MUNICIPALITIES 
+11204,Blacklick Twp,MUNICIPALITIES 
+11205,11205 Cambria Twp,MUNICIPALITIES 
+11206,Chest Twp,MUNICIPALITIES 
+11207,Clearfield Twp,MUNICIPALITIES 
+11208,Conemaugh Twp,MUNICIPALITIES 
+11209,Cresson Twp,MUNICIPALITIES 
+11210,Croyle Twp,MUNICIPALITIES 
+11211,Dean Twp,MUNICIPALITIES 
+11212,East Carroll Twp,MUNICIPALITIES 
+11213,East Taylor Twp,MUNICIPALITIES 
+11214,Elder Twp,MUNICIPALITIES 
+11215,Gallitzin Twp,MUNICIPALITIES 
+11216,Jackson Twp,MUNICIPALITIES 
+11217,Lower Yoder Twp,MUNICIPALITIES 
+11218,Middle Taylor Twp,MUNICIPALITIES 
+11219,Munster Twp,MUNICIPALITIES 
+11220,Portage Twp,MUNICIPALITIES 
+11221,Reade Twp,MUNICIPALITIES 
+11222,Richland Twp,MUNICIPALITIES 
+11223,Summerhill Twp,MUNICIPALITIES 
+11224,Susquehanna Twp,MUNICIPALITIES 
+11225,Upper Yoder Twp,MUNICIPALITIES 
+11226,Washington Twp,MUNICIPALITIES 
+11227,West Carroll Twp,MUNICIPALITIES 
+11228,West Taylor Twp,MUNICIPALITIES 
+11229,White Twp,MUNICIPALITIES 
+11301,Johnstown City,MUNICIPALITIES 
+11401,Ashville Boro,MUNICIPALITIES 
+11403,Brownstown Boro,MUNICIPALITIES 
+11404,Carrolltown Boro,MUNICIPALITIES 
+11405,Cassandra Boro,MUNICIPALITIES 
+11406,Chest Springs Boro,MUNICIPALITIES 
+11407,Cresson Boro,MUNICIPALITIES 
+11408,Daisytown Boro,MUNICIPALITIES 
+11409,Dale Boro,MUNICIPALITIES 
+11410,East Conemaugh Boro,MUNICIPALITIES 
+11411,Ebensburg Boro,MUNICIPALITIES 
+11412,Ehrenfeld Boro,MUNICIPALITIES 
+11413,Ferndale Boro,MUNICIPALITIES 
+11414,Franklin Boro,MUNICIPALITIES 
+11415,Gallitzin Boro,MUNICIPALITIES 
+11416,Geistown Boro,MUNICIPALITIES 
+11417,Hastings Boro,MUNICIPALITIES 
+11418,Lilly Boro,MUNICIPALITIES 
+11419,Lorain Boro,MUNICIPALITIES 
+11420,Loretto Boro,MUNICIPALITIES 
+11421,Nanty Glo Boro,MUNICIPALITIES 
+11422,Patton Boro,MUNICIPALITIES 
+11423,Portage Boro,MUNICIPALITIES 
+11424,Sankertown Boro,MUNICIPALITIES 
+11425,Scalp Level Boro,MUNICIPALITIES 
+11426,South Fork Boro,MUNICIPALITIES 
+11427,Southmont Boro,MUNICIPALITIES 
+11429,Summerhill Boro,MUNICIPALITIES 
+11430,Tunnelhill Boro,MUNICIPALITIES 
+11431,Vintondale Boro,MUNICIPALITIES 
+11432,Westmont Boro,MUNICIPALITIES 
+11433,Wilmore Boro,MUNICIPALITIES 
+11434,Northern Cambria Boro,MUNICIPALITIES 
+12201,Gibson Twp,MUNICIPALITIES 
+12202,Grove Twp,MUNICIPALITIES 
+12203,Lumber Twp,MUNICIPALITIES 
+12204,Portage Twp,MUNICIPALITIES 
+12205,Shippen Twp,MUNICIPALITIES 
+12401,Driftwood Boro 12402  Emporium Boro,MUNICIPALITIES 
+13201,Banks Twp,MUNICIPALITIES 
+13202,East Penn Twp,MUNICIPALITIES 
+13203,Franklin Twp,MUNICIPALITIES 
+13204,Kidder Twp,MUNICIPALITIES 
+13205,Lausanne Twp,MUNICIPALITIES 
+13206,Lehigh Twp,MUNICIPALITIES 
+13207,Lower Towamensing Twp,MUNICIPALITIES 
+13208,Mahoning Twp,MUNICIPALITIES 
+13210,Packer Twp,MUNICIPALITIES 
+13211,Penn Forest Twp,MUNICIPALITIES 
+13212,Towamensing Twp,MUNICIPALITIES 
+13401,Beaver Meadows Boro,MUNICIPALITIES 
+13402,Bowmanstown Boro,MUNICIPALITIES 
+13403,East Side Boro,MUNICIPALITIES 
+13404,Jim Thorpe Boro,MUNICIPALITIES 
+13405,Lansford Boro,MUNICIPALITIES 
+13406,Lehighton Boro,MUNICIPALITIES 
+13407,Palmerton Boro,MUNICIPALITIES 
+13408,Parryville Boro,MUNICIPALITIES 
+13409,Summit Hill Boro,MUNICIPALITIES 
+13410,Weatherly Boro,MUNICIPALITIES 
+13411,Weissport Boro,MUNICIPALITIES 
+13412,Nesquehoning Boro,MUNICIPALITIES 
+14201,Benner Twp,MUNICIPALITIES 
+14202,Boggs Twp,MUNICIPALITIES 
+14203,Burnside Twp,MUNICIPALITIES 
+14204,College Twp,MUNICIPALITIES 
+14205,Curtin Twp,MUNICIPALITIES 
+14206,Ferguson Twp,MUNICIPALITIES 
+14207,Gregg Twp,MUNICIPALITIES 
+14208,Haines Twp,MUNICIPALITIES 
+14209,Halfmoon Twp,MUNICIPALITIES 
+14210,Harris Twp,MUNICIPALITIES 
+14211,Howard Twp,MUNICIPALITIES 
+14212,Huston Twp,MUNICIPALITIES 
+14213,Liberty Twp,MUNICIPALITIES 
+14214,Marion Twp,MUNICIPALITIES 
+14215,Miles Twp,MUNICIPALITIES 
+14216,Patton Twp,MUNICIPALITIES 
+14217,Penn Twp,MUNICIPALITIES 
+14218,Potter Twp,MUNICIPALITIES 
+14219,Rush Twp,MUNICIPALITIES 
+14220,Snow Shoe Twp,MUNICIPALITIES 
+14221,Spring Twp,MUNICIPALITIES 
+14222,Taylor Twp,MUNICIPALITIES 
+14223,Union Twp,MUNICIPALITIES 
+14224,Walker Twp,MUNICIPALITIES 
+14225,Worth Twp,MUNICIPALITIES 
+14401,Bellefonte Boro,MUNICIPALITIES 
+14402,Centre Hall Boro,MUNICIPALITIES 
+14403,Howard Boro,MUNICIPALITIES 
+14404,Milesburg Boro,MUNICIPALITIES 
+14405,Millheim Boro,MUNICIPALITIES 
+14406,Philipsburg Boro,MUNICIPALITIES 
+14407,Port Matilda Boro,MUNICIPALITIES 
+14408,Snow Shoe Boro,MUNICIPALITIES 
+14409,South Philipsburg Boro,MUNICIPALITIES 
+14410,State College Boro,MUNICIPALITIES 
+14411,Unionville Boro,MUNICIPALITIES 
+15101,Caln Twp,MUNICIPALITIES 
+15201,Birmingham Twp,MUNICIPALITIES 
+15202,Charlestown Twp,MUNICIPALITIES 
+15203,East Bradford Twp,MUNICIPALITIES 
+15204,East Brandywine Twp,MUNICIPALITIES 
+15205,East Caln Twp,MUNICIPALITIES 
+15206,East Coventry Twp,MUNICIPALITIES 
+15207,East Fallowfield Twp,MUNICIPALITIES 
+15208,East Goshen Twp,MUNICIPALITIES 
+15209,East Marlborough Twp,MUNICIPALITIES 
+15210,East Nantmeal Twp,MUNICIPALITIES 
+15211,East Nottingham Twp,MUNICIPALITIES 
+15212,East Pikeland Twp,MUNICIPALITIES 
+15213,East Vincent Twp,MUNICIPALITIES 
+15214,East Whiteland Twp,MUNICIPALITIES 
+15215,Easttown Twp,MUNICIPALITIES 
+15216,Elk Twp,MUNICIPALITIES 
+15217,Franklin Twp,MUNICIPALITIES 
+15218,Highland Twp,MUNICIPALITIES 
+15219,Honey Brook Twp,MUNICIPALITIES 
+15220,Kennett Twp,MUNICIPALITIES 
+15221,London Britain Twp,MUNICIPALITIES 
+15222,London Grove Twp,MUNICIPALITIES 
+15223,Londonderry Twp,MUNICIPALITIES 
+15224,Lower Oxford Twp,MUNICIPALITIES 
+15225,New Garden Twp,MUNICIPALITIES 
+15226,New London Twp,MUNICIPALITIES 
+15227,Newlin Twp,MUNICIPALITIES 
+15228,North Coventry Twp,MUNICIPALITIES 
+15229,Penn Twp,MUNICIPALITIES 
+15230,Pennsbury Twp,MUNICIPALITIES 
+15231,Pocopson Twp,MUNICIPALITIES 
+15232,Sadsbury Twp,MUNICIPALITIES 
+15233,Schuylkill Twp,MUNICIPALITIES 
+15234,South Coventry Twp,MUNICIPALITIES 
+15235,Thornbury Twp,MUNICIPALITIES 
+15236,Tredyffrin Twp,MUNICIPALITIES 
+15237,Upper Oxford Twp,MUNICIPALITIES 
+15238,Upper Uwchlan Twp,MUNICIPALITIES 
+15239,Uwchlan Twp,MUNICIPALITIES 
+15240,Valley Twp,MUNICIPALITIES 
+15241,Wallace Twp,MUNICIPALITIES 
+15242,Warwick Twp,MUNICIPALITIES 
+15243,West Bradford Twp,MUNICIPALITIES 
+15244,West Brandywine Twp,MUNICIPALITIES 
+15245,West Caln Twp,MUNICIPALITIES 
+15246,West Fallowfield Twp,MUNICIPALITIES 
+15247,West Goshen Twp,MUNICIPALITIES 
+15248,West Marlborough Twp,MUNICIPALITIES 
+15249,West Nantmeal Twp,MUNICIPALITIES 
+15250,West Nottingham Twp,MUNICIPALITIES 
+15251,West Pikeland Twp,MUNICIPALITIES 
+15252,West Sadsbury Twp,MUNICIPALITIES 
+15253,West Vincent Twp,MUNICIPALITIES 
+15254,West Whiteland Twp,MUNICIPALITIES 
+15255,Westtown Twp,MUNICIPALITIES 
+15256,Willistown Twp,MUNICIPALITIES 
+15257,Coatesville City,MUNICIPALITIES 
+15401,Atglen Boro,MUNICIPALITIES 
+15402,Avondale Boro,MUNICIPALITIES 
+15403,Downingtown Boro,MUNICIPALITIES 
+15404,Elverson Boro,MUNICIPALITIES 
+15405,Honey Brook Boro,MUNICIPALITIES 
+15406,Kennett Square Boro,MUNICIPALITIES 
+15407,Malvern Boro,MUNICIPALITIES 
+15408,Modena Boro,MUNICIPALITIES 
+15409,Oxford Boro,MUNICIPALITIES 
+15410,Parkesburg Boro,MUNICIPALITIES 
+15411,Phoenixville Boro,MUNICIPALITIES 
+15412,South Coatesville Boro,MUNICIPALITIES 
+15413,Spring City Boro,MUNICIPALITIES 
+15414,West Chester Boro,MUNICIPALITIES 
+15415,West Grove Boro,MUNICIPALITIES 
+16201,Ashland Twp,MUNICIPALITIES 
+16202,Beaver Twp,MUNICIPALITIES 
+16203,Brady Twp,MUNICIPALITIES 
+16204,Clarion Twp,MUNICIPALITIES 
+16205,Elk Twp,MUNICIPALITIES 
+16206,Farmington Twp,MUNICIPALITIES 
+16207,Highland Twp,MUNICIPALITIES 
+16208,Knox Twp,MUNICIPALITIES 
+16209,Licking Twp,MUNICIPALITIES 
+16210,Limestone Twp,MUNICIPALITIES 
+16211,Madison Twp,MUNICIPALITIES 
+16212,Millcreek Twp,MUNICIPALITIES 
+16213,Monroe Twp,MUNICIPALITIES 
+16214,Paint Twp,MUNICIPALITIES 
+16215,Perry Twp,MUNICIPALITIES 
+16216,Piney Twp,MUNICIPALITIES 
+16217,Porter Twp,MUNICIPALITIES 
+16218,Redbank Twp,MUNICIPALITIES 
+16219,Richland Twp,MUNICIPALITIES 
+16220,Salem Twp,MUNICIPALITIES 
+16221,Toby Twp,MUNICIPALITIES 
+16222,Washington Twp,MUNICIPALITIES 
+16401,Callensburg Boro,MUNICIPALITIES 
+16402,Clarion Boro,MUNICIPALITIES 
+16403,East Brady Boro,MUNICIPALITIES 
+16404,Foxburg Boro,MUNICIPALITIES 
+16405,Hawthorn Boro,MUNICIPALITIES 
+16406,Knox Boro,MUNICIPALITIES 
+16407,New Bethlehem Boro,MUNICIPALITIES 
+16408,Rimersburg Boro,MUNICIPALITIES 
+16409,Saint Petersburg Boro,MUNICIPALITIES 
+16410,Shippenville Boro,MUNICIPALITIES 
+16411,Sligo Boro,MUNICIPALITIES 
+16412,Strattanville Boro,MUNICIPALITIES 
+16413,Emlenton Boro,MUNICIPALITIES 
+17201,Beccaria Twp,MUNICIPALITIES 
+17202,Bell Twp,MUNICIPALITIES 
+17203,Bigler Twp,MUNICIPALITIES 
+17204,Bloom Twp,MUNICIPALITIES 
+17205,Boggs Twp,MUNICIPALITIES 
+17206,Bradford Twp,MUNICIPALITIES 
+17207,Brady Twp,MUNICIPALITIES 
+17208,Burnside Twp,MUNICIPALITIES 
+17209,Chest Twp,MUNICIPALITIES 
+17210,Cooper Twp,MUNICIPALITIES 
+17211,Covington Twp,MUNICIPALITIES 
+17212,Decatur Twp,MUNICIPALITIES 
+17213,Ferguson Twp,MUNICIPALITIES 
+17214,Girard Twp,MUNICIPALITIES 
+17215,Goshen Twp,MUNICIPALITIES 
+17216,Graham Twp,MUNICIPALITIES 
+17217,Greenwood Twp,MUNICIPALITIES 
+17218,Gulich Twp,MUNICIPALITIES 
+17219,Huston Twp,MUNICIPALITIES 
+17220,Jordan Twp,MUNICIPALITIES 
+17221,Karthaus Twp,MUNICIPALITIES 
+17222,Knox Twp,MUNICIPALITIES 
+17223,Lawrence Twp,MUNICIPALITIES 
+17224,Morris Twp,MUNICIPALITIES 
+17225,Penn Twp,MUNICIPALITIES 
+17226,Pike Twp,MUNICIPALITIES 
+17227,Pine Twp,MUNICIPALITIES 
+17228,Sandy Twp,MUNICIPALITIES 
+17229,Union Twp,MUNICIPALITIES 
+17230,Woodward Twp,MUNICIPALITIES 
+17301,DuBois City,MUNICIPALITIES 
+17401,Brisbin Boro,MUNICIPALITIES 
+17402,Burnside Boro,MUNICIPALITIES 
+17403,Chester Hill Boro,MUNICIPALITIES 
+17404,Clearfield Boro,MUNICIPALITIES 
+17405,Coalport Boro,MUNICIPALITIES 
+17406,Curwensville Boro,MUNICIPALITIES 
+17407,Glen Hope Boro,MUNICIPALITIES 
+17409,Houtzdale Boro,MUNICIPALITIES 
+17408,Grampian Boro,MUNICIPALITIES 
+17410,Irvona Boro,MUNICIPALITIES 
+17411,Lumber City Boro,MUNICIPALITIES 
+17412,Mahaffey Boro,MUNICIPALITIES 
+17413,Newburg Boro,MUNICIPALITIES 
+17414,New Washington Boro,MUNICIPALITIES 
+17415,Osceola Mills Boro,MUNICIPALITIES 
+17416,Ramey Boro,MUNICIPALITIES 
+17417,Troutville Boro,MUNICIPALITIES 
+17418,Wallaceton Boro,MUNICIPALITIES 
+17419,Westover Boro,MUNICIPALITIES 
+17430,Falls Creek Boro,MUNICIPALITIES 
+18201,Allison Twp,MUNICIPALITIES 
+18202,Bald Eagle Twp,MUNICIPALITIES 
+18203,Beech Creek Twp,MUNICIPALITIES 
+18204,Castanea Twp,MUNICIPALITIES 
+18205,Chapman Twp,MUNICIPALITIES 
+18206,Colebrook Twp,MUNICIPALITIES 
+18207,Crawford Twp,MUNICIPALITIES 
+18208,Dunnstable Twp,MUNICIPALITIES 
+18209,East Keating Twp,MUNICIPALITIES 
+18210,Gallagher Twp,MUNICIPALITIES 
+18211,Greene Twp,MUNICIPALITIES 
+18212,Grugan Twp,MUNICIPALITIES 
+18213,Lamar Twp,MUNICIPALITIES 
+18214,Leidy Twp,MUNICIPALITIES 
+18215,Logan Twp,MUNICIPALITIES 
+18216,Noyes Twp,MUNICIPALITIES 
+18217,Pine Creek Twp,MUNICIPALITIES 
+18218,Porter Twp,MUNICIPALITIES 
+18219,Wayne Twp,MUNICIPALITIES 
+18220,West Keating Twp,MUNICIPALITIES 
+18221,Woodward Twp,MUNICIPALITIES 
+18222,Lock Haven City,MUNICIPALITIES 
+18401,Avis Boro,MUNICIPALITIES 
+18402,Beech Creek Boro,MUNICIPALITIES 
+18403,Flemington Boro,MUNICIPALITIES 
+18404,Loganton Boro,MUNICIPALITIES 
+18405,Mill Hall Boro,MUNICIPALITIES 
+18406,Renovo Boro,MUNICIPALITIES 
+18407,South Renovo Boro,MUNICIPALITIES 
+19201,Beaver Twp,MUNICIPALITIES 
+19202,Benton Twp,MUNICIPALITIES 
+19203,Briar Creek Twp,MUNICIPALITIES 
+19204,Catawissa Twp,MUNICIPALITIES 
+19205,Cleveland Twp,MUNICIPALITIES 
+19206,Conyngham Twp,MUNICIPALITIES 
+19207,Fishing Creek Twp,MUNICIPALITIES 
+19208,Franklin Twp,MUNICIPALITIES 
+19209,Greenwood Twp,MUNICIPALITIES 
+19210,Hemlock Twp,MUNICIPALITIES 
+19211,Jackson Twp,MUNICIPALITIES 
+19212,Locust Twp,MUNICIPALITIES 
+19213,Madison Twp,MUNICIPALITIES 
+19214,Main Twp,MUNICIPALITIES 
+19215,Mifflin Twp,MUNICIPALITIES 
+19216,Montour Twp,MUNICIPALITIES 
+19217,Mount Pleasant Twp,MUNICIPALITIES 
+19218,North Centre Twp,MUNICIPALITIES 
+19219,Orange Twp,MUNICIPALITIES 
+19220,Pine Twp,MUNICIPALITIES 
+19221,Roaring Creek Twp,MUNICIPALITIES 
+19222,Scott Twp,MUNICIPALITIES 
+19223,South Centre Twp,MUNICIPALITIES 
+19224,Sugarloaf Twp,MUNICIPALITIES 
+19401,Benton Boro,MUNICIPALITIES 
+19402,Berwick Boro,MUNICIPALITIES 
+19404,Briar Creek Boro,MUNICIPALITIES 
+19405,Catawissa Boro,MUNICIPALITIES 
+19406,Centralia Boro,MUNICIPALITIES 
+19407,Millville Boro,MUNICIPALITIES 
+19408,Orangeville Boro,MUNICIPALITIES 
+19409,Stillwater Boro,MUNICIPALITIES 
+19410,Ashland Boro,MUNICIPALITIES 
+19501,Town of Bloomsburg,MUNICIPALITIES 
+20201,Athens Twp,MUNICIPALITIES 
+20202,Beaver Twp,MUNICIPALITIES 
+20203,Bloomfield Twp,MUNICIPALITIES 
+20204,Cambridge Twp,MUNICIPALITIES 
+20205,Conneaut Twp,MUNICIPALITIES 
+20206,Cussewago Twp,MUNICIPALITIES 
+20207,East Fairfield Twp,MUNICIPALITIES 
+20208,East Fallowfield Twp,MUNICIPALITIES 
+20209,East Mead Twp,MUNICIPALITIES 
+20210,Fairfield Twp,MUNICIPALITIES 
+20211,Greenwood Twp,MUNICIPALITIES 
+20212,Hayfield Twp,MUNICIPALITIES 
+20213,North Shenango Twp,MUNICIPALITIES 
+20214,Oil Creek Twp,MUNICIPALITIES 
+20215,Pine Twp,MUNICIPALITIES 
+20216,Randolph Twp,MUNICIPALITIES 
+20217,Richmond Twp,MUNICIPALITIES 
+20218,Rockdale Twp,MUNICIPALITIES 
+20219,Rome Twp,MUNICIPALITIES 
+20220,Sadsbury Twp,MUNICIPALITIES 
+20221,South Shenango Twp,MUNICIPALITIES 
+20222,Sparta Twp,MUNICIPALITIES 
+20223,Spring Twp,MUNICIPALITIES 
+20224,Steuben Twp,MUNICIPALITIES 
+20225,Summerhill Twp,MUNICIPALITIES 
+20226,Summit Twp,MUNICIPALITIES 
+20227,Troy Twp,MUNICIPALITIES 
+20228,Union Twp,MUNICIPALITIES 
+20229,Venango Twp,MUNICIPALITIES 
+20230,Vernon Twp,MUNICIPALITIES 
+20231,Wayne Twp,MUNICIPALITIES 
+20232,West Fallowfield Twp,MUNICIPALITIES 
+20233,West Mead Twp,MUNICIPALITIES 
+20234,West Shenango Twp,MUNICIPALITIES 
+20235,Woodcock Twp,MUNICIPALITIES 
+20301,Meadville City,MUNICIPALITIES 
+20302,Titusville City,MUNICIPALITIES 
+20401,Blooming Valley Boro,MUNICIPALITIES 
+20402,Cambridge Springs Boro,MUNICIPALITIES 
+20403,Centerville Boro,MUNICIPALITIES 
+20404,Cochranton Boro,MUNICIPALITIES 
+20405,Conneaut Lake Boro,MUNICIPALITIES 
+20406,Conneautville Boro,MUNICIPALITIES 
+20407,Hydetown Boro,MUNICIPALITIES 
+20408,Linesville Boro,MUNICIPALITIES 
+20409,Saegertown Boro,MUNICIPALITIES 
+20410,Spartansburg Boro,MUNICIPALITIES 
+20411,Springboro Boro,MUNICIPALITIES 
+20412,Townville Boro,MUNICIPALITIES 
+20413,Venango Boro,MUNICIPALITIES 
+20414,Woodcock Boro,MUNICIPALITIES 
+21101,East Pennsboro Twp,MUNICIPALITIES 
+21102,Lower Allen Twp,MUNICIPALITIES 
+21103,Hampden Twp,MUNICIPALITIES 
+21104,Upper Allen Twp,MUNICIPALITIES 
+21201,Cooke Twp,MUNICIPALITIES 
+21202,Dickinson Twp,MUNICIPALITIES 
+21203,Hopewell Twp,MUNICIPALITIES 
+21204,Lower Frankford Twp,MUNICIPALITIES 
+21205,Lower Mifflin Twp,MUNICIPALITIES 
+21206,Middlesex Twp,MUNICIPALITIES 
+21207,Monroe Twp,MUNICIPALITIES 
+21208,North Middleton Twp,MUNICIPALITIES 
+21209,North Newton Twp,MUNICIPALITIES 
+21210,Penn Twp,MUNICIPALITIES 
+21211,Shippensburg Twp,MUNICIPALITIES 
+21212,Silver Spring Twp,MUNICIPALITIES 
+21213,South Middleton Twp,MUNICIPALITIES 
+21214,South Newton Twp,MUNICIPALITIES 
+21215,Southampton Twp,MUNICIPALITIES 
+21216,Upper Frankford Twp,MUNICIPALITIES 
+21217,Upper Mifflin Twp,MUNICIPALITIES 
+21219,West Pennsboro Twp,MUNICIPALITIES 
+21401,Camp Hill Boro,MUNICIPALITIES 
+21402,Carlisle Boro,MUNICIPALITIES 
+21403,Lemoyne Boro,MUNICIPALITIES 
+21404,Mechanicsburg Boro,MUNICIPALITIES 
+21405,Mount Holly Springs Boro,MUNICIPALITIES 
+21406,Newburg Boro,MUNICIPALITIES 
+21407,New Cumberland Boro,MUNICIPALITIES 
+21408,Newville Boro,MUNICIPALITIES 
+21409,Shippensburg Boro,MUNICIPALITIES 
+21410,Shiremanstown Boro,MUNICIPALITIES 
+21412,Wormleysburg Boro,MUNICIPALITIES 
+22101,Susquehanna Twp,MUNICIPALITIES 
+22102,Swatara Twp,MUNICIPALITIES 
+22103,Lower Swatara Twp,MUNICIPALITIES 
+22201,Conewago Twp,MUNICIPALITIES 
+22202,Derry Twp,MUNICIPALITIES 
+22203,East Hanover Twp,MUNICIPALITIES 
+22204,Halifax Twp,MUNICIPALITIES 
+22205,Jackson Twp,MUNICIPALITIES 
+22206,Jefferson Twp,MUNICIPALITIES 
+22207,Londonderry Twp,MUNICIPALITIES 
+22208,Lower Paxton Twp,MUNICIPALITIES 
+22210,Lykens Twp,MUNICIPALITIES 
+22211,Middle Paxton Twp,MUNICIPALITIES 
+22212,Mifflin Twp,MUNICIPALITIES 
+22213,Reed Twp,MUNICIPALITIES 
+22214,Rush Twp,MUNICIPALITIES 
+22215,South Hanover Twp,MUNICIPALITIES 
+22216,Upper Paxton Twp,MUNICIPALITIES 
+22217,Washington Twp,MUNICIPALITIES 
+22218,Wayne Twp,MUNICIPALITIES 
+22219,West Hanover Twp,MUNICIPALITIES 
+22220,Wiconisco Twp,MUNICIPALITIES 
+22221,Williams Twp,MUNICIPALITIES 
+22301,Harrisburg City,MUNICIPALITIES 
+22401,Berrysburg Boro,MUNICIPALITIES 
+22402,Dauphin Boro,MUNICIPALITIES 
+22403,Elizabethville Boro,MUNICIPALITIES 
+22404,Gratz Boro,MUNICIPALITIES 
+22405,Halifax Boro,MUNICIPALITIES 
+22406,Highspire Boro,MUNICIPALITIES 
+22407,Hummelstown Boro,MUNICIPALITIES 
+22408,Lykens Boro,MUNICIPALITIES 
+22409,Middletown Boro,MUNICIPALITIES 
+22410,Millersburg Boro,MUNICIPALITIES 
+22411,Paxtang Boro,MUNICIPALITIES 
+22412,Penbrook Boro,MUNICIPALITIES 
+22413,Royalton Boro,MUNICIPALITIES 
+22414,Steelton Boro,MUNICIPALITIES 
+22415,Pillow Boro,MUNICIPALITIES 
+22416,Williamstown Boro,MUNICIPALITIES 
+23101,Aston Twp,MUNICIPALITIES 
+23102,Darby Twp,MUNICIPALITIES 
+23103,Haverford Twp,MUNICIPALITIES 
+23104,Lower Chichester Twp,MUNICIPALITIES 
+23105,Nether Providence Twp,MUNICIPALITIES 
+23106,Radnor Twp,MUNICIPALITIES 
+23107,Ridley Twp,MUNICIPALITIES 
+23108,Springfield Twp,MUNICIPALITIES 
+23109,Tinicum Twp,MUNICIPALITIES 
+23110,Upper Chichester Twp,MUNICIPALITIES 
+23111,Upper Darby Twp,MUNICIPALITIES 
+23112,Marple Twp,MUNICIPALITIES 
+23201,Bethel Twp,MUNICIPALITIES 
+23202,Chadds Ford Twp,MUNICIPALITIES 
+23203,Chester Twp,MUNICIPALITIES 
+23204,Concord Twp,MUNICIPALITIES 
+23205,Edgmont Twp,MUNICIPALITIES 
+23207,Middletown Twp,MUNICIPALITIES 
+23208,Newtown Twp,MUNICIPALITIES 
+23209,Thornbury Twp,MUNICIPALITIES 
+23210,Upper Providence Twp,MUNICIPALITIES 
+23301,Chester City,MUNICIPALITIES 
+23401,Aldan Boro,MUNICIPALITIES 
+23402,Brookhaven Boro,MUNICIPALITIES 
+23403,Chester Heights Boro,MUNICIPALITIES 
+23404,Clifton Heights Boro,MUNICIPALITIES 
+23405,Collingdale Boro,MUNICIPALITIES 
+23406,Colwyn Boro,MUNICIPALITIES 
+23407,Darby Boro,MUNICIPALITIES 
+23408,East Lansdowne Boro,MUNICIPALITIES 
+23409,Eddystone Boro,MUNICIPALITIES 
+23410,Folcroft Boro,MUNICIPALITIES 
+23411,Glenolden Boro,MUNICIPALITIES 
+23412,Lansdowne Boro,MUNICIPALITIES 
+23413,Marcus Hook Boro,MUNICIPALITIES 
+23414,Media Boro,MUNICIPALITIES 
+23415,Millbourne Boro,MUNICIPALITIES 
+23416,Morton Boro,MUNICIPALITIES 
+23417,Norwood Boro,MUNICIPALITIES 
+23418,Parkside Boro,MUNICIPALITIES 
+23419,Prospect Park Boro,MUNICIPALITIES 
+23420,Ridley Park Boro,MUNICIPALITIES 
+23421,Rose Valley Boro,MUNICIPALITIES 
+23422,Rutledge Boro,MUNICIPALITIES 
+23423,Sharon Hill Boro,MUNICIPALITIES 
+23424,Swarthmore Boro,MUNICIPALITIES 
+23425,Trainer Boro,MUNICIPALITIES 
+23426,Upland Boro,MUNICIPALITIES 
+23427,Yeadon Boro,MUNICIPALITIES 
+24201,Benezette Twp,MUNICIPALITIES 
+24203,Fox Twp,MUNICIPALITIES 
+24204,Highland Twp,MUNICIPALITIES 
+24205,Horton Twp,MUNICIPALITIES 
+24206,Jay Twp,MUNICIPALITIES 
+24207,Jones Twp,MUNICIPALITIES 
+24208,Millstone Twp,MUNICIPALITIES 
+24209,Ridgway Twp,MUNICIPALITIES 
+24210,Spring Creek Twp,MUNICIPALITIES 
+24301,Saint Marys City,MUNICIPALITIES 
+24401,Johnsonburg Boro,MUNICIPALITIES 
+24402,Ridgway Boro,MUNICIPALITIES 
+25101,Lawrence Park Twp,MUNICIPALITIES 
+25201,Amity Twp,MUNICIPALITIES 
+25202,Concord Twp,MUNICIPALITIES 
+25203,Conneaut Twp,MUNICIPALITIES 
+25204,Elk Creek Twp,MUNICIPALITIES 
+25205,Fairview Twp,MUNICIPALITIES 
+25206,Franklin Twp,MUNICIPALITIES 
+25207,Girard Twp,MUNICIPALITIES 
+25208,Greene Twp,MUNICIPALITIES 
+25209,Greenfield Twp,MUNICIPALITIES 
+25210,Harborcreek Twp,MUNICIPALITIES 
+25211,LeBoeuf Twp,MUNICIPALITIES 
+25212,McKean Twp,MUNICIPALITIES 
+25213,Millcreek Twp,MUNICIPALITIES 
+25214,North East Twp,MUNICIPALITIES 
+25215,Springfield Twp,MUNICIPALITIES 
+25216,Summit Twp,MUNICIPALITIES 
+25217,Union Twp,MUNICIPALITIES 
+25218,Venango Twp,MUNICIPALITIES 
+25219,Washington Twp,MUNICIPALITIES 
+25220,Waterford Twp,MUNICIPALITIES 
+25221,Wayne Twp,MUNICIPALITIES 
+25301,Corry City,MUNICIPALITIES 
+25302,Erie City,MUNICIPALITIES 
+25401,Albion Boro,MUNICIPALITIES 
+25402,Cranesville Boro,MUNICIPALITIES 
+25403,Edinboro Boro,MUNICIPALITIES 
+25405,Elgin Boro,MUNICIPALITIES 
+25407,Girard Boro,MUNICIPALITIES 
+25408,Lake City Boro,MUNICIPALITIES 
+25409,McKean Boro,MUNICIPALITIES 
+25410,Mill Village Boro,MUNICIPALITIES 
+25411,North East Boro,MUNICIPALITIES 
+25412,Platea Boro,MUNICIPALITIES 
+25413,Union City Boro,MUNICIPALITIES 
+25414,Waterford Boro,MUNICIPALITIES 
+25415,Wattsburg Boro,MUNICIPALITIES 
+25416,Wesleyville Boro,MUNICIPALITIES 
+26201,Brownsville Twp,MUNICIPALITIES 
+26202,Bullskin Twp,MUNICIPALITIES 
+26203,Connellsville Twp,MUNICIPALITIES 
+26204,Dunbar Twp,MUNICIPALITIES 
+26205,Franklin Twp,MUNICIPALITIES 
+26206,Georges Twp,MUNICIPALITIES 
+26207,German Twp,MUNICIPALITIES 
+26208,Henry Clay Twp,MUNICIPALITIES 
+26209,Jefferson Twp,MUNICIPALITIES 
+26210,Lower Tyrone Twp,MUNICIPALITIES 
+26211,Luzerne Twp,MUNICIPALITIES 
+26212,Menallen Twp,MUNICIPALITIES 
+26213,Nicholson Twp,MUNICIPALITIES 
+26214,North Union Twp,MUNICIPALITIES 
+26215,Perry Twp,MUNICIPALITIES 
+26216,Redstone Twp,MUNICIPALITIES 
+26217,Saltlick Twp,MUNICIPALITIES 
+26218,South Union Twp,MUNICIPALITIES 
+26219,Springfield Twp,MUNICIPALITIES 
+26220,Springhill Twp,MUNICIPALITIES 
+26221,Stewart Twp,MUNICIPALITIES 
+26222,Upper Tyrone Twp,MUNICIPALITIES 
+26223,Washington Twp,MUNICIPALITIES 
+26224,Wharton Twp,MUNICIPALITIES 
+26301,Connellsville City,MUNICIPALITIES 
+26302,Uniontown City,MUNICIPALITIES 
+26401,Belle Vernon Boro,MUNICIPALITIES 
+26402,Brownsville Boro,MUNICIPALITIES 
+26403,Dawson Boro,MUNICIPALITIES 
+26404,Dunbar Boro,MUNICIPALITIES 
+26405,Everson Boro,MUNICIPALITIES 
+26406,Fairchance Boro,MUNICIPALITIES 
+26407,Fayette City Boro,MUNICIPALITIES 
+26408,Markleysburg Boro,MUNICIPALITIES 
+26409,Masontown Boro,MUNICIPALITIES 
+26410,Newell Boro,MUNICIPALITIES 
+26411,Ohiopyle Boro,MUNICIPALITIES 
+26412,Perryopolis Boro,MUNICIPALITIES 
+26413,Point Marion Boro,MUNICIPALITIES 
+26414,Smithfield Boro,MUNICIPALITIES 
+26415,South Connellsville Boro,MUNICIPALITIES 
+26416,Vanderbilt Boro,MUNICIPALITIES 
+26430,Seven Springs Boro,MUNICIPALITIES 
+27201,Barnett Twp,MUNICIPALITIES 
+27202,Green Twp,MUNICIPALITIES 
+27203,Harmony Twp,MUNICIPALITIES 
+27204,Hickory Twp,MUNICIPALITIES 
+27205,Howe Twp,MUNICIPALITIES 
+27206,Jenks Twp,MUNICIPALITIES 
+27207,Kingsley Twp,MUNICIPALITIES 
+27208,Tionesta Twp,MUNICIPALITIES 
+27401,Tionesta Boro,MUNICIPALITIES 
+28201,Antrim Twp,MUNICIPALITIES 
+28202,Fannett Twp,MUNICIPALITIES 
+28203,Greene Twp,MUNICIPALITIES 
+28204,Guilford Twp,MUNICIPALITIES 
+28205,Hamilton Twp,MUNICIPALITIES 
+28206,Letterkenny Twp,MUNICIPALITIES 
+28207,Lurgan Twp,MUNICIPALITIES 
+28208,Metal Twp,MUNICIPALITIES 
+28209,Montgomery Twp,MUNICIPALITIES 
+28210,Peters Twp,MUNICIPALITIES 
+28211,Quincy Twp,MUNICIPALITIES 
+28212,Saint Thomas Twp,MUNICIPALITIES 
+28213,Southampton Twp,MUNICIPALITIES 
+28214,Warren Twp,MUNICIPALITIES 
+28215,Washington Twp,MUNICIPALITIES 
+28401,Chambersburg Boro,MUNICIPALITIES 
+28402,Greencastle Boro,MUNICIPALITIES 
+28403,Mercersburg Boro,MUNICIPALITIES 
+28404,Mont Alto Boro,MUNICIPALITIES 
+28405,Orrstown Boro,MUNICIPALITIES 
+28406,Waynesboro Boro,MUNICIPALITIES 
+28409,Shippensburg Boro,MUNICIPALITIES 
+29201,Ayr Twp,MUNICIPALITIES 
+29202,Belfast Twp,MUNICIPALITIES 
+29203,Bethel Twp,MUNICIPALITIES 
+29204,Brush Creek Twp,MUNICIPALITIES 
+29205,Dublin Twp,MUNICIPALITIES 
+29206,Licking Creek Twp,MUNICIPALITIES 
+29207,Taylor Twp,MUNICIPALITIES 
+29208,Thompson Twp,MUNICIPALITIES 
+29209,Todd Twp,MUNICIPALITIES 
+29210,Union Twp,MUNICIPALITIES 
+29211,Wells Twp,MUNICIPALITIES 
+29401,McConnellsburg Boro,MUNICIPALITIES 
+29402,Valley Hi Boro,MUNICIPALITIES 
+30201,Aleppo Twp,MUNICIPALITIES 
+30202,Center Twp,MUNICIPALITIES 
+30203,Cumberland Twp,MUNICIPALITIES 
+30204,Dunkard Twp,MUNICIPALITIES 
+30205,Franklin Twp,MUNICIPALITIES 
+30206,Freeport Twp,MUNICIPALITIES 
+30207,Gilmore Twp,MUNICIPALITIES 
+30208,Gray Twp,MUNICIPALITIES 
+30209,Greene Twp,MUNICIPALITIES 
+30210,Jackson Twp,MUNICIPALITIES 
+30211,Jefferson Twp,MUNICIPALITIES 
+30212,Monongahela Twp,MUNICIPALITIES 
+30213,Morgan Twp,MUNICIPALITIES 
+30214,Morris Twp,MUNICIPALITIES 
+30215,Perry Twp,MUNICIPALITIES 
+30216,Richhill Twp,MUNICIPALITIES 
+30217,Springhill Twp,MUNICIPALITIES 
+30218,Washington Twp,MUNICIPALITIES 
+30219,Wayne Twp,MUNICIPALITIES 
+30220,Whiteley Twp,MUNICIPALITIES 
+30401,Carmichaels Boro,MUNICIPALITIES 
+30402,Clarksville Boro,MUNICIPALITIES 
+30403,Greensboro Boro,MUNICIPALITIES 
+30404,Jefferson Boro,MUNICIPALITIES 
+30405,Rices Landing Boro,MUNICIPALITIES 
+30406,Waynesburg Boro,MUNICIPALITIES 
+31201,Barree Twp,MUNICIPALITIES 
+31202,Brady Twp,MUNICIPALITIES 
+31203,Carbon Twp,MUNICIPALITIES 
+31204,Cass Twp,MUNICIPALITIES 
+31205,Clay Twp,MUNICIPALITIES 
+31206,Cromwell Twp,MUNICIPALITIES 
+31207,Dublin Twp,MUNICIPALITIES 
+31208,Franklin Twp,MUNICIPALITIES 
+31209,Henderson Twp,MUNICIPALITIES 
+31210,Hopewell Twp,MUNICIPALITIES 
+31211,Jackson Twp,MUNICIPALITIES 
+31212,Juniata Twp,MUNICIPALITIES 
+31213,Lincoln Twp,MUNICIPALITIES 
+31214,Logan Twp,MUNICIPALITIES 
+31215,Miller Twp,MUNICIPALITIES 
+31216,Morris Twp,MUNICIPALITIES 
+31217,Oneida Twp,MUNICIPALITIES 
+31218,Penn Twp,MUNICIPALITIES 
+31219,Porter Twp,MUNICIPALITIES 
+31220,Shirley Twp,MUNICIPALITIES 
+31221,Smithfield Twp,MUNICIPALITIES 
+31222,Springfield Twp,MUNICIPALITIES 
+31223,Spruce Creek Twp,MUNICIPALITIES 
+31224,Tell Twp,MUNICIPALITIES 
+31225,Todd Twp,MUNICIPALITIES 
+31226,Union Twp,MUNICIPALITIES 
+31227,Walker Twp,MUNICIPALITIES 
+31228,Warriors Mark Twp,MUNICIPALITIES 
+31229,West Twp,MUNICIPALITIES 
+31230,Wood Twp,MUNICIPALITIES 
+31401,Alexandria Boro,MUNICIPALITIES 
+31402,Birmingham Boro,MUNICIPALITIES 
+31403,Broad top City Boro,MUNICIPALITIES 
+31404,Cassville Boro,MUNICIPALITIES 
+31405,Coalmont Boro,MUNICIPALITIES 
+31406,Dudley Boro,MUNICIPALITIES 
+31407,Huntingdon Boro,MUNICIPALITIES 
+31408,Mapleton Boro,MUNICIPALITIES 
+31409,Marklesburg Boro,MUNICIPALITIES 
+31410,Mill Creek Boro,MUNICIPALITIES 
+31411,Mount Union Boro,MUNICIPALITIES 
+31412,Orbisonia Boro,MUNICIPALITIES 
+31413,Petersburg Boro,MUNICIPALITIES 
+31414,Rockhill Boro,MUNICIPALITIES 
+31415,Saltillo Boro,MUNICIPALITIES 
+31416,Shade Gap Boro,MUNICIPALITIES 
+31417,Shirleysburg Boro,MUNICIPALITIES 
+31418,Three Springs Boro,MUNICIPALITIES 
+32201,Armstrong Twp,MUNICIPALITIES 
+32202,Banks Twp,MUNICIPALITIES 
+32203,Blacklick Twp,MUNICIPALITIES 
+32204,Brush Valley Twp,MUNICIPALITIES 
+32205,Buffington Twp,MUNICIPALITIES 
+32206,Burrell Twp,MUNICIPALITIES 
+32207,Canoe Twp,MUNICIPALITIES 
+32208,Center Twp,MUNICIPALITIES 
+32209,Cherryhill Twp,MUNICIPALITIES 
+32210,Conemaugh Twp,MUNICIPALITIES 
+32211,East Mahoning Twp,MUNICIPALITIES 
+32212,East Wheatfield Twp,MUNICIPALITIES 
+32213,Grant Twp,MUNICIPALITIES 
+32214,Green Twp,MUNICIPALITIES 
+32215,Montgomery Twp,MUNICIPALITIES 
+32216,North Mahoning Twp,MUNICIPALITIES 
+32217,Pine Twp,MUNICIPALITIES 
+32218,Rayne Twp,MUNICIPALITIES 
+32219,South Mahoning Twp,MUNICIPALITIES 
+32220,Washington Twp,MUNICIPALITIES 
+32221,West Mahoning Twp,MUNICIPALITIES 
+32222,West Wheatfield Twp,MUNICIPALITIES 
+32223,White Twp,MUNICIPALITIES 
+32224,Young Twp,MUNICIPALITIES 
+32401,Armagh Boro,MUNICIPALITIES 
+32402,Blairsville Boro,MUNICIPALITIES 
+32403,Cherry tree Boro,MUNICIPALITIES 
+32404,Clymer Boro,MUNICIPALITIES 
+32405,Creekside Boro,MUNICIPALITIES 
+32406,Glen Campbell Boro,MUNICIPALITIES 
+32407,Homer City Boro,MUNICIPALITIES 
+32408,Indiana Boro,MUNICIPALITIES 
+32409,Jacksonville Boro,MUNICIPALITIES 
+32410,Marion Center Boro,MUNICIPALITIES 
+32411,Plumville Boro,MUNICIPALITIES 
+32412,Saltsburg Boro,MUNICIPALITIES 
+32413,Shelocta Boro,MUNICIPALITIES 
+32414,Smicksburg Boro,MUNICIPALITIES 
+32415,Ernest Boro,MUNICIPALITIES 
+33201,Barnett Twp,MUNICIPALITIES 
+33202,Beaver Twp,MUNICIPALITIES 
+33203,Bell Twp,MUNICIPALITIES 
+33204,Clover Twp,MUNICIPALITIES 
+33205,Eldred Twp,MUNICIPALITIES 
+33206,Gaskill Twp,MUNICIPALITIES 
+33207,Heath Twp,MUNICIPALITIES 
+33208,Henderson Twp,MUNICIPALITIES 
+33209,Knox Twp,MUNICIPALITIES 
+33210,McCalmont Twp,MUNICIPALITIES 
+33211,Oliver Twp,MUNICIPALITIES 
+33212,Perry Twp,MUNICIPALITIES 
+33213,Pine Creek Twp,MUNICIPALITIES 
+33214,Polk Twp,MUNICIPALITIES 
+33215,Porter Twp,MUNICIPALITIES 
+33216,Ringgold Twp,MUNICIPALITIES 
+33217,Rose Twp,MUNICIPALITIES 
+33218,Snyder Twp,MUNICIPALITIES 
+33219,Union Twp,MUNICIPALITIES 
+33220,Warsaw Twp,MUNICIPALITIES 
+33221,Washington Twp,MUNICIPALITIES 
+33222,Winslow Twp,MUNICIPALITIES 
+33223,Young Twp,MUNICIPALITIES 
+33401,Big Run Boro,MUNICIPALITIES 
+33402,Brockway Boro,MUNICIPALITIES 
+33403,Brookville Boro,MUNICIPALITIES 
+33404,Corsica Boro,MUNICIPALITIES 
+33405,Falls Creek Boro,MUNICIPALITIES 
+33406,Punxsutawney Boro,MUNICIPALITIES 
+33407,Reynoldsville Boro,MUNICIPALITIES 
+33408,Summerville Boro,MUNICIPALITIES 
+33409,Sykesville Boro,MUNICIPALITIES 
+33410,Timblin Boro,MUNICIPALITIES 
+33411,Worthville Boro,MUNICIPALITIES 
+34201,Beale Twp,MUNICIPALITIES 
+34202,Delaware Twp,MUNICIPALITIES 
+34203,Fayette Twp,MUNICIPALITIES 
+34204,Fermanagh Twp,MUNICIPALITIES 
+34205,Greenwood Twp,MUNICIPALITIES 
+34206,Lack Twp,MUNICIPALITIES 
+34207,Milford Twp,MUNICIPALITIES 
+34208,Monroe Twp,MUNICIPALITIES 
+34209,Spruce Hill Twp,MUNICIPALITIES 
+34210,Susquehanna Twp,MUNICIPALITIES 
+34211,Turbett Twp,MUNICIPALITIES 
+34212,Tuscarora Twp,MUNICIPALITIES 
+34213,Walker Twp,MUNICIPALITIES 
+34401,Mifflin Boro,MUNICIPALITIES 
+34402,Mifflintown Boro,MUNICIPALITIES 
+34403,Port Royal Boro,MUNICIPALITIES 
+34404,Thompsontown Boro,MUNICIPALITIES 
+35201,Waverly Twp,MUNICIPALITIES 
+35202,Benton Twp,MUNICIPALITIES 
+35203,Carbondale Twp,MUNICIPALITIES 
+35204,Clifton Twp,MUNICIPALITIES 
+35205,Covington Twp,MUNICIPALITIES 
+35206,Elmhurst Twp,MUNICIPALITIES 
+35207,Fell Twp,MUNICIPALITIES 
+35208,Glenburn Twp,MUNICIPALITIES 
+35209,Greenfield Twp,MUNICIPALITIES 
+35210,Jefferson Twp,MUNICIPALITIES 
+35211,La Plume Twp,MUNICIPALITIES 
+35212,Thornhurst Twp,MUNICIPALITIES 
+35213,Madison Twp,MUNICIPALITIES 
+35214,Newton Twp,MUNICIPALITIES 
+35215,North Abington Twp,MUNICIPALITIES 
+35216,Ransom Twp,MUNICIPALITIES 
+35217,Roaring Brook Twp,MUNICIPALITIES 
+35218,Scott Twp,MUNICIPALITIES 
+35219,South Abington Twp,MUNICIPALITIES 
+35220,Spring Brook Twp,MUNICIPALITIES 
+35221,West Abington Twp,MUNICIPALITIES 
+35301,Carbondale City,MUNICIPALITIES 
+35302,Scranton City,MUNICIPALITIES 
+35401,Archbald Boro,MUNICIPALITIES 
+35402,Blakely Boro,MUNICIPALITIES 
+35403,Clarks Green Boro,MUNICIPALITIES 
+35404,Clarks Summit Boro,MUNICIPALITIES 
+35405,Dalton Boro,MUNICIPALITIES 
+35406,Dickson City Boro,MUNICIPALITIES 
+35407,Dunmore Boro,MUNICIPALITIES 
+35408,Jermyn Boro,MUNICIPALITIES 
+35409,Mayfield Boro,MUNICIPALITIES 
+35410,Moosic Boro,MUNICIPALITIES 
+35411,Moscow Boro,MUNICIPALITIES 
+35412,Old Forge Boro,MUNICIPALITIES 
+35413,Olyphant Boro,MUNICIPALITIES 
+35414,Taylor Boro,MUNICIPALITIES 
+35415,Throop Boro,MUNICIPALITIES 
+35416,Vandling Boro,MUNICIPALITIES 
+35417,Jessup Boro,MUNICIPALITIES 
+35503,invalid,MUNICIPALITIES 
+36101,Manheim Twp,MUNICIPALITIES 
+36201,Bart Twp,MUNICIPALITIES 
+36202,Brecknock Twp,MUNICIPALITIES 
+36203,Caernarvon Twp,MUNICIPALITIES 
+36204,Clay Twp,MUNICIPALITIES 
+36205,Colerain Twp,MUNICIPALITIES 
+36206,Conestoga Twp,MUNICIPALITIES 
+36207,Conoy Twp,MUNICIPALITIES 
+36208,Drumore Twp,MUNICIPALITIES 
+36209,Earl Twp,MUNICIPALITIES 
+36210,East Cocalico Twp,MUNICIPALITIES 
+36211,East Donegal Twp,MUNICIPALITIES 
+36212,East Drumore Twp,MUNICIPALITIES 
+36213,East Earl Twp,MUNICIPALITIES 
+36214,East Hempfield Twp,MUNICIPALITIES 
+36215,East Lampeter Twp,MUNICIPALITIES 
+36216,Eden Twp,MUNICIPALITIES 
+36217,Elizabeth Twp,MUNICIPALITIES 
+36218,Ephrata Twp,MUNICIPALITIES 
+36219,Fulton Twp,MUNICIPALITIES 
+36220,Lancaster Twp,MUNICIPALITIES 
+36221,Leacock Twp,MUNICIPALITIES 
+36222,Little Britain Twp,MUNICIPALITIES 
+36223,Manor Twp,MUNICIPALITIES 
+36224,Martic Twp,MUNICIPALITIES 
+36225,Mount Joy Twp,MUNICIPALITIES 
+36226,Paradise Twp,MUNICIPALITIES 
+36227,Penn Twp,MUNICIPALITIES 
+36228,Pequea Twp,MUNICIPALITIES 
+36229,Providence Twp,MUNICIPALITIES 
+36226,Rapho Twp,MUNICIPALITIES 
+36227,Sadsbury Twp,MUNICIPALITIES 
+36230,Rapho Twp,MUNICIPALITIES 
+36231,Sadsbury Twp,MUNICIPALITIES 
+36232,Salisbury Twp,MUNICIPALITIES 
+36233,Strasburg Twp,MUNICIPALITIES 
+36234,Upper Leacock Twp,MUNICIPALITIES 
+36235,Warwick Twp,MUNICIPALITIES 
+36236,West Cocalico Twp,MUNICIPALITIES 
+36237,West Donegal Twp,MUNICIPALITIES 
+36238,West Earl Twp,MUNICIPALITIES 
+36239,West Hempfield Twp,MUNICIPALITIES 
+36240,West Lampeter Twp,MUNICIPALITIES 
+36301,Lancaster City,MUNICIPALITIES 
+36401,Adamstown Boro,MUNICIPALITIES 
+36402,Akron Boro,MUNICIPALITIES 
+36403,Christiana Boro,MUNICIPALITIES 
+36404,Columbia Boro,MUNICIPALITIES 
+36405,Denver Boro,MUNICIPALITIES 
+36406,East Petersburg Boro,MUNICIPALITIES 
+36407,Elizabethtown Boro,MUNICIPALITIES 
+36408,Ephrata Boro,MUNICIPALITIES 
+36409,Lititz Boro,MUNICIPALITIES 
+36410,Manheim Boro,MUNICIPALITIES 
+36411,Marietta Boro,MUNICIPALITIES 
+36412,Millersville Boro,MUNICIPALITIES 
+36413,Mount Joy Boro,MUNICIPALITIES 
+36414,Mountville Boro,MUNICIPALITIES 
+36415,New Holland Boro,MUNICIPALITIES 
+36416,Quarryville Boro,MUNICIPALITIES 
+36417,Strasburg Boro,MUNICIPALITIES 
+36418,Terre Hill Boro,MUNICIPALITIES 
+37202,Hickory Twp,MUNICIPALITIES 
+37203,Little Beaver Twp,MUNICIPALITIES 
+37204,Mahoning Twp,MUNICIPALITIES 
+37205,Neshannock Twp,MUNICIPALITIES 
+37206,North Beaver Twp,MUNICIPALITIES 
+37207,Perry Twp,MUNICIPALITIES 
+37208,Plain Grove Twp,MUNICIPALITIES 
+37209,Pulaski Twp,MUNICIPALITIES 
+37210,Scott Twp,MUNICIPALITIES 
+37211,Shenango Twp,MUNICIPALITIES 
+37212,Slippery Rock Twp,MUNICIPALITIES 
+37213,Taylor Twp,MUNICIPALITIES 
+37214,Union Twp,MUNICIPALITIES 
+37215,Washington Twp,MUNICIPALITIES 
+37216,Wayne Twp,MUNICIPALITIES 
+37217,Wilmington Twp,MUNICIPALITIES 
+37301,New Castle City,MUNICIPALITIES 
+37401,Bessemer Boro,MUNICIPALITIES 
+37402,Ellport Boro,MUNICIPALITIES 
+37403,Ellwood City Boro,MUNICIPALITIES 
+37404,Enon Valley Boro,MUNICIPALITIES 
+37405,New Wilmington Boro,MUNICIPALITIES 
+37406,South New Castle Boro,MUNICIPALITIES 
+37407,Volant Boro,MUNICIPALITIES 
+37408,Wampum Boro,MUNICIPALITIES 
+37409,New Beaver Boro,MUNICIPALITIES 
+37410,S N P J Boro,MUNICIPALITIES 
+38101,Annville Twp,MUNICIPALITIES 
+38102,West Lebanon Twp,MUNICIPALITIES 
+38201,Bethel Twp,MUNICIPALITIES 
+38202,Cold Spring Twp,MUNICIPALITIES 
+38203,East Hanover Twp,MUNICIPALITIES 
+38204,Heidelberg Twp,MUNICIPALITIES 
+38205,Jackson Twp,MUNICIPALITIES 
+38206,Millcreek Twp,MUNICIPALITIES 
+38207,North Annville Twp,MUNICIPALITIES 
+38208,North Cornwall Twp,MUNICIPALITIES 
+38209,North Lebanon Twp,MUNICIPALITIES 
+38210,North Londonderry Twp,MUNICIPALITIES 
+38211,South Annville Twp,MUNICIPALITIES 
+38212,South Lebanon Twp,MUNICIPALITIES 
+38213,South Londonderry Twp,MUNICIPALITIES 
+38214,Swatara Twp,MUNICIPALITIES 
+38215,Union Twp,MUNICIPALITIES 
+38216,West Cornwall Twp,MUNICIPALITIES 
+38301,Lebanon City,MUNICIPALITIES 
+38401,Cleona Boro,MUNICIPALITIES 
+38402,Cornwall Boro,MUNICIPALITIES 
+38403,Jonestown Boro,MUNICIPALITIES 
+38404,Mount Gretna Boro,MUNICIPALITIES 
+38405,Myerstown Boro,MUNICIPALITIES 
+38406,Palmyra Boro,MUNICIPALITIES 
+38407,Richland Boro,MUNICIPALITIES 
+38408,Salisbury Twp,MUNICIPALITIES 
+39102,Whitehall Twp,MUNICIPALITIES 
+39103,South Whitehall Twp,MUNICIPALITIES 
+39104,Lower Macungie Twp,MUNICIPALITIES 
+39201,Hanover Twp,MUNICIPALITIES 
+39202,Heidelberg Twp,MUNICIPALITIES 
+39203,Lower Macungie,MUNICIPALITIES 
+39204,Lower Milford Twp,MUNICIPALITIES 
+39205,Lowhill Twp,MUNICIPALITIES 
+39206,Lynn Twp,MUNICIPALITIES 
+39207,North Whitehall Twp,MUNICIPALITIES 
+39209,Upper Macungie Twp,MUNICIPALITIES 
+39210,Upper Milford Twp,MUNICIPALITIES 
+39211,Upper Saucon Twp,MUNICIPALITIES 
+39212,Washington Twp,MUNICIPALITIES 
+39213,Weisenberg Twp,MUNICIPALITIES 
+39301,Allentown City,MUNICIPALITIES 
+39302,Bethlehem City,MUNICIPALITIES 
+39401,Alburtis Boro,MUNICIPALITIES 
+39402,Catasauqua Boro,MUNICIPALITIES 
+39403,Coopersburg Boro,MUNICIPALITIES 
+39404,Coplay Boro,MUNICIPALITIES 
+39405,Emmaus Boro,MUNICIPALITIES 
+39406,Fountain Hill Boro,MUNICIPALITIES 
+39407,Macungie Boro,MUNICIPALITIES 
+39408,Slatington Boro,MUNICIPALITIES 
+40101,Hanover Twp,MUNICIPALITIES 
+40102,Newport Twp,MUNICIPALITIES 
+40103,Plains Twp,MUNICIPALITIES 
+40104,WilkesBarre Twp,MUNICIPALITIES 
+40201,Bear Creek Twp,MUNICIPALITIES 
+40202,Black Creek Twp,MUNICIPALITIES 
+40203,Buck Twp,MUNICIPALITIES 
+40204,Butler Twp,MUNICIPALITIES 
+40205,Conyngham Twp,MUNICIPALITIES 
+40206,Dallas Twp,MUNICIPALITIES 
+40207,Dennison Twp,MUNICIPALITIES 
+40208,Dorrance Twp,MUNICIPALITIES 
+40209,Exeter Twp,MUNICIPALITIES 
+40210,Fairmount Twp,MUNICIPALITIES 
+40211,Fairview Twp,MUNICIPALITIES 
+40212,Foster Twp,MUNICIPALITIES 
+40213,Franklin Twp,MUNICIPALITIES 
+40214,Hazle Twp,MUNICIPALITIES 
+40215,Hollenback Twp,MUNICIPALITIES 
+40216,Hunlock Twp,MUNICIPALITIES 
+40217,Huntington Twp,MUNICIPALITIES 
+40218,Jackson Twp,MUNICIPALITIES 
+40219,Jenkins Twp,MUNICIPALITIES 
+40220,Kingston Twp,MUNICIPALITIES 
+40221,Lake Twp,MUNICIPALITIES 
+40222,Lehman Twp,MUNICIPALITIES 
+40223,Nescopeck Twp,MUNICIPALITIES 
+40224,Pittston Twp,MUNICIPALITIES 
+40225,Plymouth Twp,MUNICIPALITIES 
+40226,Rice Twp,MUNICIPALITIES 
+40227,Ross Twp,MUNICIPALITIES 
+40228,Salem Twp,MUNICIPALITIES 
+40229,Slocum Twp,MUNICIPALITIES 
+40230,Sugarloaf Twp,MUNICIPALITIES 
+40231,Union Twp,MUNICIPALITIES 
+40232,Wright Twp,MUNICIPALITIES 
+40301,Hazleton City,MUNICIPALITIES 
+40302,Nanticoke City,MUNICIPALITIES 
+40303,Pittston City,MUNICIPALITIES 
+40304,WilkesBarre City,MUNICIPALITIES 
+40401,Ashley Boro,MUNICIPALITIES 
+40402,Avoca Boro,MUNICIPALITIES 
+40403,Conyngham Boro,MUNICIPALITIES 
+40404,Courtdale Boro,MUNICIPALITIES 
+40405,Dallas Boro,MUNICIPALITIES 
+40406,Dupont Boro,MUNICIPALITIES 
+40407,Duryea Boro,MUNICIPALITIES 
+40408,Edwardsville Boro,MUNICIPALITIES 
+40409,Exeter Boro,MUNICIPALITIES 
+40410,Forty Fort Boro,MUNICIPALITIES 
+40411,Freeland Boro,MUNICIPALITIES 
+40412,Hughestown Boro,MUNICIPALITIES 
+40413,Jeddo Boro,MUNICIPALITIES 
+40414,Kingston Boro,MUNICIPALITIES 
+40415,Laflin Boro,MUNICIPALITIES 
+40416,Larksville Boro,MUNICIPALITIES 
+40417,Laurel Run Boro,MUNICIPALITIES 
+40418,Luzerne Boro,MUNICIPALITIES 
+40419,Nescopeck Boro,MUNICIPALITIES 
+40420,New Columbus Boro,MUNICIPALITIES 
+40421,Nuangola Boro,MUNICIPALITIES 
+40422,Plymouth Boro,MUNICIPALITIES 
+40423,Pringle Boro,MUNICIPALITIES 
+40424,Shickshinny Boro,MUNICIPALITIES 
+40425,Sugar Notch Boro,MUNICIPALITIES 
+40426,Swoyersville Boro,MUNICIPALITIES 
+40427,Warrior Run Boro,MUNICIPALITIES 
+40428,West Hazleton Boro,MUNICIPALITIES 
+40429,West Pittston Boro,MUNICIPALITIES 
+40430,West Wyoming Boro,MUNICIPALITIES 
+40431,White Haven Boro,MUNICIPALITIES 
+40432,Wyoming Boro,MUNICIPALITIES 
+40433,Yatesville Boro,MUNICIPALITIES 
+40434,Harveys Lake Boro,MUNICIPALITIES 
+40435,Penn Lake Park Boro,MUNICIPALITIES 
+40436,Bear Creek Village Boro,MUNICIPALITIES 
+41201,Anthony Twp,MUNICIPALITIES 
+41202,Armstrong Twp,MUNICIPALITIES 
+41203,Bastress Twp,MUNICIPALITIES 
+41204,Brady Twp,MUNICIPALITIES 
+41205,Brown Twp,MUNICIPALITIES 
+41206,Cascade Twp,MUNICIPALITIES 
+41207,Clinton Twp,MUNICIPALITIES 
+41208,Cogan House Twp,MUNICIPALITIES 
+41209,Cummings Twp,MUNICIPALITIES 
+41210,Eldred Twp,MUNICIPALITIES 
+41211,Fairfield Twp,MUNICIPALITIES 
+41212,Franklin Twp,MUNICIPALITIES 
+41213,Gamble Twp,MUNICIPALITIES 
+41214,Hepburn Twp,MUNICIPALITIES 
+41215,Jackson Twp,MUNICIPALITIES 
+41216,Jordan Twp,MUNICIPALITIES 
+41217,Lewis Twp,MUNICIPALITIES 
+41218,Limestone Twp,MUNICIPALITIES 
+41219,Loyalsock Twp,MUNICIPALITIES 
+41220,Lycoming Twp,MUNICIPALITIES 
+41221,McHenry Twp,MUNICIPALITIES 
+41222,McIntyre Twp,MUNICIPALITIES 
+41223,McNett Twp,MUNICIPALITIES 
+41224,Mifflin Twp,MUNICIPALITIES 
+41225,Mill Creek Twp,MUNICIPALITIES 
+41226,Moreland Twp,MUNICIPALITIES 
+41227,Muncy Twp,MUNICIPALITIES 
+41228,Muncy Creek Twp,MUNICIPALITIES 
+41229,Nippenose Twp,MUNICIPALITIES 
+41230,Old Lycoming Twp,MUNICIPALITIES 
+41231,Penn Twp,MUNICIPALITIES 
+41232,Piatt Twp,MUNICIPALITIES 
+41233,Pine Twp,MUNICIPALITIES 
+41234,Plunketts Creek Twp,MUNICIPALITIES 
+41235,Porter Twp,MUNICIPALITIES 
+41236,Shrewsbury Twp,MUNICIPALITIES 
+41237,Susquehanna Twp,MUNICIPALITIES 
+41238,Upper Fairfield Twp,MUNICIPALITIES 
+41239,Washington Twp,MUNICIPALITIES 
+41240,Watson Twp,MUNICIPALITIES 
+41241,Wolf Twp,MUNICIPALITIES 
+41242,Woodward Twp,MUNICIPALITIES 
+41301,Williamsport City 41401 Duboistown Boro,MUNICIPALITIES 
+41402,Hughesville Boro,MUNICIPALITIES 
+41403,Jersey Shore Boro,MUNICIPALITIES 
+41404,Montgomery Boro,MUNICIPALITIES 
+41405,Montoursville Boro,MUNICIPALITIES 
+41406,Muncy Boro,MUNICIPALITIES 
+41407,Picture Rocks Boro,MUNICIPALITIES 
+41408,Salladasburg Boro,MUNICIPALITIES 
+41409,South Williamsport Boro,MUNICIPALITIES 
+42201,Annin Twp,MUNICIPALITIES 
+42202,Bradford Twp,MUNICIPALITIES 
+42203,Ceres Twp,MUNICIPALITIES 
+42204,Corydon Twp,MUNICIPALITIES 
+42205,Eldred Twp,MUNICIPALITIES 
+42206,Foster Twp,MUNICIPALITIES 
+42207,Hamilton Twp,MUNICIPALITIES 
+42208,Hamlin Twp,MUNICIPALITIES 
+42209,Keating Twp,MUNICIPALITIES 
+42210,Lafayette Twp,MUNICIPALITIES 
+42211,Liberty Twp,MUNICIPALITIES 
+42212,Norwich Twp,MUNICIPALITIES 
+42213,Otto Twp,MUNICIPALITIES 
+42214,Sergeant Twp,MUNICIPALITIES 
+42215,Wetmore Twp,MUNICIPALITIES 
+42301,Bradford City,MUNICIPALITIES 
+42401,Eldred Boro,MUNICIPALITIES 
+42402,Kane Boro,MUNICIPALITIES 
+42403,Lewis Run Boro,MUNICIPALITIES 
+42404,Mount Jewett Boro,MUNICIPALITIES 
+42405,Port Allegany Boro,MUNICIPALITIES 
+42406,Smethport Boro,MUNICIPALITIES 
+43201,Coolspring Twp,MUNICIPALITIES 
+43202,Deer Creek Twp,MUNICIPALITIES 
+43203,Delaware Twp,MUNICIPALITIES 
+43204,East Lackawannock Twp,MUNICIPALITIES 
+43205,Fairview Twp,MUNICIPALITIES 
+43206,Findley Twp,MUNICIPALITIES 
+43207,French Creek Twp,MUNICIPALITIES 
+43208,Greene Twp,MUNICIPALITIES 
+43209,Hempfield Twp,MUNICIPALITIES 
+43210,Jackson Twp,MUNICIPALITIES 
+43211,Jefferson Twp,MUNICIPALITIES 
+43212,Lackawannock Twp,MUNICIPALITIES 
+43213,Lake Twp,MUNICIPALITIES 
+43214,Liberty Twp,MUNICIPALITIES 
+43215,Mill Creek Twp,MUNICIPALITIES 
+43216,New Vernon Twp,MUNICIPALITIES 
+43217,Otter Creek Twp,MUNICIPALITIES 
+43218,Perry Twp,MUNICIPALITIES 
+43219,Pine Twp,MUNICIPALITIES 
+43220,Pymatuning Twp,MUNICIPALITIES 
+43221,Salem Twp,MUNICIPALITIES 
+43222,Sandy Creek Twp,MUNICIPALITIES 
+43223,Sandy Lake Twp,MUNICIPALITIES 
+43224,Shenango Twp,MUNICIPALITIES 
+43225,South Pymatuning Twp,MUNICIPALITIES 
+43226,Springfield Twp,MUNICIPALITIES 
+43227,Sugar Grove Twp,MUNICIPALITIES 
+43228,West Salem Twp,MUNICIPALITIES 
+43229,Wilmington Twp,MUNICIPALITIES 
+43230,Wolf Creek Twp,MUNICIPALITIES 
+43231,Worth Twp,MUNICIPALITIES 
+43301,Farrell City,MUNICIPALITIES 
+43302,Sharon City,MUNICIPALITIES 
+43303,Hermitage City,MUNICIPALITIES 
+43401,Clark Boro,MUNICIPALITIES 
+43402,Fredonia Boro,MUNICIPALITIES 
+43403,Greenville Boro,MUNICIPALITIES 
+43404,Grove City Boro,MUNICIPALITIES 
+43405,Jackson Center Boro,MUNICIPALITIES 
+43406,Jamestown Boro,MUNICIPALITIES 
+43407,Mercer Boro,MUNICIPALITIES 
+43408,New Lebanon Boro,MUNICIPALITIES 
+43409,Sandy Lake Boro,MUNICIPALITIES 
+43410,Sharpsville Boro,MUNICIPALITIES 
+43411,Sheakleyville Boro,MUNICIPALITIES 
+43412,Stoneboro Boro,MUNICIPALITIES 
+43413,West Middlesex Boro,MUNICIPALITIES 
+43414,Wheatland Boro,MUNICIPALITIES 
+44201,Armagh Twp,MUNICIPALITIES 
+44202,Bratton Twp,MUNICIPALITIES 
+44203,Brown Twp,MUNICIPALITIES 
+44204,Decatur Twp,MUNICIPALITIES 
+44205,Derry Twp,MUNICIPALITIES 
+44206,Granville Twp,MUNICIPALITIES 
+44207,Menno Twp,MUNICIPALITIES 
+44208,Oliver Twp,MUNICIPALITIES 
+44209,Union Twp,MUNICIPALITIES 
+44210,Wayne Twp,MUNICIPALITIES 
+44401,Burnham Boro,MUNICIPALITIES 
+44402,Kistler Boro,MUNICIPALITIES 
+44403,Lewistown Boro,MUNICIPALITIES 
+44404,McVeytown Boro,MUNICIPALITIES 
+44405,Newton Hamilton Boro,MUNICIPALITIES 
+44406,Juniata Terrace Boro,MUNICIPALITIES 
+45101,Pocono Twp,MUNICIPALITIES 
+45201,Barrett Twp,MUNICIPALITIES 
+45202,Chestnuthill Twp,MUNICIPALITIES 
+45203,Coolbaugh Twp,MUNICIPALITIES 
+45204,Eldred Twp,MUNICIPALITIES 
+45205,Hamilton Twp,MUNICIPALITIES 
+45206,Jackson Twp,MUNICIPALITIES 
+45207,Middle Smithfield Twp,MUNICIPALITIES 
+45208,Paradise Twp,MUNICIPALITIES 
+45209,Pocono Twp,MUNICIPALITIES 
+45210,Polk Twp,MUNICIPALITIES 
+45211,Price Twp,MUNICIPALITIES 
+45212,Ross Twp,MUNICIPALITIES 
+45213,Smithfield Twp,MUNICIPALITIES 
+45214,Stroud Twp,MUNICIPALITIES 
+45215,Tobyhanna Twp,MUNICIPALITIES 
+45216,Tunkhannock Twp,MUNICIPALITIES 
+45401,Delaware Water Gap Boro,MUNICIPALITIES 
+45402,East Stroudsburg Boro,MUNICIPALITIES 
+45403,Mount Pocono Boro,MUNICIPALITIES 
+45404,Stroudsburg Boro,MUNICIPALITIES 
+46101,Abington Twp,MUNICIPALITIES 
+46102,Cheltenham Twp,MUNICIPALITIES 
+46103,Hatfield Twp,MUNICIPALITIES 
+46104,Lower Merion Twp,MUNICIPALITIES 
+46105,Lower Moreland Twp,MUNICIPALITIES 
+46106,Lower Pottsgrove Twp,MUNICIPALITIES 
+46107,Plymouth Twp,MUNICIPALITIES 
+46108,Springfield Twp,MUNICIPALITIES 
+46109,Upper Dublin Twp,MUNICIPALITIES 
+46110,Upper Moreland Twp,MUNICIPALITIES 
+46111,West Norriton Twp,MUNICIPALITIES 
+46112,West Pottsgrove Twp 46113  Upper Gwynedd Twp,MUNICIPALITIES 
+46114,Upper Pottsgrove Twp,MUNICIPALITIES 
+46201,Douglass Twp,MUNICIPALITIES 
+46202,East Norriton Twp,MUNICIPALITIES 
+46203,Franconia Twp,MUNICIPALITIES 
+46204,Horsham Twp,MUNICIPALITIES 
+46205,Limerick Twp,MUNICIPALITIES 
+46206,Lower Frederick Twp,MUNICIPALITIES 
+46207,Lower Gwynedd Twp,MUNICIPALITIES 
+46208,Lower Providence Twp,MUNICIPALITIES 
+46209,Lower Salford Twp,MUNICIPALITIES 
+46210,Marlborough Twp,MUNICIPALITIES 
+46211,Montgomery Twp,MUNICIPALITIES 
+46212,New Hanover Twp,MUNICIPALITIES 
+46213,Perkiomen Twp,MUNICIPALITIES 
+46214,Salford Twp,MUNICIPALITIES 
+46215,Skippack Twp,MUNICIPALITIES 
+46216,Towamencin Twp,MUNICIPALITIES 
+46217,Upper Frederick Twp,MUNICIPALITIES 
+46219,Upper Hanover Twp,MUNICIPALITIES 
+46220,Upper Merion Twp,MUNICIPALITIES 
+46222,Upper Providence Twp,MUNICIPALITIES 
+46223,Upper Salford Twp,MUNICIPALITIES 
+46224,Whitemarsh Twp,MUNICIPALITIES 
+46225,Whitpain Twp,MUNICIPALITIES 
+46226,Worcester Twp,MUNICIPALITIES 
+46401,Ambler Boro,MUNICIPALITIES 
+46402,Bridgeport Boro,MUNICIPALITIES 
+46403,Bryn Athyn Boro,MUNICIPALITIES 
+46404,Collegeville Boro,MUNICIPALITIES 
+46405,Conshohocken Boro,MUNICIPALITIES 
+46406,East Greenville Boro,MUNICIPALITIES 
+46407,Green Lane Boro,MUNICIPALITIES 
+46408,Hatboro Boro,MUNICIPALITIES 
+46409,Hatfield Boro,MUNICIPALITIES 
+46410,Jenkintown Boro,MUNICIPALITIES 
+46411,Lansdale Boro,MUNICIPALITIES 
+46412,Narberth Boro,MUNICIPALITIES 
+46413,Norristown Boro,MUNICIPALITIES 
+46414,North Wales Boro,MUNICIPALITIES 
+46415,Pennsburg Boro,MUNICIPALITIES 
+46416,Pottstown Boro,MUNICIPALITIES 
+46417,Red Hill Boro,MUNICIPALITIES 
+46418,Rockledge Boro,MUNICIPALITIES 
+46419,Royersford Boro,MUNICIPALITIES 
+46420,Schwenksville Boro,MUNICIPALITIES 
+46421,Souderton Boro,MUNICIPALITIES 
+46422,Telford Boro,MUNICIPALITIES 
+46423,Trappe Boro,MUNICIPALITIES 
+46424,West Conshohocken Boro,MUNICIPALITIES 
+47201,Anthony Twp,MUNICIPALITIES 
+47202,Cooper Twp,MUNICIPALITIES 
+47203,Derry Twp,MUNICIPALITIES 
+47204,Liberty Twp,MUNICIPALITIES 
+47205,Limestone Twp,MUNICIPALITIES 
+47206,Mahoning Twp,MUNICIPALITIES 
+47207,Mayberry Twp,MUNICIPALITIES 
+47208,Valley Twp,MUNICIPALITIES 
+47209,West Hemlock Twp,MUNICIPALITIES 
+47401,Danville Boro,MUNICIPALITIES 
+47402,Washingtonville Boro,MUNICIPALITIES 
+48101,Bethlehem Twp,MUNICIPALITIES 
+48201,Allen Twp,MUNICIPALITIES 
+48203,Bushkill Twp,MUNICIPALITIES 
+48204,East Allen Twp,MUNICIPALITIES 
+48205,Forks Twp,MUNICIPALITIES 
+48206,Hanover Twp,MUNICIPALITIES 
+48207,Lehigh Twp,MUNICIPALITIES 
+48208,Lower Mount Bethel Twp,MUNICIPALITIES 
+48209,Lower Nazareth Twp,MUNICIPALITIES 
+48210,Lower Saucon Twp,MUNICIPALITIES 
+48211,Moore Twp,MUNICIPALITIES 
+48212,Palmer Twp,MUNICIPALITIES 
+48213,Plainfield Twp,MUNICIPALITIES 
+48214,Upper Mount Bethel Twp,MUNICIPALITIES 
+48215,Upper Nazareth Twp,MUNICIPALITIES 
+48216,Washington Twp,MUNICIPALITIES 
+48217,Williams Twp,MUNICIPALITIES 
+48301,Bethlehem City,MUNICIPALITIES 
+48302,Easton City,MUNICIPALITIES 
+48401,Bangor Boro,MUNICIPALITIES 
+48402,Bath Boro,MUNICIPALITIES 
+48403,Chapman Boro,MUNICIPALITIES 
+48404,East Bangor Boro,MUNICIPALITIES 
+48405,Freemansburg Boro,MUNICIPALITIES 
+48406,Glendon Boro,MUNICIPALITIES 
+48407,Hellertown Boro,MUNICIPALITIES 
+48408,Nazareth Boro,MUNICIPALITIES 
+48409,Northampton Boro,MUNICIPALITIES 
+48410,North Catasauqua Boro,MUNICIPALITIES 
+48411,Pen Argyl Boro,MUNICIPALITIES 
+48412,Portland Boro,MUNICIPALITIES 
+48413,Roseto Boro,MUNICIPALITIES 
+48414,Stockertown Boro,MUNICIPALITIES 
+48415,Tatamy Boro,MUNICIPALITIES 
+48416,Walnutport Boro,MUNICIPALITIES 
+48417,West Easton Boro,MUNICIPALITIES 
+48418,Wilson Boro,MUNICIPALITIES 
+48419,Wind Gap Boro,MUNICIPALITIES 
+49101,Coal Twp,MUNICIPALITIES 
+49201,Delaware Twp,MUNICIPALITIES 
+49202,East Cameron Twp,MUNICIPALITIES 
+49203,East Chillisquaque Twp,MUNICIPALITIES 
+49204,Jackson Twp,MUNICIPALITIES 
+49205,Jordan Twp,MUNICIPALITIES 
+49206,Lewis Twp,MUNICIPALITIES 
+49207,Little Mahanoy Twp,MUNICIPALITIES 
+49208,Lower Augusta Twp,MUNICIPALITIES 
+49209,Lower Mahanoy Twp 49210 Mount Carmel Twp,MUNICIPALITIES 
+49211,Point Twp,MUNICIPALITIES 
+49212,Ralpho Twp,MUNICIPALITIES 
+49213,Rockefeller Twp,MUNICIPALITIES 
+49214,Rush Twp,MUNICIPALITIES 
+49215,Shamokin Twp,MUNICIPALITIES 
+49216,Turbot Twp,MUNICIPALITIES 
+49217,Upper Augusta Twp,MUNICIPALITIES 
+49218,Upper Mahanoy Twp,MUNICIPALITIES 
+49219,Washington Twp,MUNICIPALITIES 
+49220,West Cameron Twp,MUNICIPALITIES 
+49221,West Chillisquaque Twp,MUNICIPALITIES 
+49222,Zerbe Twp,MUNICIPALITIES 
+49301,Shamokin City,MUNICIPALITIES 
+49302,Sunbury City,MUNICIPALITIES 
+49401,Herndon Boro,MUNICIPALITIES 
+49402,Kulpmont Boro,MUNICIPALITIES 
+49403,Marion Heights Boro,MUNICIPALITIES 
+49404,McEwensville Boro,MUNICIPALITIES 
+49405,Milton Boro,MUNICIPALITIES 
+49406,Mount Carmel Boro,MUNICIPALITIES 
+49407,Northumberland Boro,MUNICIPALITIES 
+49408,Riverside Boro,MUNICIPALITIES 
+49409,Snydertown Boro,MUNICIPALITIES 
+49410,Turbotville Boro,MUNICIPALITIES 
+49411,Watsontown Boro,MUNICIPALITIES 
+50201,Buffalo Twp,MUNICIPALITIES 
+50202,Carroll Twp,MUNICIPALITIES 
+50203,Centre Twp,MUNICIPALITIES 
+50204,Greenwood Twp,MUNICIPALITIES 
+50205,Howe Twp,MUNICIPALITIES 
+50206,Jackson Twp,MUNICIPALITIES 
+50207,Juniata Twp,MUNICIPALITIES 
+50208,Liverpool Twp,MUNICIPALITIES 
+50209,Miller Twp,MUNICIPALITIES 
+50210,Northeast Madison Twp,MUNICIPALITIES 
+50211,Oliver Twp,MUNICIPALITIES 
+50212,Penn Twp,MUNICIPALITIES 
+50213,Rye Twp,MUNICIPALITIES 
+50214,Saville Twp,MUNICIPALITIES 
+50215,Southwest Madison Twp,MUNICIPALITIES 
+50216,Spring Twp,MUNICIPALITIES 
+50217,Toboyne Twp,MUNICIPALITIES 
+50218,Tuscarora Twp,MUNICIPALITIES 
+50219,Tyrone Twp,MUNICIPALITIES 
+50220,Watts Twp,MUNICIPALITIES 
+50221,Wheatfield Twp,MUNICIPALITIES 
+50401,Blain Boro,MUNICIPALITIES 
+50402,Bloomfield Boro,MUNICIPALITIES 
+50403,Duncannon Boro,MUNICIPALITIES 
+50404,Landisburg Boro,MUNICIPALITIES 
+50405,Liverpool Boro,MUNICIPALITIES 
+50406,Marysville Boro,MUNICIPALITIES 
+50407,Millerstown Boro,MUNICIPALITIES 
+50408,New Buffalo Boro,MUNICIPALITIES 
+50409,Newport Boro,MUNICIPALITIES 
+51201,Blooming Grove Twp,MUNICIPALITIES 
+51202,Delaware Twp,MUNICIPALITIES 
+51203,Dingman Twp,MUNICIPALITIES 
+51204,Greene Twp,MUNICIPALITIES 
+51205,Lackawaxen Twp,MUNICIPALITIES 
+51206,Lehman Twp,MUNICIPALITIES 
+51207,Milford Twp,MUNICIPALITIES 
+51208,Palmyra Twp,MUNICIPALITIES 
+51209,Porter Twp,MUNICIPALITIES 
+51210,Shohola Twp,MUNICIPALITIES 
+51211,Westfall Twp,MUNICIPALITIES 
+51401,Matamoras Boro,MUNICIPALITIES 
+51402,Milford Boro,MUNICIPALITIES 
+52201,Abbott Twp,MUNICIPALITIES 
+52202,Allegany Twp,MUNICIPALITIES 
+52203,Bingham Twp,MUNICIPALITIES 
+52204,Clara Twp,MUNICIPALITIES 
+52206,Eulalia Twp,MUNICIPALITIES 
+52207,Genesee Twp,MUNICIPALITIES 
+52208,Harrison Twp,MUNICIPALITIES 
+52209,Hebron Twp,MUNICIPALITIES 
+52210,Hector Twp,MUNICIPALITIES 
+52211,Homer Twp,MUNICIPALITIES 
+52212,Keating Twp,MUNICIPALITIES 
+52213,Oswayo Twp,MUNICIPALITIES 
+52214,Pike Twp,MUNICIPALITIES 
+52215,Pleasant Valley Twp,MUNICIPALITIES 
+52216,Portage Twp,MUNICIPALITIES 
+52217,Roulette Twp,MUNICIPALITIES 
+52218,Sharon Twp,MUNICIPALITIES 
+52219,Stewardson Twp,MUNICIPALITIES 
+52220,Summit Twp,MUNICIPALITIES 
+52221,Sweden Twp,MUNICIPALITIES 
+52222,Sylvania Twp,MUNICIPALITIES 
+52223,Ulysses Twp,MUNICIPALITIES 
+52224,West Branch Twp,MUNICIPALITIES 
+52225,Wharton Twp,MUNICIPALITIES 
+52401,Austin Boro,MUNICIPALITIES 
+52402,Coudersport Boro,MUNICIPALITIES 
+52403,Galeton Boro,MUNICIPALITIES 
+52404,Ulysses Boro,MUNICIPALITIES 
+52405,Oswayo Boro,MUNICIPALITIES 
+52406,Shinglehouse Boro,MUNICIPALITIES 
+53201,Barry Twp,MUNICIPALITIES 
+53202,Blythe Twp,MUNICIPALITIES 
+53203,Branch Twp,MUNICIPALITIES 
+53204,Butler Twp,MUNICIPALITIES 
+53205,Cass Twp,MUNICIPALITIES 
+53206,Delano Twp,MUNICIPALITIES 
+53207,East Brunswick Twp,MUNICIPALITIES 
+53208,East Norwegian Twp,MUNICIPALITIES 
+53209,East Union Twp,MUNICIPALITIES 
+53210,Eldred Twp,MUNICIPALITIES 
+53211,Foster Twp,MUNICIPALITIES 
+53212,Frailey Twp 53213  Hegins Twp,MUNICIPALITIES 
+53214,Hubley Twp,MUNICIPALITIES 
+53215,Kline Twp,MUNICIPALITIES 
+53216,Mahanoy Twp,MUNICIPALITIES 
+53217,New Castle Twp,MUNICIPALITIES 
+53218,North Manheim Twp,MUNICIPALITIES 
+53219,North Union Twp,MUNICIPALITIES 
+53220,Norwegian Twp,MUNICIPALITIES 
+53221,Pine Grove Twp,MUNICIPALITIES 
+53222,Porter Twp,MUNICIPALITIES 
+53224,Reilly Twp,MUNICIPALITIES 
+53225,Rush Twp,MUNICIPALITIES 
+53226,Ryan Twp,MUNICIPALITIES 
+53227,Schuylkill Twp,MUNICIPALITIES 
+53228,South Manheim Twp,MUNICIPALITIES 
+53229,Tremont Twp,MUNICIPALITIES 
+53230,Union Twp,MUNICIPALITIES 
+53231,Upper Mahantongo Twp,MUNICIPALITIES 
+53232,Walker Twp,MUNICIPALITIES 
+53233,Washington Twp,MUNICIPALITIES 
+53234,Wayne Twp,MUNICIPALITIES 
+53235,West Brunswick Twp,MUNICIPALITIES 
+53236,West Mahanoy Twp,MUNICIPALITIES 
+53237,West Penn Twp,MUNICIPALITIES 
+53301,Pottsville City,MUNICIPALITIES 
+53401,Ashland Boro,MUNICIPALITIES 
+53402,Auburn Boro,MUNICIPALITIES 
+53403,Coaldale Boro,MUNICIPALITIES 
+53404,Cressona Boro,MUNICIPALITIES 
+53405,Deer Lake Boro,MUNICIPALITIES 
+53406,Frackville Boro,MUNICIPALITIES 
+53407,Gilberton Boro,MUNICIPALITIES 
+53408,Girardville Boro,MUNICIPALITIES 
+53409,Gordon Boro,MUNICIPALITIES 
+53410,Landingville Boro,MUNICIPALITIES 
+53411,Mahanoy City Boro,MUNICIPALITIES 
+53412,McAdoo Boro,MUNICIPALITIES 
+53413,Mechanicsville Boro,MUNICIPALITIES 
+53414,Middleport Boro,MUNICIPALITIES 
+53415,Minersville Boro,MUNICIPALITIES 
+53416,Mount Carbon Boro,MUNICIPALITIES 
+53417,New Philadelphia Boro,MUNICIPALITIES 
+53418,New Ringgold Boro,MUNICIPALITIES 
+53419,Orwigsburg Boro,MUNICIPALITIES 
+53420,Palo Alto Boro,MUNICIPALITIES 
+53421,Pine Grove Boro,MUNICIPALITIES 
+53422,Port Carbon Boro,MUNICIPALITIES 
+53423,Port Clinton Boro,MUNICIPALITIES 
+53424,Ringtown Boro,MUNICIPALITIES 
+53425,Saint Clair Boro,MUNICIPALITIES 
+53426,Schuylkill Haven Boro,MUNICIPALITIES 
+53427,Shenandoah Boro,MUNICIPALITIES 
+53428,Tamaqua Boro,MUNICIPALITIES 
+53429,Tower City Boro,MUNICIPALITIES 
+53430,Tremont Boro,MUNICIPALITIES 
+54201,Adams Twp 54202  Beaver Twp 54203  Center Twp,MUNICIPALITIES 
+54204,Chapman Twp,MUNICIPALITIES 
+54205,Franklin Twp,MUNICIPALITIES 
+54206,Jackson Twp,MUNICIPALITIES 
+54207,Middlecreek Twp,MUNICIPALITIES 
+54208,Monroe Twp,MUNICIPALITIES 
+54209,Penn Twp,MUNICIPALITIES 
+54210,Perry Twp,MUNICIPALITIES 
+54211,Spring Twp 54212  Union Twp,MUNICIPALITIES 
+54213,Washington Twp,MUNICIPALITIES 
+54214,West Beaver Twp,MUNICIPALITIES 
+54215,West Perry Twp,MUNICIPALITIES 
+54401,Beavertown Boro,MUNICIPALITIES 
+54402,Freeburg Boro,MUNICIPALITIES 
+54403,Middleburg Boro,MUNICIPALITIES 
+54404,Selinsgrove Boro,MUNICIPALITIES 
+54405,Shamokin Dam Boro,MUNICIPALITIES 
+54406,McClure Boro,MUNICIPALITIES 
+55201,Addison Twp,MUNICIPALITIES 
+55202,Allegheny Twp,MUNICIPALITIES 
+55203,Black Twp,MUNICIPALITIES 
+55204,Brothersvalley Twp,MUNICIPALITIES 
+55205,Conemaugh Twp,MUNICIPALITIES 
+55206,Elk Lick Twp,MUNICIPALITIES 
+55207,Fairhope Twp,MUNICIPALITIES 
+55208,Greenville Twp,MUNICIPALITIES 
+55209,Jefferson Twp,MUNICIPALITIES 
+55210,Jenner Twp,MUNICIPALITIES 
+55211,Larimer Twp,MUNICIPALITIES 
+55212,Lincoln Twp,MUNICIPALITIES 
+55213,Lower Turkeyfoot Twp,MUNICIPALITIES 
+55214,Middlecreek Twp,MUNICIPALITIES 
+55215,Milford Twp,MUNICIPALITIES 
+55216,Northampton Twp,MUNICIPALITIES 
+55217,Ogle Twp,MUNICIPALITIES 
+55218,Paint Twp,MUNICIPALITIES 
+55219,Quemahoning Twp,MUNICIPALITIES 
+55220,Shade Twp,MUNICIPALITIES 
+55221,Somerset Twp,MUNICIPALITIES 
+55222,Southampton Twp,MUNICIPALITIES 
+55223,Stony Creek Twp,MUNICIPALITIES 
+55224,Summit Twp,MUNICIPALITIES 
+55225,Upper Turkeyfoot Twp,MUNICIPALITIES 
+55401,Addison Boro,MUNICIPALITIES 
+55402,Benson Boro,MUNICIPALITIES 
+55403,Berlin Boro,MUNICIPALITIES 
+55404,Boswell Boro,MUNICIPALITIES 
+55405,Casselman Boro,MUNICIPALITIES 
+55406,Central City Boro,MUNICIPALITIES 
+55407,Confluence Boro,MUNICIPALITIES 
+55408,Garrett Boro,MUNICIPALITIES 
+55409,Hooversville Boro,MUNICIPALITIES 
+55410,Jennerstown Boro,MUNICIPALITIES 
+55411,Meyersdale Boro,MUNICIPALITIES 
+55412,New Baltimore Boro,MUNICIPALITIES 
+55413,New Centerville Boro,MUNICIPALITIES 
+55414,Paint Boro,MUNICIPALITIES 
+55415,Rockwood Boro,MUNICIPALITIES 
+55416,Salisbury Boro,MUNICIPALITIES 
+55417,Shanksville Boro,MUNICIPALITIES 
+55418,Somerset Boro,MUNICIPALITIES 
+55419,Stoystown Boro,MUNICIPALITIES 
+55420,Ursina Boro,MUNICIPALITIES 
+55421,Wellersburg Boro,MUNICIPALITIES 
+55422,Windber Boro,MUNICIPALITIES 
+55423,Seven Springs Boro,MUNICIPALITIES 
+55424,Indian Lake Boro,MUNICIPALITIES 
+55425,Callimont Boro,MUNICIPALITIES 
+56201,Cherry Twp,MUNICIPALITIES 
+56202,Colley Twp,MUNICIPALITIES 
+56203,Davidson Twp,MUNICIPALITIES 
+56204,Elkland Twp,MUNICIPALITIES 
+56205,Forks Twp,MUNICIPALITIES 
+56206,Fox Twp,MUNICIPALITIES 
+56207,Hillsgrove Twp,MUNICIPALITIES 
+56208,LaPorte Twp,MUNICIPALITIES 
+56209,Shrewsbury Twp,MUNICIPALITIES 
+56401,Dushore Boro,MUNICIPALITIES 
+56402,Eagles Mere Boro,MUNICIPALITIES 
+56403,Forksville Boro,MUNICIPALITIES 
+56404,LaPorte Boro,MUNICIPALITIES 
+57201,Apolacon Twp,MUNICIPALITIES 
+57202,Ararat Twp,MUNICIPALITIES 
+57203,Auburn Twp,MUNICIPALITIES 
+57204,Bridgewater Twp,MUNICIPALITIES 
+57205,Brooklyn Twp,MUNICIPALITIES 
+57206,Choconut Twp,MUNICIPALITIES 
+57207,Clifford Twp,MUNICIPALITIES 
+57208,Dimock Twp,MUNICIPALITIES 
+57209,Forest Lake Twp,MUNICIPALITIES 
+57210,Franklin Twp,MUNICIPALITIES 
+57211,Gibson Twp,MUNICIPALITIES 
+57212,Great Bend Twp,MUNICIPALITIES 
+57213,Harford Twp,MUNICIPALITIES 
+57214,Harmony Twp,MUNICIPALITIES 
+57215,Herrick Twp,MUNICIPALITIES 
+57216,Jackson Twp,MUNICIPALITIES 
+57217,Jessup Twp,MUNICIPALITIES 
+57218,Lathrop Twp,MUNICIPALITIES 
+57219,Lenox Twp,MUNICIPALITIES 
+57220,Liberty Twp,MUNICIPALITIES 
+57221,Middletown Twp,MUNICIPALITIES 
+57222,New Milford Twp,MUNICIPALITIES 
+57223,Oakland Twp,MUNICIPALITIES 
+57224,Rush Twp,MUNICIPALITIES 
+57225,Silver Lake Twp,MUNICIPALITIES 
+57226,Springville Twp,MUNICIPALITIES 
+57227,Thompson Twp,MUNICIPALITIES 
+57401,Forest City Boro,MUNICIPALITIES 
+57402,Friendsville Boro,MUNICIPALITIES 
+57403,Great Bend Boro,MUNICIPALITIES 
+57404,Hallstead Boro,MUNICIPALITIES 
+57405,Hop Bottom Boro,MUNICIPALITIES 
+57406,Lanesboro Boro,MUNICIPALITIES 
+57407,Little Meadows Boro,MUNICIPALITIES 
+57408,Montrose Boro,MUNICIPALITIES 
+57409,New Milford Boro,MUNICIPALITIES 
+57410,Oakland Boro,MUNICIPALITIES 
+57411,Susquehanna Depot Boro,MUNICIPALITIES 
+57412,Thompson Boro,MUNICIPALITIES 
+57413,Union Dale Boro,MUNICIPALITIES 
+58201,Bloss Twp,MUNICIPALITIES 
+58202,Brookfield Twp,MUNICIPALITIES 
+58203,Charleston Twp,MUNICIPALITIES 
+58204,Chatham Twp,MUNICIPALITIES 
+58205,Clymer Twp,MUNICIPALITIES 
+58206,Covington Twp,MUNICIPALITIES 
+58207,Deerfield Twp,MUNICIPALITIES 
+58208,Delmar Twp,MUNICIPALITIES 
+58209,Duncan Twp,MUNICIPALITIES 
+58210,Elk Twp,MUNICIPALITIES 
+58211,Elkland Twp,MUNICIPALITIES 
+58212,Farmington Twp,MUNICIPALITIES 
+58213,Gaines Twp,MUNICIPALITIES 
+58214,Hamilton Twp,MUNICIPALITIES 
+58215,Jackson Twp,MUNICIPALITIES 
+58216,Lawrence Twp,MUNICIPALITIES 
+58217,Liberty Twp,MUNICIPALITIES 
+58218,Middlebury Twp,MUNICIPALITIES 
+58219,Morris Twp,MUNICIPALITIES 
+58220,Nelson Twp,MUNICIPALITIES 
+58221,Osceola Twp,MUNICIPALITIES 
+58222,Putnam Twp,MUNICIPALITIES 
+58223,Richmond Twp,MUNICIPALITIES 
+58224,Rutland Twp,MUNICIPALITIES 
+58225,Shippen Twp,MUNICIPALITIES 
+58226,Sullivan Twp,MUNICIPALITIES 
+58227,Tioga Twp,MUNICIPALITIES 
+58228,Union Twp,MUNICIPALITIES 
+58229,Ward Twp,MUNICIPALITIES 
+58230,Westfield Twp,MUNICIPALITIES 
+58401,Blossburg Boro,MUNICIPALITIES 
+58402,Elkland Boro,MUNICIPALITIES 
+58403,Knoxville Boro,MUNICIPALITIES 
+58404,Lawrenceville Boro,MUNICIPALITIES 
+58405,Liberty Boro,MUNICIPALITIES 
+58406,Mansfield Boro,MUNICIPALITIES 
+58407,Roseville Boro,MUNICIPALITIES 
+58408,Tioga Boro,MUNICIPALITIES 
+58409,Wellsboro Boro,MUNICIPALITIES 
+58410,Westfield Boro,MUNICIPALITIES 
+59201,Buffalo Twp,MUNICIPALITIES 
+59202,East Buffalo Twp,MUNICIPALITIES 
+59203,Gregg Twp,MUNICIPALITIES 
+59204,Hartley Twp,MUNICIPALITIES 
+59205,Kelly Twp,MUNICIPALITIES 
+59206,Lewis Twp,MUNICIPALITIES 
+59207,Limestone Twp,MUNICIPALITIES 
+59208,Union Twp,MUNICIPALITIES 
+59209,West Buffalo Twp,MUNICIPALITIES 
+59210,White Deer Twp,MUNICIPALITIES 
+59401,Hartleton Boro,MUNICIPALITIES 
+59402,Lewisburg Boro,MUNICIPALITIES 
+59403,Mifflinburg Boro,MUNICIPALITIES 
+59404,New Berlin Boro,MUNICIPALITIES 
+60201,Allegheny Twp,MUNICIPALITIES 
+60202,Canal Twp,MUNICIPALITIES 
+60203,Cherry tree Twp,MUNICIPALITIES 
+60204,Clinton Twp,MUNICIPALITIES 
+60205,Cornplanter Twp,MUNICIPALITIES 
+60206,Cranberry Twp,MUNICIPALITIES 
+60207,French Creek Twp,MUNICIPALITIES 
+60208,Irwin Twp,MUNICIPALITIES 
+60209,Jackson Twp,MUNICIPALITIES 
+60210,Mineral Twp,MUNICIPALITIES 
+60211,Oakland Twp,MUNICIPALITIES 
+60212,Oil Creek Twp,MUNICIPALITIES 
+60213,Pine Grove Twp,MUNICIPALITIES 
+60214,Plum Twp,MUNICIPALITIES 
+60215,President Twp,MUNICIPALITIES 
+60216,Richland Twp,MUNICIPALITIES 
+60217,Rockland Twp,MUNICIPALITIES 
+60218,Sandy Creek Twp,MUNICIPALITIES 
+60219,Scrubgrass Twp,MUNICIPALITIES 
+60220,Victory Twp,MUNICIPALITIES 
+60301,Franklin City,MUNICIPALITIES 
+60302,Oil City,MUNICIPALITIES 
+60401,Clintonville Boro,MUNICIPALITIES 
+60402,Cooperstown Boro,MUNICIPALITIES 
+60403,Emlenton Boro,MUNICIPALITIES 
+60404,Pleasantville Boro,MUNICIPALITIES 
+60405,Polk Boro,MUNICIPALITIES 
+60406,Rouseville Boro,MUNICIPALITIES 
+60407,Utica Boro,MUNICIPALITIES 
+60408,Barkeyville Boro,MUNICIPALITIES 
+60409,Sugarcreek Boro,MUNICIPALITIES 
+61201,Brokenstraw Twp,MUNICIPALITIES 
+61202,Cherry Grove Twp,MUNICIPALITIES 
+61203,Columbus Twp,MUNICIPALITIES 
+61204,Conewango Twp,MUNICIPALITIES 
+61206,Deerfield Twp,MUNICIPALITIES 
+61207,Eldred Twp,MUNICIPALITIES 
+61208,Elk Twp,MUNICIPALITIES 
+61209,Farmington Twp,MUNICIPALITIES 
+61210,Freehold Twp,MUNICIPALITIES 
+61211,Glade Twp,MUNICIPALITIES 
+61213,Limestone Twp,MUNICIPALITIES 
+61214,Mead Twp,MUNICIPALITIES 
+61215,Pine Grove Twp,MUNICIPALITIES 
+61216,Pittsfield Twp,MUNICIPALITIES 
+61217,Pleasant Twp,MUNICIPALITIES 
+61218,Sheffield Twp,MUNICIPALITIES 
+61219,Southwest Twp,MUNICIPALITIES 
+61220,Spring Creek Twp,MUNICIPALITIES 
+61221,Sugar Grove Twp,MUNICIPALITIES 
+61222,Triumph Twp,MUNICIPALITIES 
+61223,Watson Twp,MUNICIPALITIES 
+61301,Warren City,MUNICIPALITIES 
+61401,Bear Lake Boro,MUNICIPALITIES 
+61402,Clarendon Boro,MUNICIPALITIES 
+61403,Sugar Grove Boro,MUNICIPALITIES 
+61404,Tidioute Boro,MUNICIPALITIES 
+61406,Youngsville Boro,MUNICIPALITIES 
+62101,East Bethlehem Twp,MUNICIPALITIES 
+62201,Amwell Twp,MUNICIPALITIES 
+62202,Blaine Twp,MUNICIPALITIES 
+62203,Buffalo Twp,MUNICIPALITIES 
+62204,Canton Twp,MUNICIPALITIES 
+62205,Carroll Twp,MUNICIPALITIES 
+62206,Cecil Twp,MUNICIPALITIES 
+62207,Chartiers Twp,MUNICIPALITIES 
+62208,Cross Creek Twp,MUNICIPALITIES 
+62209,Donegal Twp,MUNICIPALITIES 
+62210,East Finley Twp,MUNICIPALITIES 
+62211,Fallowfield Twp,MUNICIPALITIES 
+62212,Hanover Twp,MUNICIPALITIES 
+62213,Hopewell Twp,MUNICIPALITIES 
+62214,Independence Twp,MUNICIPALITIES 
+62215,Jefferson Twp,MUNICIPALITIES 
+62216,Morris Twp,MUNICIPALITIES 
+62217,Mount Pleasant Twp,MUNICIPALITIES 
+62218,North Bethlehem Twp,MUNICIPALITIES 
+62219,North Franklin Twp,MUNICIPALITIES 
+62220,North Strabane Twp,MUNICIPALITIES 
+62221,Nottingham Twp,MUNICIPALITIES 
+62222,Peters Twp,MUNICIPALITIES 
+62223,Robinson Twp,MUNICIPALITIES 
+62224,Smith Twp,MUNICIPALITIES 
+62225,Somerset Twp,MUNICIPALITIES 
+62226,South Franklin Twp,MUNICIPALITIES 
+62227,South Strabane Twp,MUNICIPALITIES 
+62228,Union Twp,MUNICIPALITIES 
+62229,West Bethlehem Twp,MUNICIPALITIES 
+62230,West Finley Twp,MUNICIPALITIES 
+62231,West Pike Run Twp,MUNICIPALITIES 
+62301,Monongahela City,MUNICIPALITIES 
+62302,Washington City,MUNICIPALITIES 
+62401,Allenport Boro,MUNICIPALITIES 
+62402,Beallsville Boro,MUNICIPALITIES 
+62403,Bentleyville Boro,MUNICIPALITIES 
+62404,Burgettstown Boro,MUNICIPALITIES 
+62405,California Boro,MUNICIPALITIES 
+62406,Canonsburg Boro,MUNICIPALITIES 
+62407,Centerville Boro,MUNICIPALITIES 
+62408,Charleroi Boro,MUNICIPALITIES 
+62409,Claysville Boro,MUNICIPALITIES 
+62410,Coal Center Boro,MUNICIPALITIES 
+62411,Cokeburg Boro,MUNICIPALITIES 
+62412,Deemston Boro,MUNICIPALITIES 
+62413,Donora Boro,MUNICIPALITIES 
+62414,Dunlevy Boro,MUNICIPALITIES 
+62415,East Washington Boro,MUNICIPALITIES 
+62416,Elco Boro,MUNICIPALITIES 
+62417,Ellsworth Boro,MUNICIPALITIES 
+62418,Finleyville Boro,MUNICIPALITIES 
+62419,Houston Boro,MUNICIPALITIES 
+62420,Long Branch Boro,MUNICIPALITIES 
+62421,Marianna Boro,MUNICIPALITIES 
+62422,McDonald Boro,MUNICIPALITIES 
+62423,Midway Boro,MUNICIPALITIES 
+62424,New Eagle Boro,MUNICIPALITIES 
+62425,North Charleroi Boro,MUNICIPALITIES 
+62426,Roscoe Boro,MUNICIPALITIES 
+62427,Speers Boro,MUNICIPALITIES 
+62428,Stockdale Boro,MUNICIPALITIES 
+62429,Twilight Boro,MUNICIPALITIES 
+62430,West Alexander Boro,MUNICIPALITIES 
+62431,West Brownsville Boro,MUNICIPALITIES 
+62432,West Middletown Boro,MUNICIPALITIES 
+62433,Green Hills Boro,MUNICIPALITIES 
+63201,Berlin Twp,MUNICIPALITIES 
+63202,Buckingham Twp,MUNICIPALITIES 
+63203,Canaan Twp,MUNICIPALITIES 
+63204,Cherry Ridge Twp,MUNICIPALITIES 
+63205,Clinton Twp,MUNICIPALITIES 
+63206,Damascus Twp,MUNICIPALITIES 
+63207,Dreher Twp,MUNICIPALITIES 
+63208,Dyberry Twp,MUNICIPALITIES 
+63209,Lake Twp,MUNICIPALITIES 
+63210,Lebanon Twp,MUNICIPALITIES 
+63211,Lehigh Twp,MUNICIPALITIES 
+63212,Manchester Twp,MUNICIPALITIES 
+63213,Mount Pleasant Twp,MUNICIPALITIES 
+63214,Oregon Twp,MUNICIPALITIES 
+63215,Palmyra Twp,MUNICIPALITIES 
+63216,Paupack Twp,MUNICIPALITIES 
+63217,Preston Twp,MUNICIPALITIES 
+63218,Salem Twp,MUNICIPALITIES 
+63219,Scott Twp,MUNICIPALITIES 
+63220,South Canaan Twp,MUNICIPALITIES 
+63221,Sterling Twp,MUNICIPALITIES 
+63222,Texas Twp,MUNICIPALITIES 
+63401,Bethany Boro,MUNICIPALITIES 
+63402,Hawley Boro,MUNICIPALITIES 
+63403,Honesdale Boro,MUNICIPALITIES 
+63404,Prompton Boro,MUNICIPALITIES 
+63405,Starrucca Boro,MUNICIPALITIES 
+63406,Waymart Boro,MUNICIPALITIES 
+64101,North Huntingdon Twp,MUNICIPALITIES 
+64102,Penn Twp,MUNICIPALITIES 
+64103,Rostraver Twp,MUNICIPALITIES 
+64104,Allegheny Twp,MUNICIPALITIES 
+64202,Bell Twp,MUNICIPALITIES 
+64203,Cook Twp,MUNICIPALITIES 
+64204,Derry Twp,MUNICIPALITIES 
+64205,Donegal Twp,MUNICIPALITIES 
+64206,East Huntingdon Twp,MUNICIPALITIES 
+64207,Fairfield Twp,MUNICIPALITIES 
+64209,Hempfield Twp,MUNICIPALITIES 
+64210,Ligonier Twp,MUNICIPALITIES 
+64211,Loyalhanna Twp,MUNICIPALITIES 
+64212,Mount Pleasant Twp,MUNICIPALITIES 
+64213,Saint Clair Twp,MUNICIPALITIES 
+64214,Salem Twp,MUNICIPALITIES 
+64215,Sewickley Twp,MUNICIPALITIES 
+64216,South Huntingdon Twp,MUNICIPALITIES 
+64217,Unity Twp,MUNICIPALITIES 
+64218,Upper Burrell Twp,MUNICIPALITIES 
+64219,Washington Twp,MUNICIPALITIES 
+64220,Arnold City,MUNICIPALITIES 
+64302,Greensburg City,MUNICIPALITIES 
+64303,Jeannette City,MUNICIPALITIES 
+64304,Monessen City,MUNICIPALITIES 
+64305,New Kensington City,MUNICIPALITIES 
+64306,Lower Burrell City,MUNICIPALITIES 
+64401,Adamsburg Boro,MUNICIPALITIES 
+64402,Arona Boro,MUNICIPALITIES 
+64403,Avonmore Boro,MUNICIPALITIES 
+64404,Bolivar Boro,MUNICIPALITIES 
+64405,Derry Boro,MUNICIPALITIES 
+64406,Donegal Boro,MUNICIPALITIES 
+64407,East Vandergrift Boro,MUNICIPALITIES 
+64408,Export Boro,MUNICIPALITIES 
+64409,Hunker Boro,MUNICIPALITIES 
+64410,Hyde Park Boro,MUNICIPALITIES 
+64411,Irwin Boro,MUNICIPALITIES 
+64412,Latrobe City,MUNICIPALITIES 
+64413,Ligonier Boro,MUNICIPALITIES 
+64414,Madison Boro,MUNICIPALITIES 
+64415,Manor Boro,MUNICIPALITIES 
+64416,Mount Pleasant Boro,MUNICIPALITIES 
+64417,New Alexandria Boro,MUNICIPALITIES 
+64418,New Florence Boro,MUNICIPALITIES 
+64419,Delmont Boro,MUNICIPALITIES 
+64420,North Belle Vernon Boro,MUNICIPALITIES 
+64421,North Irwin Boro,MUNICIPALITIES 
+64422,Oklahoma Boro,MUNICIPALITIES 
+64423,Penn Boro,MUNICIPALITIES 
+64424,Scottdale Boro,MUNICIPALITIES 
+64425,Seward Boro,MUNICIPALITIES 
+64426,Smithton Boro,MUNICIPALITIES 
+64427,South Greensburg Boro,MUNICIPALITIES 
+64428,Southwest Greensburg Boro,MUNICIPALITIES 
+64429,Sutersville Boro,MUNICIPALITIES 
+64430,Trafford Boro,MUNICIPALITIES 
+64431,Vandergrift Boro,MUNICIPALITIES 
+64432,West Leechburg Boro,MUNICIPALITIES 
+64433,West Newton Boro,MUNICIPALITIES 
+64434,Youngstown Boro,MUNICIPALITIES 
+64435,Youngwood Boro,MUNICIPALITIES 
+64436,New Stanton Boro,MUNICIPALITIES 
+64437,Municipality of Murrysville,MUNICIPALITIES 
+64438,Laurel Mountain Boro,MUNICIPALITIES 
+65201,Braintrim Twp,MUNICIPALITIES 
+65202,Clinton Twp,MUNICIPALITIES 
+65203,Eaton Twp,MUNICIPALITIES 
+65204,Exeter Twp,MUNICIPALITIES 
+65205,Falls Twp,MUNICIPALITIES 
+65206,Forkston Twp,MUNICIPALITIES 
+65207,Lemon Twp,MUNICIPALITIES 
+65208,Mehoopany Twp,MUNICIPALITIES 
+65209,Meshoppen Twp,MUNICIPALITIES 
+65210,Monroe Twp,MUNICIPALITIES 
+65211,Nicholson Twp,MUNICIPALITIES 
+65212,North Branch Twp,MUNICIPALITIES 
+65213,Northmoreland Twp,MUNICIPALITIES 
+65214,Noxen Twp,MUNICIPALITIES 
+65215,Overfield Twp,MUNICIPALITIES 
+65216,Tunkhannock Twp,MUNICIPALITIES 
+65217,Washington Twp,MUNICIPALITIES 
+65218,Windham Twp,MUNICIPALITIES 
+65401,Factoryville Boro,MUNICIPALITIES 
+65402,Laceyville Boro,MUNICIPALITIES 
+65403,Meshoppen Boro,MUNICIPALITIES 
+65404,Nicholson Boro,MUNICIPALITIES 
+65405,Tunkhannock Boro,MUNICIPALITIES 
+66101,Spring Garden Twp,MUNICIPALITIES 
+66102,York Twp,MUNICIPALITIES 
+66103,Penn Twp,MUNICIPALITIES 
+66201,Carroll Twp,MUNICIPALITIES 
+66202,Chanceford Twp,MUNICIPALITIES 
+66203,Codorus Twp,MUNICIPALITIES 
+66204,Conewago Twp,MUNICIPALITIES 
+66205,Dover Twp,MUNICIPALITIES 
+66206,East Hopewell Twp,MUNICIPALITIES 
+66207,East Manchester Twp,MUNICIPALITIES 
+66208,Fairview Twp,MUNICIPALITIES 
+66209,Fawn Twp,MUNICIPALITIES 
+66210,Franklin Twp,MUNICIPALITIES 
+66211,Heidelberg Twp,MUNICIPALITIES 
+66212,Hellam Twp,MUNICIPALITIES 
+66213,Hopewell Twp,MUNICIPALITIES 
+66214,Jackson Twp,MUNICIPALITIES 
+66215,Lower Chanceford Twp,MUNICIPALITIES 
+66216,Lower Windsor Twp,MUNICIPALITIES 
+66217,Manchester Twp,MUNICIPALITIES 
+66218,Manheim Twp,MUNICIPALITIES 
+66219,Monaghan Twp,MUNICIPALITIES 
+66220,Newberry Twp,MUNICIPALITIES 
+66221,North Codorus Twp,MUNICIPALITIES 
+66222,North Hopewell Twp,MUNICIPALITIES 
+66223,Paradise Twp,MUNICIPALITIES 
+66224,Peach Bottom Twp,MUNICIPALITIES 
+66226,Shrewsbury Twp,MUNICIPALITIES 
+66227,Springettsbury Twp,MUNICIPALITIES 
+66228,Springfield Twp,MUNICIPALITIES 
+66229,Warrington Twp,MUNICIPALITIES 
+66230,Washington Twp,MUNICIPALITIES 
+66231,West Manchester Twp,MUNICIPALITIES 
+66232,West Manheim Twp,MUNICIPALITIES 
+66233,Windsor Twp,MUNICIPALITIES 
+66301,York City,MUNICIPALITIES 
+66401,Cross Roads Boro,MUNICIPALITIES 
+66402,Dallastown Boro,MUNICIPALITIES 
+66403,Delta Boro,MUNICIPALITIES 
+66404,Dillsburg Boro,MUNICIPALITIES 
+66405,Dover Boro,MUNICIPALITIES 
+66406,East Prospect Boro,MUNICIPALITIES 
+66407,Fawn Grove Boro,MUNICIPALITIES 
+66408,Felton Boro,MUNICIPALITIES 
+66409,Franklintown Boro,MUNICIPALITIES 
+66410,Glen Rock Boro,MUNICIPALITIES 
+66411,Goldsboro Boro,MUNICIPALITIES 
+66412,Hallam Boro,MUNICIPALITIES 
+66413,Hanover Boro,MUNICIPALITIES 
+66414,Jacobus Boro,MUNICIPALITIES 
+66415,Jefferson Boro,MUNICIPALITIES 
+66416,Lewisberry Boro,MUNICIPALITIES 
+66417,Loganville Boro,MUNICIPALITIES 
+66418,Manchester Boro,MUNICIPALITIES 
+66419,Mount Wolf Boro,MUNICIPALITIES 
+66420,New Freedom Boro,MUNICIPALITIES 
+66421,New Salem Boro,MUNICIPALITIES 
+66422,North York Boro,MUNICIPALITIES 
+66423,Railroad Boro,MUNICIPALITIES 
+66424,Red Lion Boro,MUNICIPALITIES 
+66425,Seven Valleys Boro,MUNICIPALITIES 
+66426,Shrewsbury Boro,MUNICIPALITIES 
+66427,Spring Grove Boro,MUNICIPALITIES 
+66428,Stewartstown Boro,MUNICIPALITIES 
+66429,Wellsville Boro,MUNICIPALITIES 
+66430,West York Boro,MUNICIPALITIES 
+66431,Windsor Boro,MUNICIPALITIES 
+66432,Winterstown Boro,MUNICIPALITIES 
+66433,Wrightsville Boro,MUNICIPALITIES 
+66434,Yoe Boro,MUNICIPALITIES 
+66435,Yorkana Boro,MUNICIPALITIES 
+66436,York Haven Boro,MUNICIPALITIES 
+67301,Philadelphia City,MUNICIPALITIES 
+01203,CONEWAGO TOWNSHIP,POLICE AGENCIES 
+01204,CUMBERLAND TOWNSHIP,POLICE AGENCIES 
+01208,ABBOTTSTOWN HAMILTON,POLICE AGENCIES 
+01209,HAMILTONBAN TOWNSHIP,POLICE AGENCIES 
+01212,LATIMORE TOWNSHIP,POLICE AGENCIES 
+01213,LIBERTY TOWNSHIP,POLICE AGENCIES 
+01218,READING TOWNSHIP,POLICE AGENCIES 
+01401,ABBOTSTOWN BOROUGH,POLICE AGENCIES 
+01403,BENDERSVILLE BOROUGH,POLICE AGENCIES 
+01404,BIGLERVILLE BOROUGH,POLICE AGENCIES 
+01405,EAST BERLIN BOROUGH,POLICE AGENCIES 
+01407,GETTYSBURG BOROUGH,POLICE AGENCIES 
+01408,LITTLESTOWN BOROUGH,POLICE AGENCIES 
+01409,MCSHERRYSTOWN BOROUGH,POLICE AGENCIES 
+01410,NEW OXFORD BOROUGH,POLICE AGENCIES 
+01412,BONNEAUVILLE BOROUGH,POLICE AGENCIES 
+01413,CARROLL VALLEY BOROUGH,POLICE AGENCIES 
+01501,NATIONAL PARK SERVICE,POLICE AGENCIES 
+01502,YORK SPRINGS LATIMORE REGIONAL,POLICE AGENCIES 
+01503,EASTERN ADAMS REGIONAL,POLICE AGENCIES 
+02101,BALDWIN TOWNSHIP,POLICE AGENCIES 
+02102,COLLIER TOWNSHIP,POLICE AGENCIES 
+02103,CRESCENT TOWNSHIP,POLICE AGENCIES 
+02104,EAST DEER TOWNSHIP,POLICE AGENCIES 
+02105,ELIZABETH TOWNSHIP,POLICE AGENCIES 
+02106,HARRISON TOWNSHIP,POLICE AGENCIES 
+02107,LEET TOWNSHIP,POLICE AGENCIES 
+02108,TOWN OF MCCANDLESS,POLICE AGENCIES 
+02109,MOUNT LEBANON,POLICE AGENCIES 
+02110,NEVILLE TOWNSHIP,POLICE AGENCIES 
+02111,NORTH VERSAILLES TOWNSHIP,POLICE AGENCIES 
+02112,OHARA TOWNSHIP,POLICE AGENCIES 
+02113,PENN HILLS,POLICE AGENCIES 
+02114,RESERVE TOWNSHIP,POLICE AGENCIES 
+02115,ROBINSON TOWNSHIP,POLICE AGENCIES 
+02116,ROSS TOWNSHIP,POLICE AGENCIES 
+02117,SCOTT TOWNSHIP,POLICE AGENCIES 
+02118,SHALER TOWNSHIP,POLICE AGENCIES 
+02119,SOUTH FAYETTE TOWNSHIP,POLICE AGENCIES 
+02121,SPRINGDALE TOWNSHIP,POLICE AGENCIES 
+02122,STOWE TOWNSHIP,POLICE AGENCIES 
+02123,UPPER ST CLAIR TOWNSHIP,POLICE AGENCIES 
+02124,WILKINS TOWNSHIP,POLICE AGENCIES 
+02125,ALEPPO TOWNSHIP,POLICE AGENCIES 
+02126,KENNEDY TOWNSHIP,POLICE AGENCIES 
+02202,FAWN TOWNSHIP,POLICE AGENCIES 
+02203,FINDLAY TOWNSHIP,POLICE AGENCIES 
+02204,FORWARD TOWNSHIP,POLICE AGENCIES 
+02206,FRAZER TOWNSHIP,POLICE AGENCIES 
+02207,HAMPTON TOWNSHIP,POLICE AGENCIES 
+02208,HARMAR TOWNSHIP,POLICE AGENCIES 
+02209,INDIANA TOWNSHIP,POLICE AGENCIES 
+02211,KILBUCK TOWNSHIP,POLICE AGENCIES 
+02213,MOON TOWNSHIP,POLICE AGENCIES 
+02214,NORTH FAYETTE TOWNSHIP,POLICE AGENCIES 
+02215,OHIO TOWNSHIP,POLICE AGENCIES 
+02217,RICHLAND TOWNSHIP,POLICE AGENCIES 
+02219,SOUTH PARK TOWNSHIP,POLICE AGENCIES 
+02220,WEST DEER TOWNSHIP,POLICE AGENCIES 
+02301,PITTSBURGH CITY,POLICE AGENCIES 
+02302,CLAIRTON CITY,POLICE AGENCIES 
+02303,DUQUESNE CITY,POLICE AGENCIES 
+02304,MCKEESPORT CITY,POLICE AGENCIES 
+02401,ASPINWALL BOROUGH,POLICE AGENCIES 
+02402,AVALON BOROUGH,POLICE AGENCIES 
+02403,BALDWIN BOROUGH,POLICE AGENCIES 
+02404,BELLEVUE BOROUGH,POLICE AGENCIES 
+02405,BEN AVON BOROUGH,POLICE AGENCIES 
+02407,BETHEL PARK BOROUGH,POLICE AGENCIES 
+02408,BLAWNOX BOROUGH,POLICE AGENCIES 
+02409,BRACKENRIDGE BOROUGH,POLICE AGENCIES 
+02410,BRADDOCK BOROUGH,POLICE AGENCIES 
+02411,BRADDOCK HILLS BOROUGH,POLICE AGENCIES 
+02413,BRENTWOOD BOROUGH,POLICE AGENCIES 
+02414,BRIDGEVILLE BOROUGH,POLICE AGENCIES 
+02415,CARNEGIE BOROUGH,POLICE AGENCIES 
+02416,CASTLE SHANNON,POLICE AGENCIES 
+02418,CHESWICK BOROUGH,POLICE AGENCIES 
+02419,CHURCHILL BOROUGH,POLICE AGENCIES 
+02420,CORAOPOLIS BOROUGH,POLICE AGENCIES 
+02421,CRAFTON BOROUGH,POLICE AGENCIES 
+02422,DORMONT BOROUGH,POLICE AGENCIES 
+02423,DRAVOSBURG BOROUGH,POLICE AGENCIES 
+02424,EAST MCKEESPORT BOROUGH,POLICE AGENCIES 
+02425,EAST PITTSBURGH BOROUGH,POLICE AGENCIES 
+02426,EDGEWOOD BOROUGH,POLICE AGENCIES 
+02427,EDGEWORTH BOROUGH,POLICE AGENCIES 
+02428,ELIZABETH BOROUGH,POLICE AGENCIES 
+02430,ETNA BOROUGH,POLICE AGENCIES 
+02431,FOREST HILLS BOROUGH,POLICE AGENCIES 
+02432,FOX CHAPEL BOROUGH,POLICE AGENCIES 
+02433,GLASSPORT BOROUGH,POLICE AGENCIES 
+02435,GREEN TREE BOROUGH,POLICE AGENCIES 
+02437,HEIDELBERG BOROUGH,POLICE AGENCIES 
+02438,HOMESTEAD BOROUGH,POLICE AGENCIES 
+02439,INGRAM BOROUGH,POLICE AGENCIES 
+02440,JEFFERSON HILLS BOROUGH,POLICE AGENCIES 
+02441,LEETSDALE BOROUGH,POLICE AGENCIES 
+02442,LIBERTY BOROUGH,POLICE AGENCIES 
+02443,LINCOLN BOROUGH,POLICE AGENCIES 
+02444,MCKEES ROCKS BOROUGH,POLICE AGENCIES 
+02445,MILLVALE BOROUGH,POLICE AGENCIES 
+02446,MONROEVILLE BOROUGH,POLICE AGENCIES 
+02447,MOUNT OLIVER BOROUGH,POLICE AGENCIES 
+02448,MUNHALL BOROUGH,POLICE AGENCIES 
+02449,NORTH BRADDOCK BOROUGH,POLICE AGENCIES 
+02450,OAKDALE BOROUGH,POLICE AGENCIES 
+02451,OAKMONT BOROUGH,POLICE AGENCIES 
+02453,PITCAIRN BOROUGH,POLICE AGENCIES 
+02454,PLEASANT HILLS BOROUGH,POLICE AGENCIES 
+02455,PORT VUE BOROUGH,POLICE AGENCIES 
+02456,RANKIN BOROUGH,POLICE AGENCIES 
+02457,ROSSLYN FARMS BOROUGH,POLICE AGENCIES 
+02458,SEWICKLEY BOROUGH,POLICE AGENCIES 
+02459,SEWICKLEY HEIGHTS BOROUGH,POLICE AGENCIES 
+02460,SEWICKLEY HILLS BOROUGH,POLICE AGENCIES 
+02461,SHARPSBURG BOROUGH,POLICE AGENCIES 
+02462,SPRINGDALE BOROUGH,POLICE AGENCIES 
+02463,SWISSVALE BOROUGH,POLICE AGENCIES 
+02464,TARENTUM BOROUGH,POLICE AGENCIES 
+02466,PLUM BOROUGH,POLICE AGENCIES 
+02467,TURTLE CREEK BOROUGH,POLICE AGENCIES 
+02468,VERONA BOROUGH,POLICE AGENCIES 
+02469,VERSAILLES BOROUGH,POLICE AGENCIES 
+02470,WALL BOROUGH,POLICE AGENCIES 
+02472,WEST HOMESTEAD BOROUGH,POLICE AGENCIES 
+02473,WEST MIFFLIN,POLICE AGENCIES 
+02474,WEST VIEW BOROUGH,POLICE AGENCIES 
+02475,WHITAKER BOROUGH,POLICE AGENCIES 
+02476,WHITEHALL BOROUGH,POLICE AGENCIES 
+02477,WHITE OAK BOROUGH,POLICE AGENCIES 
+02478,WILKINSBURG BOROUGH,POLICE AGENCIES 
+02479,WILMERDING BOROUGH,POLICE AGENCIES 
+02480,BELL ACRES BOROUGH,POLICE AGENCIES 
+02481,FRANKLIN PARK,POLICE AGENCIES 
+02501,ALLEGHENY COUNTY,POLICE AGENCIES 
+02502,CAPITOL POLICE - PITTSBURGH,POLICE AGENCIES 
+02503,PORT AUTHORITY OF ALLEGHENY COUNTY,POLICE AGENCIES 
+02504,PENN STATE GREATER ALLEGHENY,POLICE AGENCIES 
+02505,NORTHERN REGIONAL,POLICE AGENCIES 
+02506,UNIVERSITY OF PITTSBURGH,POLICE AGENCIES 
+02507,CHATHAM UNIVERSITY,POLICE AGENCIES 
+02508,DUQUESNE UNIV -  PUBLIC SAFETY,POLICE AGENCIES 
+02509,ROBERT MORRIS UNIVERSITY,POLICE AGENCIES 
+02510,COMMUNITY COLLEGE OF ALLEGHENY COUNTY,POLICE AGENCIES 
+02511,POINT PARK UNIVERSITY,POLICE AGENCIES 
+02512,VA MEDICAL CENTER -  PITTSBURGH,POLICE AGENCIES 
+02513,CARLOW UNIVERSITY,POLICE AGENCIES 
+02514,ALLEGHENY VALLEY REGIONAL,POLICE AGENCIES 
+02601,ALLEGHENY COUNTY SHERIFF,POLICE AGENCIES 
+02999,ALLEGHENY COUNTY POLICE TRAINING ACADEMY,POLICE AGENCIES 
+03201,BETHEL TOWNSHIP,POLICE AGENCIES 
+03207,EAST FRANKLIN TOWNSHIP,POLICE AGENCIES 
+03208,GILPIN TOWNSHIP,POLICE AGENCIES 
+03210,KISKIMINETAS TOWNSHIP,POLICE AGENCIES 
+03214,MANOR TOWNSHIP,POLICE AGENCIES 
+03215,NORTH BUFFALO TOWNSHIP,POLICE AGENCIES 
+03216,PARKS TOWNSHIP,POLICE AGENCIES 
+03223,SOUTH BUFFALO TOWNSHIP,POLICE AGENCIES 
+03301,PARKER CITY,POLICE AGENCIES 
+03401,APOLLO BOROUGH,POLICE AGENCIES 
+03405,ELDERTON BOROUGH,POLICE AGENCIES 
+03406,FORD CITY BOROUGH,POLICE AGENCIES 
+03408,FREEPORT BOROUGH,POLICE AGENCIES 
+03409,KITTANNING BOROUGH,POLICE AGENCIES 
+03410,LEECHBURG BOROUGH,POLICE AGENCIES 
+03411,MANORVILLE BOROUGH,POLICE AGENCIES 
+03412,NORTH APOLLO BOROUGH,POLICE AGENCIES 
+03414,RURAL VALLEY BOROUGH,POLICE AGENCIES 
+03416,WEST KITTANNING BOROUGH,POLICE AGENCIES 
+03417,WORTHINGTON BOROUGH,POLICE AGENCIES 
+03501,SHANNOCK VALLEY REGIONAL,POLICE AGENCIES 
+04101,VANPORT TOWNSHIP,POLICE AGENCIES 
+04102,HARMONY TOWNSHIP,POLICE AGENCIES 
+04103,HOPEWELL TOWNSHIP,POLICE AGENCIES 
+04104,PATTERSON TOWNSHIP,POLICE AGENCIES 
+04105,ROCHESTER TOWNSHIP,POLICE AGENCIES 
+04201,BRIGHTON TOWNSHIP,POLICE AGENCIES 
+04202,CENTER TOWNSHIP,POLICE AGENCIES 
+04203,CHIPPEWA TOWNSHIP,POLICE AGENCIES 
+04204,DARLINGTON TOWNSHIP,POLICE AGENCIES 
+04206,FRANKLIN TOWNSHIP,POLICE AGENCIES 
+04208,HANOVER TOWNSHIP,POLICE AGENCIES 
+04209,INDEPENDENCE TOWNSHIP,POLICE AGENCIES 
+04210,MARION TOWNSHIP,POLICE AGENCIES 
+04211,NEW SEWICKLEY TOWNSHIP,POLICE AGENCIES 
+04212,NORTH SEWICKLEY TOWNSHIP,POLICE AGENCIES 
+04214,POTTER TOWNSHIP,POLICE AGENCIES 
+04216,RACCOON TOWNSHIP,POLICE AGENCIES 
+04217,SOUTH BEAVER TOWNSHIP,POLICE AGENCIES 
+04218,WHITE TOWNSHIP,POLICE AGENCIES 
+04301,BEAVER FALLS CITY,POLICE AGENCIES 
+04302,ALIQUIPPA CITY,POLICE AGENCIES 
+04402,AMBRIDGE BOROUGH,POLICE AGENCIES 
+04403,BADEN BOROUGH,POLICE AGENCIES 
+04404,BEAVER BOROUGH,POLICE AGENCIES 
+04405,BIG BEAVER BOROUGH,POLICE AGENCIES 
+04406,BRIDGEWATER BOROUGH,POLICE AGENCIES 
+04407,CONWAY BOROUGH,POLICE AGENCIES 
+04411,ECONOMY BOROUGH,POLICE AGENCIES 
+04414,FREEDOM BOROUGH,POLICE AGENCIES 
+04418,HOOKSTOWN BOROUGH,POLICE AGENCIES 
+04419,INDUSTRY BOROUGH,POLICE AGENCIES 
+04420,KOPPEL BOROUGH,POLICE AGENCIES 
+04421,MIDLAND BOROUGH,POLICE AGENCIES 
+04422,MONACA BOROUGH,POLICE AGENCIES 
+04423,NEW BRIGHTON AREA,POLICE AGENCIES 
+04426,ROCHESTER BOROUGH,POLICE AGENCIES 
+04427,SHIPPINGPORT BOROUGH,POLICE AGENCIES 
+04428,SOUTH HEIGHTS BOROUGH,POLICE AGENCIES 
+04430,OHIOVILLE BOROUGH,POLICE AGENCIES 
+04440,ELWOOD CITY BOROUGH,POLICE AGENCIES 
+04501,PENN STATE / BEAVER,POLICE AGENCIES 
+04502,RACOON CREEK STATE PARK,POLICE AGENCIES 
+04601,BEAVER COUNTY SHERIFF,POLICE AGENCIES 
+05213,LIBERTY TOWNSHIP,POLICE AGENCIES 
+05401,BEDFORD BOROUGH,POLICE AGENCIES 
+05403,EVERETT BOROUGH,POLICE AGENCIES 
+05411,SAXTON BOROUGH,POLICE AGENCIES 
+05501,DCNR - BLUE KNOB STATE PARK,POLICE AGENCIES 
+06101,COLEBROOKDALE DISTRICT,POLICE AGENCIES 
+06102,MUHLENBERG TOWNSHIP,POLICE AGENCIES 
+06103,CUMRU TOWNSHIP,POLICE AGENCIES 
+06203,AMITY TOWNSHIP,POLICE AGENCIES 
+06204,BERN TOWNSHIP,POLICE AGENCIES 
+06205,BETHEL TOWNSHIP,POLICE AGENCIES 
+06206,BRECKNOCK TOWNSHIP,POLICE AGENCIES 
+06207,CAERNARVON TOWNSHIP,POLICE AGENCIES 
+06208,CENTRE TOWNSHIP,POLICE AGENCIES 
+06212,DOUGLASS TOWNSHIP,POLICE AGENCIES 
+06214,EXETER TOWNSHIP,POLICE AGENCIES 
+06216,HEIDELBERG TOWNSHIP,POLICE AGENCIES 
+06221,LOWER HEIDELBERG TOWNSHIP,POLICE AGENCIES 
+06223,MARION TOWNSHIP,POLICE AGENCIES 
+06224,MAXATAWNY TOWNSHIP,POLICE AGENCIES 
+06227,OLEY TOWNSHIP,POLICE AGENCIES 
+06233,ROBESON TOWNSHIP,POLICE AGENCIES 
+06236,SOUTH HEIDELBERG TOWNSHIP,POLICE AGENCIES 
+06237,SPRING TOWNSHIP,POLICE AGENCIES 
+06238,TILDEN TOWNSHIP,POLICE AGENCIES 
+06239,TULPEHOCKEN TOWNSHIP,POLICE AGENCIES 
+06241,UPPER BERN TOWNSHIP,POLICE AGENCIES 
+06301,READING CITY,POLICE AGENCIES 
+06401,BALLY BOROUGH,POLICE AGENCIES 
+06403,BERNVILLE BOROUGH,POLICE AGENCIES 
+06404,BIRDSBORO,POLICE AGENCIES 
+06405,BOYERTOWN BOROUGH,POLICE AGENCIES 
+06407,FLEETWOOD BOROUGH,POLICE AGENCIES 
+06408,HAMBURG BOROUGH,POLICE AGENCIES 
+06410,KUTZTOWN BOROUGH,POLICE AGENCIES 
+06411,LAURELDALE BOROUGH,POLICE AGENCIES 
+06414,MOHNTON BOROUGH,POLICE AGENCIES 
+06416,ROBESONIA BOROUGH,POLICE AGENCIES 
+06418,SHILLINGTON BOROUGH,POLICE AGENCIES 
+06419,SHOEMAKERSVILLE BOROUGH,POLICE AGENCIES 
+06420,SINKING SPRING BOROUGH,POLICE AGENCIES 
+06424,WERNERSVILLE BOROUGH,POLICE AGENCIES 
+06426,LEESPORT BOROUGH,POLICE AGENCIES 
+06427,WEST READING BOROUGH,POLICE AGENCIES 
+06428,WOMELSDORF BOROUGH,POLICE AGENCIES 
+06429,WYOMISSING BOROUGH,POLICE AGENCIES 
+06430,WYOMISSING HILLS BOROUGH,POLICE AGENCIES 
+06501,KUTZTOWN UNIVERSITY,POLICE AGENCIES 
+06502,PENN STATE BERKS CAMPUS,POLICE AGENCIES 
+06503,BERKS - LEHIGH REGIONAL,POLICE AGENCIES 
+06504,NORTHERN BERKS REGIONAL,POLICE AGENCIES 
+06505,CENTRAL BERKS REGIONAL,POLICE AGENCIES 
+06506,FRENCH CREEK STATE PARK,POLICE AGENCIES 
+06507,WESTERN BERKS REGIONAL,POLICE AGENCIES 
+06508,READING AND NORTHERN RAILROAD,POLICE AGENCIES 
+06509,EASTERN BERKS REGIONAL,POLICE AGENCIES 
+07201,ALLEGHENY TOWNSHIP,POLICE AGENCIES 
+07203,BLAIR TOWNSHIP,POLICE AGENCIES 
+07206,FREEDOM TOWNSHIP,POLICE AGENCIES 
+07207,GREENFIELD TOWNSHIP,POLICE AGENCIES 
+07210,LOGAN TOWNSHIP,POLICE AGENCIES 
+07211,NORTH WOODBURY TOWNSHIP,POLICE AGENCIES 
+07301,ALTOONA CITY,POLICE AGENCIES 
+07401,BELLWOOD BOROUGH,POLICE AGENCIES 
+07402,DUNCANSVILLE BOROUGH,POLICE AGENCIES 
+07403,HOLLIDAYSBURG BOROUGH,POLICE AGENCIES 
+07404,MARTINSBURG BOROUGH,POLICE AGENCIES 
+07406,ROARING SPRING BOROUGH,POLICE AGENCIES 
+07407,TYRONE BOROUGH,POLICE AGENCIES 
+07408,WILLIAMSBURG BOROUGH,POLICE AGENCIES 
+07501,PENN STATE ALTOONA,POLICE AGENCIES 
+07502,UPMC ALTOONA,POLICE AGENCIES 
+08204,ATHENS TOWNSHIP,POLICE AGENCIES 
+08219,RIDGEBURY TOWNSHIP,POLICE AGENCIES 
+08220,ROME TOWNSHIP,POLICE AGENCIES 
+08231,ULSTER TOWNSHIP,POLICE AGENCIES 
+08402,ATHENS BOROUGH,POLICE AGENCIES 
+08404,CANTON BOROUGH,POLICE AGENCIES 
+08405,LERAYSVILLE BOROUGH,POLICE AGENCIES 
+08406,MONROE BOROUGH,POLICE AGENCIES 
+08407,NEW ALBANY BOROUGH,POLICE AGENCIES 
+08408,ROME BOROUGH,POLICE AGENCIES 
+08409,SAYRE BOROUGH,POLICE AGENCIES 
+08410,SOUTH WAVERLY BOROUGH,POLICE AGENCIES 
+08412,TOWANDA BOROUGH,POLICE AGENCIES 
+08413,TROY BOROUGH,POLICE AGENCIES 
+08414,WYALUSING BOROUGH,POLICE AGENCIES 
+08501,NORTHEAST REGIONAL,POLICE AGENCIES 
+09101,BRISTOL TOWNSHIP,POLICE AGENCIES 
+09201,BEDMINISTER TOWNSHIP,POLICE AGENCIES 
+09202,BENSALEM TOWNSHIP,POLICE AGENCIES 
+09204,BUCKINGHAM TOWNSHIP,POLICE AGENCIES 
+09205,DOYLESTOWN TOWNSHIP,POLICE AGENCIES 
+09208,FALLS TOWNSHIP,POLICE AGENCIES 
+09210,HILLTOWN TOWNSHIP,POLICE AGENCIES 
+09211,LOWER MAKEFIELD TOWNSHIP,POLICE AGENCIES 
+09212,LOWER SOUTHAMPTON TOWNSHIP,POLICE AGENCIES 
+09213,MIDDLETOWN TOWNSHIP,POLICE AGENCIES 
+09215,NEW BRITAIN TOWNSHIP,POLICE AGENCIES 
+09216,NEWTOWN TOWNSHIP,POLICE AGENCIES 
+09218,NORTHAMPTON TOWNSHIP,POLICE AGENCIES 
+09219,PLUMSTEAD TOWNSHIP,POLICE AGENCIES 
+09220,RICHLAND TOWNSHIP,POLICE AGENCIES 
+09221,SOLEBURY TOWNSHIP,POLICE AGENCIES 
+09222,SPRINGFIELD TOWNSHIP,POLICE AGENCIES 
+09223,TINICUM TOWNSHIP,POLICE AGENCIES 
+09224,UPPER MAKEFIELD TOWNSHIP,POLICE AGENCIES 
+09225,UPPER SOUTHHAMPTON TOWNSHIP,POLICE AGENCIES 
+09226,WARMINSTER TOWNSHIP,POLICE AGENCIES 
+09227,WARRINGTON TOWNSHIP,POLICE AGENCIES 
+09228,WARWICK TOWNSHIP,POLICE AGENCIES 
+09401,BRISTOL BOROUGH,POLICE AGENCIES 
+09402,CHALFONT BOROUGH,POLICE AGENCIES 
+09403,DOYLESTOWN BOROUGH,POLICE AGENCIES 
+09404,DUBLIN BOROUGH,POLICE AGENCIES 
+09405,HULMEVILLE BOROUGH,POLICE AGENCIES 
+09406,IVYLAND BOROUGH,POLICE AGENCIES 
+09407,LANGHORNE BOROUGH,POLICE AGENCIES 
+09408,LANGHORNE MANOR BOROUGH,POLICE AGENCIES 
+09409,MORRISVILLE BOROUGH,POLICE AGENCIES 
+09410,NEW BRITAIN BOROUGH,POLICE AGENCIES 
+09411,NEW HOPE BOROUGH,POLICE AGENCIES 
+09412,NEWTOWN BOROUGH,POLICE AGENCIES 
+09413,PENNDEL BOROUGH,POLICE AGENCIES 
+09414,PERKASIE BOROUGH,POLICE AGENCIES 
+09415,QUAKERTOWN BOROUGH,POLICE AGENCIES 
+09421,TULLYTOWN BOROUGH,POLICE AGENCIES 
+09422,YARDLEY BOROUGH,POLICE AGENCIES 
+09430,TELFORD BOROUGH,POLICE AGENCIES 
+09501,TYLER STATE PARK,POLICE AGENCIES 
+09502,PENNRIDGE REGIONAL,POLICE AGENCIES 
+09503,BUCKS COUNTY RANGERS,POLICE AGENCIES 
+09504,NOCKAMIXON STATE PARK,POLICE AGENCIES 
+09506,CENTRAL BUCKS REGIONAL,POLICE AGENCIES 
+10101,BUTLER TOWNSHIP,POLICE AGENCIES 
+10201,ADAMS TOWNSHIP,POLICE AGENCIES 
+10204,BUFFALO TOWNSHIP,POLICE AGENCIES 
+10212,CRANBERRY TOWNSHIP,POLICE AGENCIES 
+10216,SEE 04206,POLICE AGENCIES 
+10217,JACKSON TOWNSHIP,POLICE AGENCIES 
+10219,LANCASTER TOWNSHIP,POLICE AGENCIES 
+10222,MIDDLESEX TOWNSHIP,POLICE AGENCIES 
+10226,PENN TOWNSHIP,POLICE AGENCIES 
+10301,BUTLER CITY,POLICE AGENCIES 
+10402,CALLERY BOROUGH,POLICE AGENCIES 
+10407,EVANS CITY SEVEN FIELDS REGIONAL,POLICE AGENCIES 
+10410,HARRISVILLE BOROUGH,POLICE AGENCIES 
+10412,MARS BOROUGH,POLICE AGENCIES 
+10414,PETROLIA BOROUGH,POLICE AGENCIES 
+10415,PORTERSVILLE BOROUGH,POLICE AGENCIES 
+10416,PROSPECT BOROUGH,POLICE AGENCIES 
+10417,SAXONBURG BOROUGH,POLICE AGENCIES 
+10418,SLIPPERY ROCK BOROUGH,POLICE AGENCIES 
+10422,ZELIENOPLE BOROUGH,POLICE AGENCIES 
+10501,SLIPPERY ROCK UNIVERSITY,POLICE AGENCIES 
+10502,MORAINE STATE PARK,POLICE AGENCIES 
+10503,BUTLER COUNTY COMMUNITY COLLEGE,POLICE AGENCIES 
+11101,STONYCREEK TOWNSHIP,POLICE AGENCIES 
+11201,ADAMS TOWNSHIP,POLICE AGENCIES 
+11204,BLACKLICK TOWNSHIP,POLICE AGENCIES 
+11205,CAMBRIA TOWNSHIP,POLICE AGENCIES 
+11208,CONEMAUGH TOWNSHIP,POLICE AGENCIES 
+11209,CRESSON TOWNSHIP,POLICE AGENCIES 
+11210,CROYLE TOWNSHIP,POLICE AGENCIES 
+11211,DEAN TOWNSHIP,POLICE AGENCIES 
+11213,EAST TAYLOR TOWNSHIP,POLICE AGENCIES 
+11214,ELDER TOWNSHIP,POLICE AGENCIES 
+11215,GALLITZIN TOWNSHIP,POLICE AGENCIES 
+11216,JACKSON TOWNSHIP,POLICE AGENCIES 
+11222,RICHLAND TOWNSHIP,POLICE AGENCIES 
+11223,SUMMERHILL TOWNSHIP,POLICE AGENCIES 
+11224,SUSQUEHANNA TOWNSHIP,POLICE AGENCIES 
+11225,UPPER YODER TOWNSHIP,POLICE AGENCIES 
+11227,WEST CARROLL TOWNSHIP,POLICE AGENCIES 
+11301,JOHNSTOWN CITY,POLICE AGENCIES 
+11401,ASHVILLE BOROUGH,POLICE AGENCIES 
+11404,CARROLLTOWN BOROUGH,POLICE AGENCIES 
+11407,CRESSON BOROUGH,POLICE AGENCIES 
+11409,DALE BOROUGH,POLICE AGENCIES 
+11410,EAST CONEMAUGH BOROUGH,POLICE AGENCIES 
+11411,EBENSBURG BOROUGH,POLICE AGENCIES 
+11413,FERNDALE BOROUGH,POLICE AGENCIES 
+11414,FRANKLIN BOROUGH,POLICE AGENCIES 
+11415,GALLITZIN BOROUGH,POLICE AGENCIES 
+11416,GEISTOWN BOROUGH,POLICE AGENCIES 
+11417,HASTINGS BOROUGH,POLICE AGENCIES 
+11418,LILLY BOROUGH,POLICE AGENCIES 
+11420,LORETTO BOROUGH,POLICE AGENCIES 
+11421,NANTY GLO BOROUGH,POLICE AGENCIES 
+11422,PATTON BOROUGH,POLICE AGENCIES 
+11423,PORTAGE BOROUGH,POLICE AGENCIES 
+11424,SANKERTOWN BOROUGH,POLICE AGENCIES 
+11426,SOUTH FORK BOROUGH,POLICE AGENCIES 
+11431,VINTONDALE BOROUGH,POLICE AGENCIES 
+11434,NORTHERN CAMBRIA BOROUGH,POLICE AGENCIES 
+11501,WEST HILLS REGIONAL,POLICE AGENCIES 
+11502,UNIVERSITY OF PITTSBURGH JOHNSTOWN,POLICE AGENCIES 
+11503,PRINCE GALLITZIN STATE PARK,POLICE AGENCIES 
+11504,NORTHERN CAMBRIA REGIONAL,POLICE AGENCIES 
+11505,ST FRANCIS UNIVERSITY,POLICE AGENCIES 
+12402,EMPORIUM BOROUGH,POLICE AGENCIES 
+12501,BUREAU OF FORESTRY,POLICE AGENCIES 
+13202,EAST PENN TOWNSHIP,POLICE AGENCIES 
+13203,FRANKLIN TOWNSHIP,POLICE AGENCIES 
+13204,KIDDER TOWNSHIP,POLICE AGENCIES 
+13208,MAHONING TOWNSHIP,POLICE AGENCIES 
+13401,BEAVER MEADOWS BOROUGH,POLICE AGENCIES 
+13404,JIM THORPE BOROUGH,POLICE AGENCIES 
+13405,LANSFORD BOROUGH,POLICE AGENCIES 
+13406,LEHIGHTON BOROUGH,POLICE AGENCIES 
+13407,PALMERTON BOROUGH,POLICE AGENCIES 
+13409,SUMMIT HILL BOROUGH,POLICE AGENCIES 
+13410,WEATHERLY BOROUGH,POLICE AGENCIES 
+13411,WEISSPORT BOROUGH,POLICE AGENCIES 
+13412,NESQUEHONING BOROUGH,POLICE AGENCIES 
+13501,HICKORY RUN STATE PARK,POLICE AGENCIES 
+13502,BELTZVILLE STATE PARK,POLICE AGENCIES 
+14206,FERGUSON TOWNSHIP,POLICE AGENCIES 
+14216,PATTON TOWNSHIP,POLICE AGENCIES 
+14221,SPRING TOWNSHIP,POLICE AGENCIES 
+14401,BELLEFONTE BOROUGH,POLICE AGENCIES 
+14406,PHILLIPSBURG BOROUGH,POLICE AGENCIES 
+14410,STATE COLLEGE BOROUGH,POLICE AGENCIES 
+14501,PENN STATE UNIVERSITY,POLICE AGENCIES 
+14601,CENTRE COUNTY SHERIFF,POLICE AGENCIES 
+15101,CALN TOWNSHIP,POLICE AGENCIES 
+15201,BIRMINGHAM TOWNSHIP,POLICE AGENCIES 
+15204,EAST BRANDYWINE TOWNSHIP,POLICE AGENCIES 
+15206,EAST COVENTRY TOWNSHIP,POLICE AGENCIES 
+15207,EAST FALLOWFIELD TOWNSHIP,POLICE AGENCIES 
+15209,EAST MARLBOROUGH TOWNSHIP,POLICE AGENCIES 
+15212,EAST PIKELAND TOWNSHIP,POLICE AGENCIES 
+15213,EAST VINCENT TOWNSHIP,POLICE AGENCIES 
+15214,EAST WHITELAND TOWNSHIP,POLICE AGENCIES 
+15215,EASTTOWN TOWNSHIP,POLICE AGENCIES 
+15218,HIGHLAND TOWNSHIP,POLICE AGENCIES 
+15219,HONEY BROOK TOWNSHIP,POLICE AGENCIES 
+15220,KENNETT TOWNSHIP,POLICE AGENCIES 
+15224,LOWER OXFORD TOWNSHIP,POLICE AGENCIES 
+15225,NEW GARDEN TOWNSHIP,POLICE AGENCIES 
+15228,NORTH COVENTRY TOWNSHIP,POLICE AGENCIES 
+15232,SADSBURY TOWNSHIP,POLICE AGENCIES 
+15233,SCHUYKILL TOWNSHIP,POLICE AGENCIES 
+15236,TREDYFFRIN TOWNSHIP,POLICE AGENCIES 
+15238,UPPER UWCHLAN TOWNSHIP,POLICE AGENCIES 
+15239,UWCHLAN TOWNSHIP,POLICE AGENCIES 
+15240,VALLEY TOWNSHIP,POLICE AGENCIES 
+15244,WEST BRANDYWINE TOWNSHIP,POLICE AGENCIES 
+15245,WEST CALN TOWNSHIP,POLICE AGENCIES 
+15246,WEST FALLOWFIELD TOWNSHIP,POLICE AGENCIES 
+15247,WEST GOSHEN TOWNSHIP,POLICE AGENCIES 
+15250,WEST NOTTINGHAM TOWNSHIP,POLICE AGENCIES 
+15251,WEST PIKELAND TOWNSHIP,POLICE AGENCIES 
+15252,WEST SADSBURY TOWNSHIP,POLICE AGENCIES 
+15253,WEST VINCENT TOWNSHIP,POLICE AGENCIES 
+15254,WEST WHITELAND TOWNSHIP,POLICE AGENCIES 
+15256,WILLISTOWN TOWNSHIP,POLICE AGENCIES 
+15301,COATESVILLE CITY,POLICE AGENCIES 
+15403,DOWNINGTOWN,POLICE AGENCIES 
+15405,HONEY BROOK BOROUGH,POLICE AGENCIES 
+15406,KENNETT SQUARE BOROUGH,POLICE AGENCIES 
+15407,MALVERN BOROUGH,POLICE AGENCIES 
+15409,OXFORD BOROUGH,POLICE AGENCIES 
+15410,PARKESBURG BOROUGH,POLICE AGENCIES 
+15411,PHOENIXVILLE BOROUGH,POLICE AGENCIES 
+15412,SOUTH COATESVILLE BOROUGH,POLICE AGENCIES 
+15413,SPRING CITY BOROUGH,POLICE AGENCIES 
+15414,WEST CHESTER BOROUGH,POLICE AGENCIES 
+15415,WEST GROVE BOROUGH,POLICE AGENCIES 
+15501,VA MEDICAL CENTER,POLICE AGENCIES 
+15502,WESTTOWN/EAST GOSHEN REGIONAL,POLICE AGENCIES 
+15503,BRANDYWINE REGIONAL,POLICE AGENCIES 
+15504,WEST CHESTER UNIVERSITY,POLICE AGENCIES 
+15505,LINCOLN UNIVERSITY DEPT OF PUBLIC SAFETY,POLICE AGENCIES 
+15506,SOUTHERN CHESTER COUNTY REGIONAL,POLICE AGENCIES 
+15507,COATSVILLE AREA SCHOOL DISTRICT,POLICE AGENCIES 
+16402,CLARION BOROUGH,POLICE AGENCIES 
+16403,EAST BRADY BOROUGH,POLICE AGENCIES 
+16406,KNOX BOROUGH,POLICE AGENCIES 
+16407,NEW BETHLEHEM BOROUGH POLICE DEPARTMENT,POLICE AGENCIES 
+16408,RIMERSBURG BOROUGH,POLICE AGENCIES 
+16501,CLARION UNIVERSITY,POLICE AGENCIES 
+16502,COOK FOREST STATE PARK,POLICE AGENCIES 
+17203,BIGLER TOWNSHIP REGIONAL,POLICE AGENCIES 
+17212,DECATUR TOWNSHIP,POLICE AGENCIES 
+17223,LAWRENCE TOWNSHIP,POLICE AGENCIES 
+17228,SANDY TOWNSHIP,POLICE AGENCIES 
+17301,DUBOIS CITY,POLICE AGENCIES 
+17404,CLEARFIELD BOROUGH,POLICE AGENCIES 
+17406,CURWENSVILLE BOROUGH,POLICE AGENCIES 
+17409,HOUTZDALE BOROUGH,POLICE AGENCIES 
+17501,PARKER DAM STATE PARK,POLICE AGENCIES 
+17502,MORRIS COOPER REGIONAL,POLICE AGENCIES 
+17503,BIGLER TOWNSHIP REGIONAL,POLICE AGENCIES 
+17601,CLEARFIELD COUNTY SHERIFF,POLICE AGENCIES 
+18201,ALLISON TOWNSHIP,POLICE AGENCIES 
+18205,CHAPMAN TOWNSHIP,POLICE AGENCIES 
+18213,LAMAR TOWNSHIP,POLICE AGENCIES 
+18217,PINE CREEK TOWNSHIP,POLICE AGENCIES 
+18221,WOODWARD TOWNSHIP,POLICE AGENCIES 
+18301,LOCK HAVEN CITY,POLICE AGENCIES 
+18401,AVIS BOROUGH,POLICE AGENCIES 
+18405,MILL HALL BOROUGH,POLICE AGENCIES 
+18406,RENOVO BOROUGH,POLICE AGENCIES 
+18502,LOCK HAVEN UNIVERSITY,POLICE AGENCIES 
+19202,BENTON TOWNSHIP,POLICE AGENCIES 
+19203,BRIAR CREEK TOWNSHIP,POLICE AGENCIES 
+19204,CATAWISSA TOWNSHIP,POLICE AGENCIES 
+19206,CONYNGHAM TOWNSHIP,POLICE AGENCIES 
+19209,GREENWOOD TOWNSHIP,POLICE AGENCIES 
+19210,HEMLOCK TOWNSHIP,POLICE AGENCIES 
+19212,LOCUST TOWNSHIP,POLICE AGENCIES 
+19213,MADISON TOWNSHIP,POLICE AGENCIES 
+19214,MAIN TOWNSHIP,POLICE AGENCIES 
+19216,MONTOUR TOWNSHIP,POLICE AGENCIES 
+19222,SCOTT TOWNSHIP,POLICE AGENCIES 
+19223,SOUTH CENTRE TOWNSHIP,POLICE AGENCIES 
+19401,BENTON BOROUGH,POLICE AGENCIES 
+19402,BERWICK BOROUGH,POLICE AGENCIES 
+19405,CATAWISSA BOROUGH,POLICE AGENCIES 
+19407,MILLVILLE BOROUGH,POLICE AGENCIES 
+19408,ORANGEVILLE AREA,POLICE AGENCIES 
+19501,TOWN OF BLOOMSBURG,POLICE AGENCIES 
+19502,BLOOMSBURG UNIVERSITY,POLICE AGENCIES 
+19503,ORANGEVILLE REGIONAL,POLICE AGENCIES 
+20230,VERNON TOWNSHIP,POLICE AGENCIES 
+20233,WEST MEAD TOWNSHIP,POLICE AGENCIES 
+20301,MEADVILLE CITY,POLICE AGENCIES 
+20302,TITUSVILLE CITY,POLICE AGENCIES 
+20402,CAMBRIDGE SPRINGS BOROUGH,POLICE AGENCIES 
+20404,COCHRANTON BOROUGH,POLICE AGENCIES 
+20405,CONNEAUT LAKE BOROUGH,POLICE AGENCIES 
+20406,CONNEAUTVILLE BOROUGH,POLICE AGENCIES 
+20408,LINESVILLE BORO,POLICE AGENCIES 
+20414,WOODCOCK BOROUGH,POLICE AGENCIES 
+20501,PYMATUNING STATE PARK,POLICE AGENCIES 
+20502,CONNEAUT LAKE REGIONAL,POLICE AGENCIES 
+20503,UNIVERSITY OF PITTSBURGH/TITUSVILLE,POLICE AGENCIES 
+21101,EAST PENNSBORO TOWNSHIP,POLICE AGENCIES 
+21102,LOWER ALLEN TOWNSHIP,POLICE AGENCIES 
+21103,HAMPDEN TOWNSHIP,POLICE AGENCIES 
+21104,UPPER ALLEN TOWNSHIP,POLICE AGENCIES 
+21206,MIDDLESEX TOWNSHIP,POLICE AGENCIES 
+21208,NORTH MIDDLETON TOWNSHIP,POLICE AGENCIES 
+21212,SILVER SPRING TOWNSHIP,POLICE AGENCIES 
+21401,CAMP HILL BOROUGH,POLICE AGENCIES 
+21402,CARLISLE BOROUGH,POLICE AGENCIES 
+21404,MECHANICSBURG BOROUGH,POLICE AGENCIES 
+21405,MOUNT HOLLY SPRINGS BOROUGH,POLICE AGENCIES 
+21407,NEW CUMBERLAND BOROUGH,POLICE AGENCIES 
+21408,NEWVILLE BOROUGH,POLICE AGENCIES 
+21409,SHIPPENSBURG BOROUGH,POLICE AGENCIES 
+21410,SHIREMANSTOWN BOROUGH,POLICE AGENCIES 
+21501,MID CUMBERLAND VALLEY REGIONAL,POLICE AGENCIES 
+21502,SHIPPENSBURG UNIVERSITY,POLICE AGENCIES 
+21503,WEST SHORE REGIONAL,POLICE AGENCIES 
+21504,COVERED BY DCNR,POLICE AGENCIES 
+21505,COLONEL DENNING STATE PARK,POLICE AGENCIES 
+21506,PINE GROVE FURNACE STATE PARK,POLICE AGENCIES 
+22101,SUSQUEHANNA TOWNSHIP,POLICE AGENCIES 
+22102,SWATARA TOWNSHIP,POLICE AGENCIES 
+22103,LOWER SWATARA TOWNSHIP,POLICE AGENCIES 
+22202,DERRY TOWNSHIP,POLICE AGENCIES 
+22208,LOWER PAXTON TOWNSHIP,POLICE AGENCIES 
+22220,WICONISCO TOWNSHIP,POLICE AGENCIES 
+22301,HARRISBURG CITY,POLICE AGENCIES 
+22402,DAUPHIN BOROUGH,POLICE AGENCIES 
+22403,ELIZABETHVILLE BOROUGH,POLICE AGENCIES 
+22405,HALIFAX BOROUGH,POLICE AGENCIES 
+22406,HIGHSPIRE BOROUGH,POLICE AGENCIES 
+22407,HUMMELSTOWN BOROUGH,POLICE AGENCIES 
+22408,LYKENS BOROUGH,POLICE AGENCIES 
+22409,MIDDLETOWN BOROUGH,POLICE AGENCIES 
+22410,MILLERSBURG BOROUGH,POLICE AGENCIES 
+22411,PAXTANG BOROUGH,POLICE AGENCIES 
+22412,PENBROOK BOROUGH,POLICE AGENCIES 
+22413,ROYALTON BOROUGH,POLICE AGENCIES 
+22414,STEELTON BOROUGH,POLICE AGENCIES 
+22416,WILLIAMSTOWN BOROUGH,POLICE AGENCIES 
+22501,STATE CAPITOL,POLICE AGENCIES 
+22502,PENN STATE HARRISBURG,POLICE AGENCIES 
+22503,HACC -  HARRISBURG CAMPUS,POLICE AGENCIES 
+22504,HARRISBURG INTERNATIONAL AIRPORT,POLICE AGENCIES 
+22505,HALIFAX AREA REGIONAL,POLICE AGENCIES 
+22506,DCNR - PA BUREAU OF FORESTRY,POLICE AGENCIES 
+22507,CENTRAL DAUPHIN SCHOOL DISTRICT,POLICE AGENCIES 
+22602,DAUPHIN COUNTY DISTRICT ATTORNEY,POLICE AGENCIES 
+23101,ASTON TOWNSHIP,POLICE AGENCIES 
+23102,DARBY TOWNSHIP,POLICE AGENCIES 
+23103,HAVERFORD TOWNSHIP,POLICE AGENCIES 
+23104,LOWER CHICHESTER TOWNSHIP,POLICE AGENCIES 
+23105,NETHER PROVIDENCE TOWNSHIP,POLICE AGENCIES 
+23106,RADNOR TOWNSHIP,POLICE AGENCIES 
+23107,RIDLEY TOWNSHIP,POLICE AGENCIES 
+23108,SPRINGFIELD TOWNSHIP,POLICE AGENCIES 
+23109,TINICUM TOWNSHIP,POLICE AGENCIES 
+23110,UPPER CHICHESTER TOWNSHIP,POLICE AGENCIES 
+23111,UPPER DARBY TOWNSHIP,POLICE AGENCIES 
+23112,MARPLE TOWNSHIP,POLICE AGENCIES 
+23201,BETHEL TOWNSHIP,POLICE AGENCIES 
+23203,CHESTER TOWNSHIP,POLICE AGENCIES 
+23208,NEWTOWN TOWNSHIP,POLICE AGENCIES 
+23210,UPPER PROVIDENCE TOWNSHIP,POLICE AGENCIES 
+23301,CHESTER CITY,POLICE AGENCIES 
+23401,ALDAN BOROUGH,POLICE AGENCIES 
+23402,BROOKHAVEN BOROUGH,POLICE AGENCIES 
+23404,CLIFTON HEIGHTS BOROUGH,POLICE AGENCIES 
+23405,COLLINGDALE BOROUGH,POLICE AGENCIES 
+23406,COLWYN BOROUGH,POLICE AGENCIES 
+23407,DARBY BOROUGH,POLICE AGENCIES 
+23408,EAST LANSDOWNE BOROUGH,POLICE AGENCIES 
+23409,EDDYSTONE BOROUGH,POLICE AGENCIES 
+23410,FOLCROFT BOROUGH,POLICE AGENCIES 
+23411,GLENOLDEN BOROUGH,POLICE AGENCIES 
+23412,LANSDOWNE BOROUGH,POLICE AGENCIES 
+23413,MARCUS HOOK BOROUGH,POLICE AGENCIES 
+23414,MEDIA BOROUGH,POLICE AGENCIES 
+23415,MILLBOURNE BOROUGH,POLICE AGENCIES 
+23416,MORTON BOROUGH,POLICE AGENCIES 
+23417,NORWOOD BOROUGH,POLICE AGENCIES 
+23418,PARKSIDE BOROUGH,POLICE AGENCIES 
+23419,PROSPECT PARK BOROUGH,POLICE AGENCIES 
+23420,RIDLEY PARK BOROUGH,POLICE AGENCIES 
+23423,SHARON HILL BOROUGH,POLICE AGENCIES 
+23424,SWARTHMORE BOROUGH,POLICE AGENCIES 
+23425,TRAINER BOROUGH,POLICE AGENCIES 
+23426,UPLAND BOROUGH,POLICE AGENCIES 
+23427,YEADON BOROUGH,POLICE AGENCIES 
+23501,CHEYNEY UNIVERSITY,POLICE AGENCIES 
+23502,DELAWARE COUNTY PARK,POLICE AGENCIES 
+23503,RIDLEY CREEK STATE PARK,POLICE AGENCIES 
+23504,PENN STATE BRANDYWINE,POLICE AGENCIES 
+24301,SAINT MARYS CITY,POLICE AGENCIES 
+24401,JOHNSONBURG BOROUGH,POLICE AGENCIES 
+24402,RIDGWAY BOROUGH,POLICE AGENCIES 
+25101,LAWRENCE PARK TOWNSHIP,POLICE AGENCIES 
+25213,MILLCREEK TOWNSHIP,POLICE AGENCIES 
+25301,CORRY CITY,POLICE AGENCIES 
+25302,ERIE CITY,POLICE AGENCIES 
+25401,ALBION BOROUGH,POLICE AGENCIES 
+25404,EDINBORO BOROUGH,POLICE AGENCIES 
+25407,GIRARD BOROUGH,POLICE AGENCIES 
+25408,LAKE CITY BOROUGH,POLICE AGENCIES 
+25411,NORTH EAST BOROUGH,POLICE AGENCIES 
+25412,PLATEA BOROUGH,POLICE AGENCIES 
+25413,UNION CITY BOROUGH,POLICE AGENCIES 
+25416,WESLEYVILLE BOROUGH,POLICE AGENCIES 
+25501,PRESQUE ISLE STATE PARK,POLICE AGENCIES 
+25502,EDINBORO UNIVERSITY,POLICE AGENCIES 
+25503,PENN STATE BEHREND,POLICE AGENCIES 
+25504,MERCYHURST UNIVERSITY,POLICE AGENCIES 
+25505,ERIE AIRPORT,POLICE AGENCIES 
+25601,ERIE COUNTY SHERIFF,POLICE AGENCIES 
+26207,GERMAN TOWNSHIP,POLICE AGENCIES 
+26211,LUZERNE TOWNSHIP,POLICE AGENCIES 
+26216,REDSTONE TOWNSHIP,POLICE AGENCIES 
+26223,WASHINGTON TOWNSHIP,POLICE AGENCIES 
+26224,WHARTON TOWNSHIP,POLICE AGENCIES 
+26301,CONNELLSVILLE CITY,POLICE AGENCIES 
+26302,UNIONTOWN CITY,POLICE AGENCIES 
+26401,BELLE VERNON BOROUGH,POLICE AGENCIES 
+26402,BROWNSVILLE BOROUGH,POLICE AGENCIES 
+26404,DUNBAR BOROUGH,POLICE AGENCIES 
+26405,EVERSON BOROUGH,POLICE AGENCIES 
+26406,FAIRCHANCE BOROUGH,POLICE AGENCIES 
+26407,FAYETTE CITY BOROUGH,POLICE AGENCIES 
+26409,MASONTOWN BOROUGH,POLICE AGENCIES 
+26410,NEWELL BOROUGH,POLICE AGENCIES 
+26411,OHIOPYLE BOROUGH,POLICE AGENCIES 
+26412,PERRYOPOLIS BOROUGH,POLICE AGENCIES 
+26413,POINT MARION BOROUGH,POLICE AGENCIES 
+26414,SMITHFIELD BOROUGH,POLICE AGENCIES 
+26415,SOUTH CONNELLSVILLE BOROUGH,POLICE AGENCIES 
+26430,SEVEN SPRINGS BOROUGH,POLICE AGENCIES 
+26501,OHIOPYLE STATE PARK,POLICE AGENCIES 
+26502,LAUREL RIDGE STATE PARK,POLICE AGENCIES 
+26503,SOUTHWEST REGIONAL,POLICE AGENCIES 
+26504,PENN STATE FAYETTE,POLICE AGENCIES 
+26601,FAYETTE COUNTY SHERIFF,POLICE AGENCIES 
+27401,TIONESTA BOROUGH,POLICE AGENCIES 
+28215,WASHINGTON TOWNSHIP,POLICE AGENCIES 
+28401,CHAMBERSBURG,POLICE AGENCIES 
+28402,GREENCASTLE BOROUGH,POLICE AGENCIES 
+28403,MERCERSBURG BOROUGH,POLICE AGENCIES 
+28406,WAYNESBORO BOROUGH,POLICE AGENCIES 
+28502,PSU MONT ALTO CAMPUS,POLICE AGENCIES 
+28503,DCNR -  CALEDONIA STATE PARK,POLICE AGENCIES 
+28504,CHAMBERSBURG AREA SCHOOL DISTRICT,POLICE AGENCIES 
+29401,MCCONNELSBURG BOROUGH,POLICE AGENCIES 
+30203,CUMBERLAND TOWNSHIP,POLICE AGENCIES 
+30214,GREENE COUNTY REGIONAL,POLICE AGENCIES 
+30401,CARMICHAELS BOROUGH,POLICE AGENCIES 
+30406,WAYNESBURG BOROUGH,POLICE AGENCIES 
+31407,HUNTINGDON BOROUGH,POLICE AGENCIES 
+31408,MAPLETON DEPOT BOROUGH,POLICE AGENCIES 
+31411,MOUNT UNION BOROUGH,POLICE AGENCIES 
+31415,SALTILLO BOROUGH,POLICE AGENCIES 
+31501,JUNIATA COLLEGE,POLICE AGENCIES 
+31502,JUNIATA VALLEY REGIONAL,POLICE AGENCIES 
+31601,HUNTINGDON COUNTY SHERIFF,POLICE AGENCIES 
+32402,BLAIRSVILLE BOROUGH,POLICE AGENCIES 
+32403,CHERRY TREE BOROUGH,POLICE AGENCIES 
+32404,CLYMER BOROUGH,POLICE AGENCIES 
+32407,HOMER CITY BOROUGH,POLICE AGENCIES 
+32408,INDIANA BOROUGH,POLICE AGENCIES 
+32410,MARION CENTER BOROUGH,POLICE AGENCIES 
+32412,SALTSBURG BOROUGH,POLICE AGENCIES 
+32501,INDIANA UNIVERSITY OF PA,POLICE AGENCIES 
+32502,UNKNOWN,POLICE AGENCIES 
+32601,INDIANA COUNTY SHERIFF,POLICE AGENCIES 
+33402,BROCKWAY BOROUGH,POLICE AGENCIES 
+33403,BROOKVILLE BOROUGH,POLICE AGENCIES 
+33406,PUNXSUTAWNEY BOROUGH,POLICE AGENCIES 
+33407,REYNOLDSVILLE BOROUGH,POLICE AGENCIES 
+33408,SOMMERVILLE BOROUGH,POLICE AGENCIES 
+33409,SYKESVILLE BOROUGH,POLICE AGENCIES 
+34207,MILFORD TOWNSHIP,POLICE AGENCIES 
+34401,MIFFLINBURG BOROUGH,POLICE AGENCIES 
+34402,MIFFLIN BOROUGH,POLICE AGENCIES 
+34403,PORT ROYAL BOROUGH,POLICE AGENCIES 
+34601,JUNIATA COUNTY SHERIFF,POLICE AGENCIES 
+35201,WAVERLY TOWNSHIP,POLICE AGENCIES 
+35203,CARBONDALE TOWNSHIP,POLICE AGENCIES 
+35205,COVINGTON TOWNSHIP,POLICE AGENCIES 
+35207,FELL TOWNSHIP,POLICE AGENCIES 
+35208,GLENBURN TOWNSHIP,POLICE AGENCIES 
+35209,GREENFIELD TOWNSHIP,POLICE AGENCIES 
+35210,JEFFERSON TOWNSHIP,POLICE AGENCIES 
+35214,NEWTON TOWNSHIP,POLICE AGENCIES 
+35217,ROARING BROOK TOWNSHIP,POLICE AGENCIES 
+35218,SCOTT TOWNSHIP,POLICE AGENCIES 
+35219,SOUTH ABINGTON TOWNSHIP,POLICE AGENCIES 
+35301,CARBONDALE CITY,POLICE AGENCIES 
+35302,SCRANTON CITY,POLICE AGENCIES 
+35401,ARCHBALD BOROUGH,POLICE AGENCIES 
+35402,BLAKELY BOROUGH,POLICE AGENCIES 
+35404,CLARKS SUMMIT BOROUGH,POLICE AGENCIES 
+35405,DALTON BOROUGH,POLICE AGENCIES 
+35406,DICKSON CITY BOROUGH,POLICE AGENCIES 
+35407,DUNMORE BOROUGH,POLICE AGENCIES 
+35408,JERMYN BOROUGH,POLICE AGENCIES 
+35409,MAYFIELD BOROUGH,POLICE AGENCIES 
+35410,MOOSIC BOROUGH,POLICE AGENCIES 
+35411,MOSCOW BOROUGH,POLICE AGENCIES 
+35412,OLD FORGE BOROUGH,POLICE AGENCIES 
+35413,OLYPHANT BOROUGH,POLICE AGENCIES 
+35414,TAYLOR BOROUGH,POLICE AGENCIES 
+35415,THROOP BOROUGH,POLICE AGENCIES 
+35416,VANDLING BOROUGH,POLICE AGENCIES 
+35417,JESSUP BOROUGH,POLICE AGENCIES 
+35501,STATE CAPITOL POLICE OF SCRANTON,POLICE AGENCIES 
+35502,PENN STATE WORTHINGTON SCRANTON,POLICE AGENCIES 
+35503,UNIVERSITY OF SCRANTON,POLICE AGENCIES 
+35601,LACKAWANNA COUNTY SHERIFF,POLICE AGENCIES 
+36101,MANHEIM TOWNSHIP,POLICE AGENCIES 
+36201,BART TOWNSHIP,POLICE AGENCIES 
+36202,BRECKNOCK TOWNSHIP,POLICE AGENCIES 
+36204,CLAY TOWNSHIP,POLICE AGENCIES 
+36206,CONESTOGA TOWNSHIP,POLICE AGENCIES 
+36210,EAST COCALICO TOWNSHIP,POLICE AGENCIES 
+36213,EAST EARL TOWNSHIP,POLICE AGENCIES 
+36214,EAST HEMPFIELD TOWNSHIP,POLICE AGENCIES 
+36215,EAST LAMPETER TOWNSHIP,POLICE AGENCIES 
+36218,EPHRATA TOWNSHIP,POLICE AGENCIES 
+36223,MANOR TOWNSHIP,POLICE AGENCIES 
+36225,MOUNT JOY TOWNSHIP,POLICE AGENCIES 
+36227,PENN TOWNSHIP,POLICE AGENCIES 
+36228,PEQUEA TOWNSHIP,POLICE AGENCIES 
+36235,WARWICK TOWNSHIP,POLICE AGENCIES 
+36237,WEST DONEGAL TOWNSHIP,POLICE AGENCIES 
+36238,WEST EARL TOWNSHIP,POLICE AGENCIES 
+36239,WEST HEMPFIELD TOWNSHIP,POLICE AGENCIES 
+36240,WEST LAMPETER TWP,POLICE AGENCIES 
+36301,LANCASTER CITY,POLICE AGENCIES 
+36402,AKRON BOROUGH,POLICE AGENCIES 
+36403,CHRISTIANA BOROUGH,POLICE AGENCIES 
+36404,COLUMBIA BOROUGH,POLICE AGENCIES 
+36407,ELIZABETHTOWN BOROUGH,POLICE AGENCIES 
+36408,EPHRATA,POLICE AGENCIES 
+36409,LITITZ BOROUGH,POLICE AGENCIES 
+36410,MANHEIM BOROUGH,POLICE AGENCIES 
+36412,MILLERSVILLE BOROUGH,POLICE AGENCIES 
+36413,MOUNT JOY BOROUGH,POLICE AGENCIES 
+36415,NEW HOLLAND BOROUGH,POLICE AGENCIES 
+36416,QUARRYVILLE BOROUGH,POLICE AGENCIES 
+36417,STRASBURG BOROUGH,POLICE AGENCIES 
+36501,MILLERSVILLE UNIVERSITY,POLICE AGENCIES 
+36502,ELIZABETHTOWN COLLEGE,POLICE AGENCIES 
+36503,SOUTHERN REGIONAL,POLICE AGENCIES 
+36504,SUSQUEHANNA REGIONAL,POLICE AGENCIES 
+36505,NORTHWEST LANCASTER COUNTY REGIONAL,POLICE AGENCIES 
+36506,NORTHERN LANCASTER COUNTY REGIONAL,POLICE AGENCIES 
+36507,FRANKLIN AND MARSHALL COLLEGE,POLICE AGENCIES 
+36601,LANCASTER COUNTY SHERRIFF,POLICE AGENCIES 
+37202,HICKORY TOWNSHIP,POLICE AGENCIES 
+37203,LITTLE BEAVER TOWNSHIP,POLICE AGENCIES 
+37204,MAHONING TOWNSHIP,POLICE AGENCIES 
+37205,NESHANNOCK TOWNSHIP,POLICE AGENCIES 
+37206,NORTH BEAVER TOWNSHIP,POLICE AGENCIES 
+37207,PERRY TOWNSHIP,POLICE AGENCIES 
+37209,PULASKI TOWNSHIP,POLICE AGENCIES 
+37211,SHENANGO TOWNSHIP,POLICE AGENCIES 
+37214,UNION TOWNSHIP,POLICE AGENCIES 
+37216,WAYNE TOWNSHIP,POLICE AGENCIES 
+37301,NEW CASTLE CITY,POLICE AGENCIES 
+37401,BESSEMER BOROUGH,POLICE AGENCIES 
+37403,ELLWOOD CITY BOROUGH,POLICE AGENCIES 
+37405,NEW WILMINGTON BOROUGH,POLICE AGENCIES 
+37406,SOUTH NEW CASTLE,POLICE AGENCIES 
+37408,WAMPUM BOROUGH,POLICE AGENCIES 
+37409,NEW BEAVER BOROUGH,POLICE AGENCIES 
+37410,S N P J BOROUGH,POLICE AGENCIES 
+37501,NORTHWEST LAWENCE REGIONAL,POLICE AGENCIES 
+37601,LAWRENCE COUNTY SHERRIFF'S OFFICE,POLICE AGENCIES 
+38101,ANNVILLE TOWNSHIP,POLICE AGENCIES 
+38201,BETHEL TOWNSHIP,POLICE AGENCIES 
+38204,HEIDELBERG TOWNSHIP,POLICE AGENCIES 
+38206,MILLCREEK TOWNSHIP,POLICE AGENCIES 
+38207,NORTH ANNVILLE TOWNSHIP,POLICE AGENCIES 
+38208,NORTH CORNWALL TOWNSHIP,POLICE AGENCIES 
+38209,NORTH LEBANON TOWNSHIP,POLICE AGENCIES 
+38210,NORTH LONDONDERRY TOWNSHIP,POLICE AGENCIES 
+38211,SOUTH ANNVILLE TOWNSHIP,POLICE AGENCIES 
+38212,SOUTH LEBANON TOWNSHIP,POLICE AGENCIES 
+38213,SOUTH LONDONDERRY TOWNSHIP,POLICE AGENCIES 
+38237,WEST DONNEGAL TOWNSHIP,POLICE AGENCIES 
+38301,LEBANON CITY,POLICE AGENCIES 
+38401,CLEONA BOROUGH,POLICE AGENCIES 
+38402,CORNWALL BOROUGH,POLICE AGENCIES 
+38404,MOUNT GRETNA BOROUGH,POLICE AGENCIES 
+38405,MYERSTOWN BOROUGH,POLICE AGENCIES 
+38406,PALMYRA BOROUGH,POLICE AGENCIES 
+38407,RICHLAND BOROUGH,POLICE AGENCIES 
+38501,FORT INDIANTOWN GAP,POLICE AGENCIES 
+38502,LEBANON VA MEDICAL CENTER,POLICE AGENCIES 
+38503,CORNWALL LEBANON SCHOOL DISTRICT,POLICE AGENCIES 
+39101,SALISBURY TOWNSHIP,POLICE AGENCIES 
+39102,WHITEHALL TOWNSHIP,POLICE AGENCIES 
+39103,SOUTH WHITEHALL TOWNSHIP,POLICE AGENCIES 
+39204,LOWER MILFORD TOWNSHIP,POLICE AGENCIES 
+39209,UPPER MACUNGIE,POLICE AGENCIES 
+39211,UPPER SAUCON TOWNSHIP,POLICE AGENCIES 
+39301,ALLENTOWN CITY,POLICE AGENCIES 
+39401,ALBURTIS BOROUGH,POLICE AGENCIES 
+39402,CATASAUQUA BOROUGH,POLICE AGENCIES 
+39403,COOPERSBURG BOROUGH,POLICE AGENCIES 
+39404,COPLAY BOROUGH,POLICE AGENCIES 
+39405,EMMAUS BOROUGH,POLICE AGENCIES 
+39406,FOUNTAIN HILL BOROUGH,POLICE AGENCIES 
+39407,MACUNGIE BOROUGH,POLICE AGENCIES 
+39408,SLATINGTON BOROUGH,POLICE AGENCIES 
+39501,LEHIGH NORTHAMPTON AIRPORT AUTHORITY,POLICE AGENCIES 
+39502,LEHIGH NORTHAMPTON AIRPORT AUTHORTY,POLICE AGENCIES 
+39503,DESALES UNIVERSITY,POLICE AGENCIES 
+39504,PENN STATE LEHIGH VALLEY,POLICE AGENCIES 
+39505,CARBON LEHIGH INTERMEDIATE UNIT,POLICE AGENCIES 
+39601,LEHIGH COUNTY SHERIFF,POLICE AGENCIES 
+40101,HANOVER TOWNSHIP,POLICE AGENCIES 
+40102,NEWPORT TOWNSHIP,POLICE AGENCIES 
+40103,PLAINS TOWNSHIP,POLICE AGENCIES 
+40104,WILKES BARRE TOWNSHIP,POLICE AGENCIES 
+40204,BUTLER TOWNSHIP,POLICE AGENCIES 
+40205,CONYNGHAM TOWNSHIP,POLICE AGENCIES 
+40206,DALLAS TOWNSHIP,POLICE AGENCIES 
+40209,EXETER TOWNSHIP,POLICE AGENCIES 
+40211,FAIRVIEW TOWNSHIP,POLICE AGENCIES 
+40212,FOSTER TOWNSHIP,POLICE AGENCIES 
+40218,JACKSON TOWNSHIP,POLICE AGENCIES 
+40219,JENKINS TOWNSHIP,POLICE AGENCIES 
+40220,KINGSTON TOWNSHIP,POLICE AGENCIES 
+40221,LAKE TOWNSHIP,POLICE AGENCIES 
+40222,LEHMAN TOWNSHIP,POLICE AGENCIES 
+40224,PITTSTON TOWNSHIP,POLICE AGENCIES 
+40225,PLYMOUTH TOWNSHIP,POLICE AGENCIES 
+40226,RICE TOWNSHIP,POLICE AGENCIES 
+40227,ROSS TOWNSHIP,POLICE AGENCIES 
+40228,SALEM TOWNSHIP,POLICE AGENCIES 
+40230,SUGARLOAF TOWNSHIP,POLICE AGENCIES 
+40232,WRIGHT TOWNSHIP,POLICE AGENCIES 
+40301,HAZLETON CITY,POLICE AGENCIES 
+40302,NANTICOKE CITY,POLICE AGENCIES 
+40303,PITTSTON CITY,POLICE AGENCIES 
+40304,WILKES BARRE CITY,POLICE AGENCIES 
+40401,ASHLEY BOROUGH,POLICE AGENCIES 
+40402,AVOCA BOROUGH,POLICE AGENCIES 
+40403,CONYNGHAM BOROUGH,POLICE AGENCIES 
+40404,COURTDALE BOROUGH,POLICE AGENCIES 
+40405,DALLAS BOROUGH,POLICE AGENCIES 
+40406,DUPONT BOROUGH,POLICE AGENCIES 
+40407,DURYEA BOROUGH,POLICE AGENCIES 
+40408,EDWARDSVILLE BOROUGH,POLICE AGENCIES 
+40409,EXETER BOROUGH,POLICE AGENCIES 
+40410,FORTY FORT BOROUGH,POLICE AGENCIES 
+40411,FREELAND BOROUGH,POLICE AGENCIES 
+40412,HUGHESTOWN BOROUGH,POLICE AGENCIES 
+40414,KINGSTON BOROUGH,POLICE AGENCIES 
+40415,LAFLIN BOROUGH,POLICE AGENCIES 
+40416,LARKSVILLE BOROUGH,POLICE AGENCIES 
+40418,LUZERNE BOROUGH,POLICE AGENCIES 
+40419,NESCOPECK BOROUGH,POLICE AGENCIES 
+40421,NUANGOLA BOROUGH,POLICE AGENCIES 
+40422,PLYMOUTH BOROUGH,POLICE AGENCIES 
+40423,PRINGLE BOROUGH,POLICE AGENCIES 
+40424,SHICKSHINNY BOROUGH,POLICE AGENCIES 
+40425,SUGAR NOTCH BOROUGH,POLICE AGENCIES 
+40426,SWOYERSVILLE BOROUGH,POLICE AGENCIES 
+40427,WARRIOR RUN BOROUGH,POLICE AGENCIES 
+40428,WEST HAZELTON BOROUGH,POLICE AGENCIES 
+40429,WEST PITTSTON BOROUGH,POLICE AGENCIES 
+40430,WEST WYOMING BOROUGH,POLICE AGENCIES 
+40431,WHITE HAVEN BOROUGH,POLICE AGENCIES 
+40432,WYOMING BOROUGH,POLICE AGENCIES 
+40434,HARVEYS LAKE BOROUGH,POLICE AGENCIES 
+40501,PENN STATE HAZLETON,POLICE AGENCIES 
+40503,WYOMING AREA SCHOOL DISTRICT,POLICE AGENCIES 
+40504,HAZLETON AREA SCHOOL DISTRICT,POLICE AGENCIES 
+40505,VA MEDICAL CENTER WILKES-BARRE,POLICE AGENCIES 
+40506,PENN STATE WILKES BARRE,POLICE AGENCIES 
+41207,CLINTON TOWNSHIP,POLICE AGENCIES 
+41227,MUNCY TOWNSHIP,POLICE AGENCIES 
+41230,OLD LYCOMING TOWNSHIP,POLICE AGENCIES 
+41235,PORTER TOWNSHIP,POLICE AGENCIES 
+41240,WATSON TOWNSHIP,POLICE AGENCIES 
+41301,WILLIAMSPORT CITY,POLICE AGENCIES 
+41401,DUBOISTOWN BOROUGH,POLICE AGENCIES 
+41402,HUGHESVILLE BOROUGH,POLICE AGENCIES 
+41403,JERSEY SHORE BOROUGH,POLICE AGENCIES 
+41404,MONTGOMERY BOROUGH,POLICE AGENCIES 
+41405,MONTOURSVILLE BOROUGH,POLICE AGENCIES 
+41406,MUNCY BOROUGH,POLICE AGENCIES 
+41409,SOUTH WILLIAMSPORT BOROUGH,POLICE AGENCIES 
+41501,PENN COLLEGE,POLICE AGENCIES 
+41502,TIADAGHTON VALLEY REGIONAL,POLICE AGENCIES 
+42202,BRADFORD TOWNSHIP,POLICE AGENCIES 
+42206,FOSTER TOWNSHIP,POLICE AGENCIES 
+42213,OTTO TOWNSHIP,POLICE AGENCIES 
+42301,BRADFORD CITY,POLICE AGENCIES 
+42401,ELDRED BOROUGH,POLICE AGENCIES 
+42402,KANE BOROUGH,POLICE AGENCIES 
+42404,MOUNT JEWETT BOROUGH,POLICE AGENCIES 
+42405,PORT ALLEGANY BOROUGH,POLICE AGENCIES 
+42406,SMETHPORT BOROUGH,POLICE AGENCIES 
+42501,OTTO - ELDRED REGIONAL,POLICE AGENCIES 
+42502,PITT - BRADFORD,POLICE AGENCIES 
+43209,HEMPFIELD TOWNSHIP,POLICE AGENCIES 
+43211,JEFFERSON TOWNSHIP,POLICE AGENCIES 
+43220,PYMATUNING TOWNSHIP,POLICE AGENCIES 
+43224,SHENANGO TOWNSHIP,POLICE AGENCIES 
+43225,SOUTH PYMATUNING TOWNSHIP,POLICE AGENCIES 
+43301,FARRELL CITY,POLICE AGENCIES 
+43302,SHARON CITY,POLICE AGENCIES 
+43303,HERMITAGE CITY,POLICE AGENCIES 
+43403,GREENVILLE BOROUGH,POLICE AGENCIES 
+43404,GROVE CITY BOROUGH,POLICE AGENCIES 
+43406,JAMESTOWN BOROUGH,POLICE AGENCIES 
+43407,MERCER BOROUGH,POLICE AGENCIES 
+43409,SANDY LAKE BOROUGH,POLICE AGENCIES 
+43410,SHARPSVILLE BOROUGH,POLICE AGENCIES 
+43412,STONEBORO BOROUGH,POLICE AGENCIES 
+43501,SOUTHWEST MERCER COUNTY REGIONAL,POLICE AGENCIES 
+43502,JEFFERSON/CLARK REGIONAL,POLICE AGENCIES 
+43503,GREENVILLE,POLICE AGENCIES 
+43504,THIEL COLLEGE CAMPUS,POLICE AGENCIES 
+44201,ARMAGH TOWNSHIP,POLICE AGENCIES 
+44206,GRANVILLE TOWNSHIP,POLICE AGENCIES 
+44209,UNION TOWNSHIP,POLICE AGENCIES 
+44403,LEWISTOWN BOROUGH,POLICE AGENCIES 
+44501,MIFFLIN COUNTY REGIONAL,POLICE AGENCIES 
+44601,MIFFLIN COUNTY SHERIFF,POLICE AGENCIES 
+45101,POCONO TOWNSHIP 45201 BARRETT TOWNSHIP,POLICE AGENCIES 
+45214,STROUD TOWNSHIP,POLICE AGENCIES 
+45401,DELAWARE WATER GAP BOROUGH,POLICE AGENCIES 
+45402,EAST STROUDSBURGH BOROUGH,POLICE AGENCIES 
+45404,STROUDSBURG BOROUGH,POLICE AGENCIES 
+45501,POCONO MOUNTAIN REGIONAL,POLICE AGENCIES 
+45502,EAST STROUDSBURG UNIVERSITY,POLICE AGENCIES 
+45503,STROUD AREA REGIONAL,POLICE AGENCIES 
+45504,EAST STROUDSBURG AREA SCHOOL DISTRICT,POLICE AGENCIES 
+45601,MONROE COUNTY SHERRIFF,POLICE AGENCIES 
+46101,ABINGTON TOWNSHIP,POLICE AGENCIES 
+46102,CHELTENHAM TOWNSHIP,POLICE AGENCIES 
+46103,HATFIELD TOWNSHIP,POLICE AGENCIES 
+46104,LOWER MERION TOWNSHIP,POLICE AGENCIES 
+46105,LOWER MORELAND TOWNSHIP,POLICE AGENCIES 
+46106,LOWER POTTSGROVE TOWNSHIP,POLICE AGENCIES 
+46107,PLYMOUTH TOWNSHIP,POLICE AGENCIES 
+46108,SPRINGFIELD TOWNSHIP,POLICE AGENCIES 
+46109,UPPER DUBLIN TOWNSHIP,POLICE AGENCIES 
+46110,UPPER MORELAND TOWNSHIP,POLICE AGENCIES 
+46111,WEST NORRITON TOWNSHIP,POLICE AGENCIES 
+46112,WEST POTTSGROVE TOWNSHIP,POLICE AGENCIES 
+46113,UPPER GWYNEDD TOWNSHIP,POLICE AGENCIES 
+46114,UPPER POTTSGROVE TOWNSHIP,POLICE AGENCIES 
+46201,DOUGLASS TOWNSHIP,POLICE AGENCIES 
+46202,EAST NORRITON TOWNSHIP,POLICE AGENCIES 
+46203,FRANCONIA TOWNSHIP,POLICE AGENCIES 
+46204,HORSHAM TOWNSHIP,POLICE AGENCIES 
+46205,LIMERICK TOWNSHIP,POLICE AGENCIES 
+46206,LOWER FREDERICK TOWNSHIP,POLICE AGENCIES 
+46207,LOWER GWYNEDD TOWNSHIP,POLICE AGENCIES 
+46208,LOWER PROVIDENCE TOWNSHIP,POLICE AGENCIES 
+46209,LOWER SALFORD TOWNSHIP,POLICE AGENCIES 
+46210,MARLBOROUGH TOWNSHIP,POLICE AGENCIES 
+46211,MONTGOMERY TOWNSHIP,POLICE AGENCIES 
+46212,NEW HANOVER TOWNSHIP,POLICE AGENCIES 
+46216,TOWAMENCIN TOWNSHIP,POLICE AGENCIES 
+46220,UPPER MERION TOWNSHIP,POLICE AGENCIES 
+46222,UPPER PROVIDENCE TOWNSHIP,POLICE AGENCIES 
+46224,WHITEMARSH TOWNSHIP,POLICE AGENCIES 
+46225,WHITPAIN TOWNSHIP,POLICE AGENCIES 
+46401,AMBLER BOROUGH,POLICE AGENCIES 
+46402,BRIDGEPORT BOROUGH,POLICE AGENCIES 
+46403,BRYN ATHYN BOROUGH,POLICE AGENCIES 
+46404,COLLEGEVILLE BOROUGH,POLICE AGENCIES 
+46405,CONSHOHOCKEN BOROUGH,POLICE AGENCIES 
+46406,BOROUGH OF EAST GREENVILLE,POLICE AGENCIES 
+46408,HATBORO BOROUGH,POLICE AGENCIES 
+46410,JENKINTOWN BOROUGH,POLICE AGENCIES 
+46411,LANSDALE BOROUGH,POLICE AGENCIES 
+46412,NARBERTH BOROUGH,POLICE AGENCIES 
+46413,NORRISTOWN BOROUGH,POLICE AGENCIES 
+46414,NORTH WALES BOROUGH,POLICE AGENCIES 
+46416,POTTSTOWN BOROUGH,POLICE AGENCIES 
+46418,ROCKLEDGE BOROUGH,POLICE AGENCIES 
+46419,ROYERSFORD BOROUGH,POLICE AGENCIES 
+46420,SCHWENKSVILLE BOROUGH,POLICE AGENCIES 
+46421,SOUDERTON BOROUGH,POLICE AGENCIES 
+46422,TELFORD BOROUGH,POLICE AGENCIES 
+46424,WEST CONSHOHOCKEN BOROUGH,POLICE AGENCIES 
+46501,UPPER PERK,POLICE AGENCIES 
+46502,"NATIONAL PARK SERVICE, VALLEY FORGE",POLICE AGENCIES 
+46503,PENN STATE ABINGTON,POLICE AGENCIES 
+46504,SOUDERTON AREA SCHOOL DISTRICT,POLICE AGENCIES 
+47206,MAHONING TOWNSHIP,POLICE AGENCIES 
+47401,DANVILLE BOROUGH,POLICE AGENCIES 
+47501,DANVILLE AREA SCHOOL DISTRICT,POLICE AGENCIES 
+48101,BETHLEHEM TOWNSHIP,POLICE AGENCIES 
+48203,BUSHKILL TOWNSHIP,POLICE AGENCIES 
+48205,FORKS TOWNSHIP,POLICE AGENCIES 
+48207,LEHIGH TOWNSHIP,POLICE AGENCIES 
+48208,LOWER MT BETHEL TOWNSHIP,POLICE AGENCIES 
+48210,LOWER SAUCON TOWNSHIP,POLICE AGENCIES 
+48211,MOORE TOWNSHIP,POLICE AGENCIES 
+48212,PALMER TOWNSHIP,POLICE AGENCIES 
+48213,SLATE BELT REGIONAL,POLICE AGENCIES 
+48215,UPPER NAZARETH TOWNSHIP,POLICE AGENCIES 
+48216,WASHINGTON TOWNSHIP,POLICE AGENCIES 
+48301,BETHLEHEM CITY,POLICE AGENCIES 
+48302,EASTON CITY,POLICE AGENCIES 
+48401,BANGOR BOROUGH,POLICE AGENCIES 
+48404,EAST BANGOR BOROUGH,POLICE AGENCIES 
+48405,FREEMANSBURG BOROUGH,POLICE AGENCIES 
+48407,HELLERTOWN BOROUGH,POLICE AGENCIES 
+48408,NAZARETH BOROUGH,POLICE AGENCIES 
+48409,NORTHAMPTON BOROUGH,POLICE AGENCIES 
+48410,NORTH CATASAUQUA,POLICE AGENCIES 
+48411,PEN ARGYL BOROUGH,POLICE AGENCIES 
+48412,PORTLAND BOROUGH,POLICE AGENCIES 
+48413,ROSETO BOROUGH,POLICE AGENCIES 
+48414,STOCKERTOWN BOROUGH,POLICE AGENCIES 
+48415,TATAMY BOROUGH,POLICE AGENCIES 
+48416,WALNUTPORT BOROUGH,POLICE AGENCIES 
+48417,WEST EASTON BOROUGH,POLICE AGENCIES 
+48418,WILSON BOROUGH,POLICE AGENCIES 
+48419,WIND GAP BOROUGH,POLICE AGENCIES 
+48501,LEHIGH UNIVERSITY,POLICE AGENCIES 
+48502,COLONIAL REGIONAL,POLICE AGENCIES 
+48503,MORAVIAN COLLEGE,POLICE AGENCIES 
+48504,NORTHAMPTON AREA SCHOOL DISTRICT,POLICE AGENCIES 
+48505,BANGOR SCHOOL DISTRICT,POLICE AGENCIES 
+48506,SLATE BELT REGIONAL,POLICE AGENCIES 
+48507,NAZARETH AREA SCHOOL DISTRICT,POLICE AGENCIES 
+48601,NORTHAMPTON COUNTY SHERIFF,POLICE AGENCIES 
+49101,COAL TOWNSHIP,POLICE AGENCIES 
+49209,LOWER MAHANOY TOWNSHIP,POLICE AGENCIES 
+49210,MOUNT CARMEL TOWNSHIP,POLICE AGENCIES 
+49211,POINT TOWNSHIP,POLICE AGENCIES 
+49212,RALPHO TOWNSHIP,POLICE AGENCIES 
+49222,ZERBE TOWNSHIP,POLICE AGENCIES 
+49301,SHAMOKIN CITY,POLICE AGENCIES 
+49302,SUNBURY CITY,POLICE AGENCIES 
+49402,KULPMONT BOROUGH,POLICE AGENCIES 
+49403,MARION HEIGHTS BORO,POLICE AGENCIES 
+49405,MILTON BOROUGH,POLICE AGENCIES 
+49406,MOUNT CARMEL BOROUGH,POLICE AGENCIES 
+49407,NORTHUMBERLAND BOROUGH,POLICE AGENCIES 
+49408,RIVERSIDE BOROUGH,POLICE AGENCIES 
+49411,WATSONTOWN BOROUGH,POLICE AGENCIES 
+49501,SHIKELLAMY SCHOOL DISTRICT,POLICE AGENCIES 
+50204,GREENWOOD TOWNSHIP,POLICE AGENCIES 
+50211,OLIVER TOWNSHIP,POLICE AGENCIES 
+50212,PENN TOWNSHIP,POLICE AGENCIES 
+50213,RYE TOWNSHIP,POLICE AGENCIES 
+50403,DUNCANNON BOROUGH,POLICE AGENCIES 
+50406,MARYSVILLE BOROUGH,POLICE AGENCIES 
+50407,MILLERSTOWN BOROUGH,POLICE AGENCIES 
+50409,NEWPORT BOROUGH,POLICE AGENCIES 
+50501,LITTLE BUFFALO STATE PARK,POLICE AGENCIES 
+51210,SHOHOLA TOWNSHIP,POLICE AGENCIES 
+51211,WESTFALL TOWNSHIP,POLICE AGENCIES 
+51401,MATAMORAS BOROUGH,POLICE AGENCIES 
+51402,MILFORD BOROUGH,POLICE AGENCIES 
+51501,DELAWARE WATER GAP,POLICE AGENCIES 
+51502,PROMISED LAND STATE PARK (DCNR),POLICE AGENCIES 
+51503,EASTERN PIKE REGIONAL,POLICE AGENCIES 
+51504,DELAWARE VALLEY SCHOOL DISTRICT,POLICE AGENCIES 
+52221,SWEDEN TOWNSHIP,POLICE AGENCIES 
+52224,WEST BRANCH TOWNSHIP,POLICE AGENCIES 
+52401,AUSTIN BOROUGH,POLICE AGENCIES 
+52402,COUDERSPORT BOROUGH,POLICE AGENCIES 
+52403,GALETON BOROUGH,POLICE AGENCIES 
+52406,SHINGLEHOUSE BOROUGH,POLICE AGENCIES 
+53202,BLYTHE TOWNSHIP,POLICE AGENCIES 
+53203,BRANCH TOWNSHIP,POLICE AGENCIES 
+53204,BUTLER TOWNSHIP,POLICE AGENCIES 
+53205,CASS TOWNSHIP,POLICE AGENCIES 
+53206,DELANO TOWNSHIP,POLICE AGENCIES 
+53208,EAST NORWEGIAN,POLICE AGENCIES 
+53209,EAST UNION TOWNSHIP,POLICE AGENCIES 
+53211,FOSTER TOWNSHIP,POLICE AGENCIES 
+53213,HEGINS TOWNSHIP,POLICE AGENCIES 
+53215,KLINE TOWNSHIP,POLICE AGENCIES 
+53216,MAHANOY TOWNSHIP,POLICE AGENCIES 
+53217,NEW CASTLE TOWNSHIP,POLICE AGENCIES 
+53219,NORTH UNION TOWNSHIP,POLICE AGENCIES 
+53220,NOREWEGIAN TOWNSHIP,POLICE AGENCIES 
+53224,REILLY TOWNSHIP,POLICE AGENCIES 
+53225,RUSH TOWNSHIP,POLICE AGENCIES 
+53226,RYAN TOWNSHIP,POLICE AGENCIES 
+53227,SCHUYLKILL TOWNSHIP,POLICE AGENCIES 
+53230,UNION TOWNSHIP,POLICE AGENCIES 
+53232,WALKER TOWNSHIP,POLICE AGENCIES 
+53236,WEST MAHANOY TOWNSHIP,POLICE AGENCIES 
+53237,WEST PENN TOWNSHIP,POLICE AGENCIES 
+53301,POTTSVILLE CITY,POLICE AGENCIES 
+53401,ASHLAND BOROUGH,POLICE AGENCIES 
+53402,AUBURN BOROUGH,POLICE AGENCIES 
+53403,COALDALE BOROUGH,POLICE AGENCIES 
+53404,CRESSONA BOROUGH,POLICE AGENCIES 
+53406,FRACKVILLE BOROUGH,POLICE AGENCIES 
+53407,GILBERTON BOROUGH,POLICE AGENCIES 
+53408,GIRARDVILLE BOROUGH,POLICE AGENCIES 
+53409,GORDON BOROUGH,POLICE AGENCIES 
+53411,MAHANOY CITY BOROUGH,POLICE AGENCIES 
+53412,MCADOO BOROUGH,POLICE AGENCIES 
+53415,MINERSVILLE BOROUGH,POLICE AGENCIES 
+53416,MOUNT CARBON BOROUGH,POLICE AGENCIES 
+53417,NEW PHILADELPHIA BOROUGH,POLICE AGENCIES 
+53419,ORWIGSBURG BOROUGH,POLICE AGENCIES 
+53420,PALO ALTO BOROUGH,POLICE AGENCIES 
+53421,PINE GROVE BOROUGH,POLICE AGENCIES 
+53422,PORT CARBON BOROUGH,POLICE AGENCIES 
+53424,RINGTOWN BOROUGH,POLICE AGENCIES 
+53425,SAINT CLAIR BOROUGH,POLICE AGENCIES 
+53426,SCHUYKILL HAVEN BOROUGH,POLICE AGENCIES 
+53427,SHENANDOAH BOROUGH,POLICE AGENCIES 
+53428,TAMAQUA,POLICE AGENCIES 
+53429,TOWER CITY BOROUGH,POLICE AGENCIES 
+53430,TREMONT BOROUGH,POLICE AGENCIES 
+53501,PENN STATE SCHUYLKILL,POLICE AGENCIES 
+54211,SPRING TOWNSHIP,POLICE AGENCIES 
+54401,BEAVERTOWN BOROUGH,POLICE AGENCIES 
+54403,MIDDLEBURG BOROUGH,POLICE AGENCIES 
+54404,SELINSGROVE BOROUGH,POLICE AGENCIES 
+54405,SHAMOKIN DAM BOROUGH,POLICE AGENCIES 
+54501,SELINSGORVE AREA SCHOOL DISTRICT,POLICE AGENCIES 
+54601,SNYDER COUNTY SHERIFF,POLICE AGENCIES 
+55205,CONEMAUGH TOWNSHIP,POLICE AGENCIES 
+55206,ELK LICK TOWNSHIP,POLICE AGENCIES 
+55218,PAINT TOWNSHIP,POLICE AGENCIES 
+55220,SHADE TOWNSHIP,POLICE AGENCIES 
+55224,SUMMIT TOWNSHIP,POLICE AGENCIES 
+55402,BENSON BOROUGH,POLICE AGENCIES 
+55403,BERLIN BOROUGH,POLICE AGENCIES 
+55404,BOSWELL BOROUGH,POLICE AGENCIES 
+55406,CENTRAL CITY BOROUGH,POLICE AGENCIES 
+55407,CONFLUENCE BOROUGH,POLICE AGENCIES 
+55408,GARRETT BOROUGH,POLICE AGENCIES 
+55409,HOOVERSVILLE BOROUGH,POLICE AGENCIES 
+55410,JENNERSTOWN BOROUGH,POLICE AGENCIES 
+55411,MEYERSDALE BOROUGH,POLICE AGENCIES 
+55414,PAINT BOROUGH,POLICE AGENCIES 
+55415,ROCKWOOD BOROUGH,POLICE AGENCIES 
+55416,SALISBURY BOROUGH,POLICE AGENCIES 
+55418,SOMERSET BOROUGH,POLICE AGENCIES 
+55419,STOYSTOWN BOROUGH,POLICE AGENCIES 
+55422,WINDBER BOROUGH,POLICE AGENCIES 
+55423,SEVEN SPRINGS BOROUGH,POLICE AGENCIES 
+55424,INDIAN LAKE BOROUGH,POLICE AGENCIES 
+55501,LAUREL HILL STATE PARK,POLICE AGENCIES 
+56501,WORLDS END STATE PARK,POLICE AGENCIES 
+57201,APOLACON TOWNSHIP,POLICE AGENCIES 
+57207,CLIFFORD TOWNSHIP,POLICE AGENCIES 
+57211,GIBSON TOWNSHIP,POLICE AGENCIES 
+57225,SILVER LAKE TOWNSHIP,POLICE AGENCIES 
+57401,FOREST CITY BOROUGH,POLICE AGENCIES 
+57403,GREAT BEND BOROUGH,POLICE AGENCIES 
+57405,HOP BOTTOM BOROUGH,POLICE AGENCIES 
+57406,LANESBORO BOROUGH,POLICE AGENCIES 
+57408,MONTROSE BOROUGH,POLICE AGENCIES 
+57410,OAKLAND BOROUGH,POLICE AGENCIES 
+57411,SUSQUEHANNA DEPOT BOROUGH,POLICE AGENCIES 
+57412,THOMPSON BOROUGH,POLICE AGENCIES 
+57413,UNIONDALE BOROUGH,POLICE AGENCIES 
+57501,UNKNOWN,POLICE AGENCIES 
+58213,GAINES TOWNSHIP,POLICE AGENCIES 
+58216,LAWRENCE TOWNSHIP,POLICE AGENCIES 
+58220,NELSON TOWNSHIP,POLICE AGENCIES 
+58221,OSCEOLA TOWNSHIP,POLICE AGENCIES 
+58401,BLOSSBURG BOROUGH,POLICE AGENCIES 
+58402,ELKLAND BOROUGH,POLICE AGENCIES 
+58403,KNOXVILLE BOROUGH,POLICE AGENCIES 
+58404,LAWRENCEVILLE BOROUGH,POLICE AGENCIES 
+58406,MANSFIELD BOROUGH,POLICE AGENCIES 
+58408,TIOGA BOROUGH,POLICE AGENCIES 
+58409,WELLSBORO BOROUGH,POLICE AGENCIES 
+58410,WESTFIELD BOROUGH,POLICE AGENCIES 
+58501,MANSFIELD UNIVERSITY,POLICE AGENCIES 
+59202,EAST BUFFALO TOWNSHIP,POLICE AGENCIES 
+59401,HARTLETON BOROUGH,POLICE AGENCIES 
+59402,LEWISBURG BOROUGH,POLICE AGENCIES 
+59403,MIFFLINBURG BOROUGH,POLICE AGENCIES 
+59404,NEW BERLIN BOROUGH,POLICE AGENCIES 
+59502,BUCKNELL UNIVERSITY,POLICE AGENCIES 
+59503,BUFFALO VALLEY REGIONAL,POLICE AGENCIES 
+59601,UNION COUNTY SHERIFF,POLICE AGENCIES 
+60301,FRANKLIN CITY,POLICE AGENCIES 
+60302,OIL CITY,POLICE AGENCIES 
+60403,EMLENTON BOROUGH,POLICE AGENCIES 
+60405,POLK BOROUGH,POLICE AGENCIES 
+60409,SUGARCREEK BOROUGH,POLICE AGENCIES 
+60501,TWO MILE RUN COUNTY PARK,POLICE AGENCIES 
+61204,CONEWANGO TOWNSHIP,POLICE AGENCIES 
+61218,SHEFFIELD TOWNSHIP,POLICE AGENCIES 
+61301,WARREN CITY,POLICE AGENCIES 
+61404,TIDIOUTE BOROUGH,POLICE AGENCIES 
+61406,YOUNGSVILLE BOROUGH,POLICE AGENCIES 
+61601,WARREN COUNTY SHERIFF,POLICE AGENCIES 
+62101,EAST BETHLEHEM TOWNSHIP,POLICE AGENCIES 
+62205,CARROLL TOWNSHIP,POLICE AGENCIES 
+62206,CECIL TOWNSHIP,POLICE AGENCIES 
+62207,CHARTIERS TOWNSHIP,POLICE AGENCIES 
+62209,DONEGAL TOWNSHIP,POLICE AGENCIES 
+62211,FALLOWFIELD TOWNSHIP,POLICE AGENCIES 
+62212,HANOVER TOWNSHIP,POLICE AGENCIES 
+62214,INDEPENDENCE TOWNSHIP,POLICE AGENCIES 
+62215,JEFFERSON TOWNSHIP,POLICE AGENCIES 
+62217,MOUNT PLEASANT TOWNSHIP,POLICE AGENCIES 
+62219,NORTH FRANKLIN TOWNSHIP,POLICE AGENCIES 
+62220,NORTH STRABANE TOWNSHIP,POLICE AGENCIES 
+62222,PETERS TOWNSHIP,POLICE AGENCIES 
+62224,SMITH TOWNSHIP,POLICE AGENCIES 
+62227,SOUTH STRABANE TOWNSHIP,POLICE AGENCIES 
+62228,UNION TOWNSHIP,POLICE AGENCIES 
+62231,WEST PIKE RUN TOWNSHIP,POLICE AGENCIES 
+62301,MONONGAHELA CITY,POLICE AGENCIES 
+62302,WASHINGTON CITY,POLICE AGENCIES 
+62402,BEALLSVILLE BOROUGH,POLICE AGENCIES 
+62403,BENTLEYVILLE BOROUGH,POLICE AGENCIES 
+62404,BURGETTSTOWN BOROUGH,POLICE AGENCIES 
+62405,CALIFORNIA BOROUGH,POLICE AGENCIES 
+62406,CANONSBURG BOROUGH,POLICE AGENCIES 
+62407,CENTERVILLE BOROUGH,POLICE AGENCIES 
+62408,CHARLEROI BOROUGH,POLICE AGENCIES 
+62409,CLAYSVILLE BOROUGH,POLICE AGENCIES 
+62410,COAL CENTER BOROUGH,POLICE AGENCIES 
+62413,DONORA BOROUGH,POLICE AGENCIES 
+62415,EAST WASHINGTON BOROUGH,POLICE AGENCIES 
+62419,HOUSTON BOROUGH,POLICE AGENCIES 
+62420,LONG BRANCH BOROUGH,POLICE AGENCIES 
+62422,MCDONALD BOROUGH,POLICE AGENCIES 
+62423,MIDWAY BOROUGH,POLICE AGENCIES 
+62424,NEW EAGLE BOROUGH,POLICE AGENCIES 
+62425,NORTH CHARLEROI BOROUGH,POLICE AGENCIES 
+62431,WEST BROWNSVILLE BOROUGH,POLICE AGENCIES 
+62501,CALIFORNIA UNIVERSITY,POLICE AGENCIES 
+62502,R E S A REGIONAL,POLICE AGENCIES 
+62503,ELL - CO REGIONAL,POLICE AGENCIES 
+62505,CHARLEROI AREA SCHOOL DISTRICT,POLICE AGENCIES 
+62506,CHARLEROI REGIONAL,POLICE AGENCIES 
+62507,RINGGOLD SCHOOL DISTRICT,POLICE AGENCIES 
+62601,WASHINGTON COUNTY SHERIFF,POLICE AGENCIES 
+63211,LEHIGH TOWNSHIP,POLICE AGENCIES 
+63402,HAWLEY BOROUGH,POLICE AGENCIES 
+63403,HONESDALE BOROUGH,POLICE AGENCIES 
+63406,WAYMART BOROUGH,POLICE AGENCIES 
+63601,WAYNE COUNTY SHERIFF,POLICE AGENCIES 
+64101,NORTH HUNTINGDON TOWNSHIP,POLICE AGENCIES 
+64102,PENN TOWNSHIP,POLICE AGENCIES 
+64103,ROSTRAVER TOWNSHIP,POLICE AGENCIES 
+64201,ALLEGHENY TOWNSHIP,POLICE AGENCIES 
+64202,BELL TOWNSHIP,POLICE AGENCIES 
+64210,LIGONIER TOWNSHIP,POLICE AGENCIES 
+64213,SAINT CLAIR TOWNSHIP,POLICE AGENCIES 
+64218,UPPER BURRELL TOWNSHIP,POLICE AGENCIES 
+64219,WASHINGTON TOWNSHIP,POLICE AGENCIES 
+64301,CITY OF ARNOLD,POLICE AGENCIES 
+64302,GREENSBURG CITY,POLICE AGENCIES 
+64303,JEANNETTE,POLICE AGENCIES 
+64304,MONESSEN CITY,POLICE AGENCIES 
+64305,NEW KENSINGTON CITY,POLICE AGENCIES 
+64306,LOWER BURRELL CITY,POLICE AGENCIES 
+64401,ADAMSBURG BOROUGH,POLICE AGENCIES 
+64403,AVONMORE BOROUGH,POLICE AGENCIES 
+64404,BOLIVAR BOROUGH,POLICE AGENCIES 
+64405,DERRY BOROUGH,POLICE AGENCIES 
+64407,EAST VANDERGRIFT BOROUGH,POLICE AGENCIES 
+64410,HYDE PARK BOROUGH,POLICE AGENCIES 
+64411,IRWIN BOROUGH,POLICE AGENCIES 
+64412,LATROBE CITY,POLICE AGENCIES 
+64413,LIGONIER BOROUGH,POLICE AGENCIES 
+64415,MANOR BOROUGH,POLICE AGENCIES 
+64416,MOUNT PLEASANT BOROUGH,POLICE AGENCIES 
+64418,NEW FLORENCE BOROUGH,POLICE AGENCIES 
+64419,DELMONT BOROUGH,POLICE AGENCIES 
+64420,NORTH BELLE VERNON BOROUGH,POLICE AGENCIES 
+64421,NORTH IRWIN BOROUGH,POLICE AGENCIES 
+64422,OKLAHOMA BOROUGH,POLICE AGENCIES 
+64423,PENN BOROUGH,POLICE AGENCIES 
+64424,SCOTTDALE BOROUGH,POLICE AGENCIES 
+64425,SEWARD BOROUGH,POLICE AGENCIES 
+64426,SMITHTON BOROUGH,POLICE AGENCIES 
+64427,SOUTH GREENSBURG BOROUGH,POLICE AGENCIES 
+64428,SOUTHWEST GREENSBURG BOROUGH,POLICE AGENCIES 
+64429,SUTERSVILLE BOROUGH,POLICE AGENCIES 
+64430,TRAFFORD BOROUGH,POLICE AGENCIES 
+64431,VANDERGRIFT BOROUGH,POLICE AGENCIES 
+64432,WEST LEECHBURG BOROUGH,POLICE AGENCIES 
+64433,WEST NEWTON BOROUGH,POLICE AGENCIES 
+64435,YOUNGWOOD BOROUGH,POLICE AGENCIES 
+64437,MURRYSVILLE,POLICE AGENCIES 
+64501,WESTMORELAND COUNTY PARK,POLICE AGENCIES 
+64502,SETON HILL UNIVERSITY,POLICE AGENCIES 
+64503,DER KEYSTONE STATE PARK,POLICE AGENCIES 
+64504,WESTMORELAND COUNTY COMMUNITY COLLEGE,POLICE AGENCIES 
+64505,LIGONIER VALLEY,POLICE AGENCIES 
+64506,PENN STATE NEW KENSINGTON,POLICE AGENCIES 
+65204,EXETER TOWNSHIP,POLICE AGENCIES 
+65205,FALLS TOWNSHIP,POLICE AGENCIES 
+65208,MEHOOPANY TOWNSHIP,POLICE AGENCIES 
+65214,NOXEN TOWNSHIP,POLICE AGENCIES 
+65215,OVERFIELD TOWNSHIP,POLICE AGENCIES 
+65216,TUNKHANNOCK TOWNSHIP,POLICE AGENCIES 
+65401,FACTORYVILLE BOROUGH,POLICE AGENCIES 
+65402,LACEYVILLE BOROUGH,POLICE AGENCIES 
+65403,MESHOPPEN BOROUGH,POLICE AGENCIES 
+65404,NICHOLSON BOROUGH,POLICE AGENCIES 
+65405,TUNKHANNOCK BOROUGH,POLICE AGENCIES 
+65601,WYOMING COUNTY SHERIFF,POLICE AGENCIES 
+66101,SPRING GARDEN TOWNSHIP,POLICE AGENCIES 
+66102,YORK TOWNSHIP,POLICE AGENCIES 
+66103,PENN TOWNSHIP,POLICE AGENCIES 
+66201,CARROLL TOWNSHIP,POLICE AGENCIES 
+66204,CONEWAGO TOWNSHIP,POLICE AGENCIES 
+66208,FAIRVIEW TOWNSHIP,POLICE AGENCIES 
+66211,HEIDELBURG TOWNSHIP,POLICE AGENCIES 
+66212,HELLAM TOWNSHIP,POLICE AGENCIES 
+66214,JACKSON TOWNSHIP,POLICE AGENCIES 
+66216,LOWER WINDSOR TOWNSHIP,POLICE AGENCIES 
+66218,MANHEIM TOWNSHIP,POLICE AGENCIES 
+66220,NEWBERRY TOWNSHIP,POLICE AGENCIES 
+66221,NORTH CODOURS TOWNSHIP,POLICE AGENCIES 
+66222,NORTH HOPEWELL,POLICE AGENCIES 
+66227,SPRINGETTSBURY TOWNSHIP,POLICE AGENCIES 
+66231,WEST MANCHESTER TOWNSHIP,POLICE AGENCIES 
+66232,WEST MANHEIM TOWNSHIP,POLICE AGENCIES 
+66233,WINDSOR TOWNSHIP,POLICE AGENCIES 
+66301,YORK CITY,POLICE AGENCIES 
+66410,GLEN ROCK BOROUGH,POLICE AGENCIES 
+66413,HANOVER BOROUGH,POLICE AGENCIES 
+66424,RED LION BOROUGH,POLICE AGENCIES 
+66428,STEWARTSTOWN BOROUGH,POLICE AGENCIES 
+66430,WEST YORK BOROUGH,POLICE AGENCIES 
+66433,WRIGHTSVILLE BOROUGH,POLICE AGENCIES 
+66501,NORTHERN YORK REGIONAL,POLICE AGENCIES 
+66502,NORTHEASTERN REGIONAL,POLICE AGENCIES 
+66503,CORDOUS STATE PARK,POLICE AGENCIES 
+66504,SOUTHERN REGIONAL,POLICE AGENCIES 
+66505,YORK AREA REGIONAL,POLICE AGENCIES 
+66506,GIFFORD PINCHOT STATE PARK,POLICE AGENCIES 
+66507,SOUTHWESTERN REGIONAL,POLICE AGENCIES 
+66508,PENN STATE YORK,POLICE AGENCIES 
+66509,YORK COLLEGE,POLICE AGENCIES 
+67301,PHILADELPHIA CITY,POLICE AGENCIES 
+67501,DELAWARE RIVER PORT AUTHORITY,POLICE AGENCIES 
+67502,BURLINGTON COUNTY BRIDGE COMMISION,POLICE AGENCIES 
+67503,PHILADELPHIA NAVAL BASE,POLICE AGENCIES 
+67504,UNIVERSITY OF PENNSYLVANIA,POLICE AGENCIES 
+67505,TEMPLE UNIVERSITY,POLICE AGENCIES 
+67506,SOUTHEASTERN PA TRANSIT AUTHORITY,POLICE AGENCIES 
+67507,DREXEL UNIVERSITY,POLICE AGENCIES 
+67508,SEPTA,POLICE AGENCIES 
+67509,PHILADELPHIA HOUSING AUTHORITY,POLICE AGENCIES 
+67601,PHILADELPHIA COUNTY SHERIFF,POLICE AGENCIES 
+68A01 PSP,GREENSBURG,POLICE AGENCIES 
+68A02 PSP,EBENSBURG,POLICE AGENCIES 
+68A03 PSP,INDIANA,POLICE AGENCIES 
+68A04 PSP,KISKI VALLEY,POLICE AGENCIES 
+68A06 PSP,SOMERSET,POLICE AGENCIES 
+68B01 PSP,WASHINGTON,POLICE AGENCIES 
+68B02 PSP,BELLE VERNON,POLICE AGENCIES 
+68B03 PSP,PITTSBURGH,POLICE AGENCIES 
+68B04 PSP,UNIONTOWN,POLICE AGENCIES 
+68B05 PSP,WAYNESBURG,POLICE AGENCIES 
+68C01 PSP,PUNXSUTAWNEY,POLICE AGENCIES 
+68C02 PSP,CLARION,POLICE AGENCIES 
+68C03 PSP,CLEARFIELD,POLICE AGENCIES 
+68C04 PSP,DUBOIS,POLICE AGENCIES 
+68C05 PSP,LEWIS RUN,POLICE AGENCIES 
+68C06 PSP,RIDGWAY,POLICE AGENCIES 
+68C07 PSP,TIONESTA,POLICE AGENCIES 
+68D01 PSP,BUTLER,POLICE AGENCIES 
+68D02 PSP,KITTANNING,POLICE AGENCIES 
+68D03 PSP,MERCER,POLICE AGENCIES 
+68D04 PSP,BEAVER,POLICE AGENCIES 
+68D06 PSP,NEW CASTLE,POLICE AGENCIES 
+68E01 PSP,ERIE,POLICE AGENCIES 
+68E02 PSP,CORRY,POLICE AGENCIES 
+68E03 PSP,FRANKLIN,POLICE AGENCIES 
+68E04 PSP,GIRARD,POLICE AGENCIES 
+68E05 PSP,MEADVILLE,POLICE AGENCIES 
+68E06 PSP,WARREN,POLICE AGENCIES 
+68F01 PSP,MONTOURSVILLE,POLICE AGENCIES 
+68F02 PSP,COUDERSPORT,POLICE AGENCIES 
+68F03 PSP,EMPORIUM,POLICE AGENCIES 
+68F04 PSP,LAMAR,POLICE AGENCIES 
+68F05 PSP,MANSFIELD,POLICE AGENCIES 
+68F06 PSP,MILTON,POLICE AGENCIES 
+68F07 PSP,SELINSGROVE,POLICE AGENCIES 
+68F08 PSP,STONINGTON,POLICE AGENCIES 
+68G01 PSP,HOLLIDAYSBURG,POLICE AGENCIES 
+68G02 PSP,BEDFORD,POLICE AGENCIES 
+68G03 PSP,HUNTINGDON,POLICE AGENCIES 
+68G04 PSP,LEWISTOWN,POLICE AGENCIES 
+68G05 PSP,MCCONNELLSBURG,POLICE AGENCIES 
+68G07 PSP,ROCKVIEW,POLICE AGENCIES 
+68G08 PSP,PHILIPSBURG,POLICE AGENCIES 
+68H01 PSP,HARRISBURG,POLICE AGENCIES 
+68H02 PSP,CARLISLE,POLICE AGENCIES 
+68H03 PSP,CHAMBERSBURG,POLICE AGENCIES 
+68H04 PSP,ELIZABETHVILLE,POLICE AGENCIES 
+68H05 PSP,NEWPORT,POLICE AGENCIES 
+68H06 PSP,GETTYSBURG,POLICE AGENCIES 
+68H07 PSP,YORK,POLICE AGENCIES 
+68J01 PSP,LANCASTER,POLICE AGENCIES 
+68J02 PSP,AVONDALE,POLICE AGENCIES 
+68J03 PSP,EMBREEVILLE,POLICE AGENCIES 
+68J05 PSP,EPHRATA,POLICE AGENCIES 
+68J06 PSP,YORK,POLICE AGENCIES 
+68K01 PSP,PHILADELPHIA,POLICE AGENCIES 
+68K02 PSP,MEDIA,POLICE AGENCIES 
+68K03 PSP,SKIPPACK,POLICE AGENCIES 
+68L01 PSP,READING,POLICE AGENCIES 
+68L02 PSP,JONESTOWN,POLICE AGENCIES 
+68L03 PSP,FRACKVILLE,POLICE AGENCIES 
+68L04 PSP,HAMBURG,POLICE AGENCIES 
+68L07 PSP,SCHUYLKILL HAVEN,POLICE AGENCIES 
+68M01 PSP,BETHLEHEM,POLICE AGENCIES 
+68M02 PSP,DUBLIN,POLICE AGENCIES 
+68M03 PSP,TREVOSE,POLICE AGENCIES 
+68M05 PSP,FOGELSVILLE,POLICE AGENCIES 
+68M06 PSP,BELFAST,POLICE AGENCIES 
+68N01 PSP,HAZLETON,POLICE AGENCIES 
+68N02 PSP,BLOOMSBURG,POLICE AGENCIES 
+68N03 PSP,FERN RIDGE,POLICE AGENCIES 
+68N04 PSP,LEHIGHTON,POLICE AGENCIES 
+68N06 PSP,STROUDSBURG,POLICE AGENCIES 
+68P01 PSP,WILKES BARRE,POLICE AGENCIES 
+68P02 PSP,LAPORTE,POLICE AGENCIES 
+68P04 PSP,SHICKSHINNY,POLICE AGENCIES 
+68P05 PSP,TOWANDA,POLICE AGENCIES 
+68P06 PSP,TUNKHANNOCK,POLICE AGENCIES 
+68R01 PSP,DUNMORE,POLICE AGENCIES 
+68R03 PSP,HONESDALE,POLICE AGENCIES 
+68R04 PSP,BLOOMING GROVE,POLICE AGENCIES 
+68R05 PSP,GIBSON,POLICE AGENCIES 
+68T01 PSP,HIGHSPIRE,POLICE AGENCIES 
+68T02 PSP,GIBSONIA,POLICE AGENCIES 
+68T03 PSP,SOMERSET,POLICE AGENCIES 
+68T04 PSP,EVERETT,POLICE AGENCIES 
+68T05 PSP,NEWVILLE,POLICE AGENCIES 
+68T06 PSP,BOWMANSVILLE,POLICE AGENCIES 
+68T07 PSP,KING OF PRUSSIA,POLICE AGENCIES 
+68T08 PSP,POCONO,POLICE AGENCIES 
+68T09 PSP,NEW STANTON,POLICE AGENCIES 
+AC,A C (GREAT BRITAIN),VEHICLE MAKE
+ACAD,ACADIAN (GM OF CANADA),VEHICLE MAKE
+ACUR,ACURA,VEHICLE MAKE
+AIH,AMERICAN IRONHORSE,VEHICLE MAKE
+ALFA,ALFA ROMEO,VEHICLE MAKE
+AMER,AMERICAN MOTORS,VEHICLE MAKE
+AMGN,AM GENERAL,VEHICLE MAKE
+AMIN,ADVANCE MIXER,VEHICLE MAKE
+APRI,APRILIA SPA,VEHICLE MAKE
+ARCA,ARCTIC CAT (MOTORCYCLE),VEHICLE MAKE
+ARCC,ARCTIC CAT (SNOWMOBILE),VEHICLE MAKE
+ASTO,ASTON MARTIN,VEHICLE MAKE
+ASUN,ASUNA,VEHICLE MAKE
+AUDI,AUDI,VEHICLE MAKE
+AUHE,AUSTIN-HEALEY,VEHICLE MAKE
+AUST,AUSTIN,VEHICLE MAKE
+AUTC,AUTOCAR,VEHICLE MAKE
+AVTI,AVANTI,VEHICLE MAKE
+AZUR,AZURE DYNAMICS,VEHICLE MAKE
+BEJE,BEIJING JEEP,VEHICLE MAKE
+BENT,BENTLEY,VEHICLE MAKE
+BERO,BERTONE,VEHICLE MAKE
+BESA,BESASIE,VEHICLE MAKE
+BGDG,BIG DOG,VEHICLE MAKE
+BLUB,BLUEBIRD,VEHICLE MAKE
+BMBR,BOMBARDIER / BRP,VEHICLE MAKE
+BMC,BMC,VEHICLE MAKE
+BMW,BMW,VEHICLE MAKE
+BORG,BORGWARD,VEHICLE MAKE
+BREM,BREMEN SPORT EQUIPMENT,VEHICLE MAKE
+BRIC,BRICKLIN,VEHICLE MAKE
+BROC,BROCKWAY,VEHICLE MAKE
+BRSH,BRUSH,VEHICLE MAKE
+BSA,BSA,VEHICLE MAKE
+BUEL,BUELL,VEHICLE MAKE
+BUGA,BUGATTI,VEHICLE MAKE
+BUIC,BUICK,VEHICLE MAKE
+BZEL,B & Z ELECTRIC,VEHICLE MAKE
+CADI,CADILLAC,VEHICLE MAKE
+CAGI,CAGIVA,VEHICLE MAKE
+CANA,CAN-AM,VEHICLE MAKE
+CASE,CASE,VEHICLE MAKE
+CAT,CATERPILLAR,VEHICLE MAKE
+CATE,CATERHAM,VEHICLE MAKE
+CCC,CCC CRANE,VEHICLE MAKE
+CCMH,COUNTRY COACH,VEHICLE MAKE
+CHEC,CHECKER,VEHICLE MAKE
+CHEV,CHEVROLET,VEHICLE MAKE
+CHRY,CHRYSLER,VEHICLE MAKE
+CHUC,CHUCK BECK MOTORSPORTS,VEHICLE MAKE
+CIMC,CIMC,VEHICLE MAKE
+CISI,CISITALIA,VEHICLE MAKE
+CITR,CITROEN,VEHICLE MAKE
+CLEN,CLENET COACH WORKS,VEHICLE MAKE
+CLND,CROSS LANDER,VEHICLE MAKE
+CLUB,CLUB CAR,VEHICLE MAKE
+CMPG,CAMPAGNA,VEHICLE MAKE
+COLB,IMPERIAL,VEHICLE MAKE
+COMV,COMMUTER VEHICLES,VEHICLE MAKE
+CONU,CONSULIER,VEHICLE MAKE
+CORD,CORD,VEHICLE MAKE
+CRBN,CORBIN,VEHICLE MAKE
+DAEW,DAEWOO,VEHICLE MAKE
+DAIH,DAIHATSU,VEHICLE MAKE
+DAKO,DAKOTA,VEHICLE MAKE
+DATS,DATSUN,VEHICLE MAKE
+DAYO,DAYTONA,VEHICLE MAKE
+DECO,DECOURVILLE,VEHICLE MAKE
+DEER,JOHN DEERE,VEHICLE MAKE
+DELG,DELAGE,VEHICLE MAKE
+DELO,DELOREAN,VEHICLE MAKE
+DESO,DESOTO,VEHICLE MAKE
+DETO,DETOMASO,VEHICLE MAKE
+DIAR,DIAMOND REO,VEHICLE MAKE
+DKW,DKW,VEHICLE MAKE
+DLHY,DELAHAYE,VEHICLE MAKE
+DODG,DODGE,VEHICLE MAKE
+DUCA,DUCATI,VEHICLE MAKE
+EAGC,EAGLE COACH,VEHICLE MAKE
+EAGI,EAGLE COACH (BUS),VEHICLE MAKE
+EAST,EAST MANUFACTURING,VEHICLE MAKE
+EDSE,EDSEL,VEHICLE MAKE
+EGIL,EAGLE,VEHICLE MAKE
+ELIO,ELIO,VEHICLE MAKE
+EMON,E-ONE,VEHICLE MAKE
+ENCR,ENCORE,VEHICLE MAKE
+ENVO,ENVEMO,VEHICLE MAKE
+ENVY,ENVOY,VEHICLE MAKE
+ERID,E-RIDE,VEHICLE MAKE
+EVNS,EVANS,VEHICLE MAKE
+EXCL,EXCALIBUR,VEHICLE MAKE
+FERR,FERRARI,VEHICLE MAKE
+FIAT,FIAT,VEHICLE MAKE
+FLYB,FLYBO,VEHICLE MAKE
+FONA,FONTANE,VEHICLE MAKE
+FORD,FORD,VEHICLE MAKE
+FRHT,FREIGHTLINER,VEHICLE MAKE
+FSKR,FISKER,VEHICLE MAKE
+FTWD,FLEETWOOD,VEHICLE MAKE
+FWD,FWD,VEHICLE MAKE
+GAZ,GAZ,VEHICLE MAKE
+GDAN,GREAT DANE TRAILERS,VEHICLE MAKE
+GENS,GENESIS,VEHICLE MAKE
+GENU,GENUINE SCOOTERS,VEHICLE MAKE
+GENZ,GENZE,VEHICLE MAKE
+GEO,GEO,VEHICLE MAKE
+GILG,GILLIG,VEHICLE MAKE
+GLAS,GLAS,VEHICLE MAKE
+GLBL,GLOBAL ELECTRIC,VEHICLE MAKE
+GM,GENERAL MOTORS,VEHICLE MAKE
+GMBH,SETRA,VEHICLE MAKE
+GMC,GMC,VEHICLE MAKE
+GRET,GREENTECH,VEHICLE MAKE
+GRUM,GRUMMAN,VEHICLE MAKE
+GWM,KALMAR INDUSTRIES LLC,VEHICLE MAKE
+GZL,GAZELLE,VEHICLE MAKE
+HAUI,"HAULMARK INDUSTRIES, INC",VEHICLE MAKE
+HD,HARLEY-DAVIDSON,VEHICLE MAKE
+HILL,HILLMAN,VEHICLE MAKE
+HINO,HINO,VEHICLE MAKE
+HOLD,HOLDEN,VEHICLE MAKE
+HOND,HONDA,VEHICLE MAKE
+HUDS,HUDSON,VEHICLE MAKE
+HUMM,HUMMER,VEHICLE MAKE
+HUSQ,HUSQVARNA,VEHICLE MAKE
+HYOS,HYOSUNG MOTORS & MACHINERY,VEHICLE MAKE
+HYTR,HYUNDAI TRANSLEAD,VEHICLE MAKE
+HYUN,HYUNDAI,VEHICLE MAKE
+ICRP,IC BUS,VEHICLE MAKE
+INDI,INDIAN,VEHICLE MAKE
+INFI,INFINITI,VEHICLE MAKE
+INTL,INTERNATIONAL,VEHICLE MAKE
+ISU,ISUZU,VEHICLE MAKE
+IVEC,IVECO / MAGIRUS,VEHICLE MAKE
+JAGU,JAGUAR,VEHICLE MAKE
+JEEP,JEEP,VEHICLE MAKE
+JENS,JENSEN,VEHICLE MAKE
+KAIS,KAISER,VEHICLE MAKE
+KAIT,YIBEN,VEHICLE MAKE
+KAWK,KAWASAKI,VEHICLE MAKE
+KIA,KIA,VEHICLE MAKE
+KTM,KTM,VEHICLE MAKE
+KUBO,KUBOTA,VEHICLE MAKE
+KVCH,KOVATCH,VEHICLE MAKE
+KW,KENWORTH,VEHICLE MAKE
+KYMC,KYMCO,VEHICLE MAKE
+LADA,LADA,VEHICLE MAKE
+LAFR,AMERICAN LAFRANCE,VEHICLE MAKE
+LAMO,LAMBORGHINI,VEHICLE MAKE
+LEXS,LEXUS,VEHICLE MAKE
+LINC,LINCOLN,VEHICLE MAKE
+LNCI,LANCIA,VEHICLE MAKE
+LNDR,LAND ROVER,VEHICLE MAKE
+LOTU,LOTUS,VEHICLE MAKE
+MACK,MACK,VEHICLE MAKE
+MACM,MAC LTT,VEHICLE MAKE
+MAHA,MARMON HARRINGTON MAHI MAHINDRA,VEHICLE MAKE
+MASE,MASERATI,VEHICLE MAKE
+MAYB,MAYBACH,VEHICLE MAKE
+MAZD,MAZDA,VEHICLE MAKE
+MCIN,MCI (MOTOR COACH IND),VEHICLE MAKE
+MCKT,MAC TRAILER MANUFACTURING,VEHICLE MAKE
+MCLA,MCLAREN,VEHICLE MAKE
+MDNA,MODERNA,VEHICLE MAKE
+MELR,BOBCAT,VEHICLE MAKE
+MERC,MERCURY,VEHICLE MAKE
+MERK,MERKUR,VEHICLE MAKE
+MERZ,MERCEDES-BENZ,VEHICLE MAKE
+MESS,MESSERSCHMITT,VEHICLE MAKE
+METE,METEOR,VEHICLE MAKE
+MG,MG,VEHICLE MAKE
+MICC,MICRO CONCEPT,VEHICLE MAKE
+MIEV,MILES ELECTRIC,VEHICLE MAKE
+MIFU,MITSUBISHI FUSO,VEHICLE MAKE
+MILL,MILLER TRAILERS,VEHICLE MAKE
+MITS,MITSUBISHI,VEHICLE MAKE
+MNAC,MONACO,VEHICLE MAKE
+MNNI,MINI COOPER,VEHICLE MAKE
+MODE,MODEL A-MODEL T,VEHICLE MAKE
+MOGU,MOTO-GUZZI,VEHICLE MAKE
+MONA,MONARCH,VEHICLE MAKE
+MORG,MORGAN,VEHICLE MAKE
+MORR,MORRIS,VEHICLE MAKE
+MOSL,MOSLER,VEHICLE MAKE
+MOVT,MOBILITY VENTURES,VEHICLE MAKE
+MRCU,MERCURY SNOWMOBILE,VEHICLE MAKE
+MVAU,MV AUGUSTA,VEHICLE MAKE
+NASH,NASH,VEHICLE MAKE
+NAVI,NAVISTAR,VEHICLE MAKE
+NBLE,NOBLE,VEHICLE MAKE
+NDMC,UD,VEHICLE MAKE
+NEWH,SPERRY NEW HOLLAND,VEHICLE MAKE
+NFLY,NEW FLYER,VEHICLE MAKE
+NISS,NISSAN,VEHICLE MAKE
+NORT,NORTON,VEHICLE MAKE
+NOVB,NOVABUS,VEHICLE MAKE
+NSU,NSU PRINZ,VEHICLE MAKE
+OLDS,OLDSMOBILE,VEHICLE MAKE
+ONTR,DAIMLER CHRYSLER COMMERCIAL BUS,VEHICLE MAKE
+OPL,OPEL,VEHICLE MAKE
+OSHK,OSHKOSH,VEHICLE MAKE
+OTHR,OTHER,VEHICLE MAKE
+PACK,PACKARD,VEHICLE MAKE
+PANE,PANTHER WESTWINDS,VEHICLE MAKE
+PANZ,PANOZ,VEHICLE MAKE
+PASS,PASSPORT,VEHICLE MAKE
+PEUG,PEUGEOT,VEHICLE MAKE
+PIAG,PIAGGIO AND VESPA,VEHICLE MAKE
+PINI,PINIFARINA,VEHICLE MAKE
+PIRC,PIERCE MANUFACTURING,VEHICLE MAKE
+PLYM,PLYMOUTH,VEHICLE MAKE
+POLA,POLAR TANK TRAILER,VEHICLE MAKE
+POLS,POLARIS,VEHICLE MAKE
+PONI,PONTIAC (CANADA),VEHICLE MAKE
+PONT,PONTIAC,VEHICLE MAKE
+POPE,POPE,VEHICLE MAKE
+PORS,PORSCHE,VEHICLE MAKE
+PREO,PREVOST,VEHICLE MAKE
+PRTA,PROTERRA,VEHICLE MAKE
+PTRB,PETERBILT,VEHICLE MAKE
+QVAL,QVALE,VEHICLE MAKE
+RAM,RAM,VEHICLE MAKE
+RAMB,RAMBLER,VEHICLE MAKE
+REIT,REITNOUER,VEHICLE MAKE
+RELA,RELIANT,VEHICLE MAKE
+RENA,RENAULT,VEHICLE MAKE
+REO,REO 200,VEHICLE MAKE
+REVO,REVO,VEHICLE MAKE
+ROL,ROLLS-ROYCE,VEHICLE MAKE
+ROOT,ROOTES,VEHICLE MAKE
+ROSN,RISSON,VEHICLE MAKE
+ROV,ROVER (BRITISH),VEHICLE MAKE
+RROV,RANGE ROVER,VEHICLE MAKE
+RUFA,RUF AUTOMOBILES OF NA,VEHICLE MAKE
+SAA,SAAB,VEHICLE MAKE
+SANG,SANGYONG,VEHICLE MAKE
+SCIO,SCION,VEHICLE MAKE
+SHEB,SHELBY,VEHICLE MAKE
+SIM,SIMCA,VEHICLE MAKE
+SIN,SINGER,VEHICLE MAKE
+SKOD,SKODA,VEHICLE MAKE
+SMRT,SMART,VEHICLE MAKE
+SOLE,SOLECTRIA,VEHICLE MAKE
+SPNR,SPRINTER,VEHICLE MAKE
+SPTN,SPARTAN MOTORS,VEHICLE MAKE
+SPYK,SPYKER,VEHICLE MAKE
+STRG,STERLING,VEHICLE MAKE
+STRN,SATURN,VEHICLE MAKE
+STU,STUDEBAKER,VEHICLE MAKE
+STUZ,STUTZ,VEHICLE MAKE
+SUBA,SUBARU,VEHICLE MAKE
+SUNB,SUNBEAM,VEHICLE MAKE
+SUTP,SUTPHEN,VEHICLE MAKE
+SUZI,SUZUKI,VEHICLE MAKE
+SYMG,SYM USA/SANYANG,VEHICLE MAKE
+TERX,TEREX ADVANCE MIXER,VEHICLE MAKE
+TESL,TESLA,VEHICLE MAKE
+THMS,THOMAS BUILT THNK THINK,VEHICLE MAKE
+TLCC,TLC CARROSSIERS TNOM TANOM,VEHICLE MAKE
+TOYT,TOYOTA,VEHICLE MAKE
+TRUM,TRIUMPH,VEHICLE MAKE
+TVR,TVR,VEHICLE MAKE
+UAZ,UAZ,VEHICLE MAKE
+ULTS,ULTIMA SPORTS UNLIMITED,VEHICLE MAKE
+UNKN,UNKNOWN,VEHICLE MAKE
+USEL,US ELECTRICAR,VEHICLE MAKE
+VACR,VECTOR,VEHICLE MAKE
+VAND,VANDERHALL,VEHICLE MAKE
+VANG,VANGARD,VEHICLE MAKE
+VANR,VANGUARD TRAILER,VEHICLE MAKE
+VAUX,VAUXHALL,VEHICLE MAKE
+VCTY,VICTORY,VEHICLE MAKE
+VESP,VESPA,VEHICLE MAKE
+VHPG,VEHICLE PRODUCTION GROUP,VEHICLE MAKE
+VNHL,VAN HOOL,VEHICLE MAKE
+VOLK,VOLKSWAGEN,VEHICLE MAKE
+VOLV,VOLVO,VEHICLE MAKE
+VSVC,FREIGHTLINER (SPRINTER),VEHICLE MAKE
+WALK,WALKER STAINLESS,VEHICLE MAKE
+WANC,WABASH,VEHICLE MAKE
+WHGM,WHITE GMC,VEHICLE MAKE
+WHGO,WHEEGO,VEHICLE MAKE
+WHIT,WHITE/AUTOCAR,VEHICLE MAKE
+WINN,WINNEBAGO,VEHICLE MAKE
+WLLS,WILLYS,VEHICLE MAKE
+WRKH,WORKHORSE,VEHICLE MAKE
+WSTR,WESTERN STAR,VEHICLE MAKE
+YAMA,YAMAHA,VEHICLE MAKE
+ZAPP,ZAP,VEHICLE MAKE
+ZCZY,YUGO,VEHICLE MAKE
+ZENN,ZENN MOTOR,VEHICLE MAKE
+ZERO,ZERO MOTORCYCLES,VEHICLE MAKE
+ZMCC,ZIMMER,VEHICLE MAKE

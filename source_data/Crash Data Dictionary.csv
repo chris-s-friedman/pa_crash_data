@@ -1,0 +1,351 @@
+﻿   Column Name ,      Short Title / Description ,Type ,Length ,Constraints ,table_name
+ARRIVAL_TM ,Time police arrived at the scene ,TEXT ,4,HHMM ,crash
+AUTOMOBILE_COUNT ,Total amount of Automobiles Involved ,NUMBER ,2,  ,crash
+BELTED_DEATH_COUNT ,Total Deaths of belted occupants  ,NUMBER ,2,  ,crash
+BELTED_SUSP_SERIOUS _INJ_COUNT ,Total Suspected Serious Injuries of belted occupants  ,NUMBER ,2,  ,crash
+BICYCLE_COUNT ,Total amount of Bicycles involved ,NUMBER ,2,  ,crash
+BICYCLE_DEATH_COUNT ,Total amount of Bicyclist Fatalities ,NUMBER ,2,  ,crash
+BICYCLE_SUSP_SERIOUS _INJ_COUNT ,Total amount of Bicyclist Suspected Serious Injuries ,NUMBER ,2,  ,crash
+BUS_COUNT ,Total amount of Buses involved ,NUMBER ,2,  ,crash
+CHLDPAS_DEATH_COUNT ,Total child passengers under the age of 8 killed in the crash ,NUMBER ,2, ,crash
+CHLDPAS_SUSP_SERIOUS _INJ_COUNT ,Total child passengers under the age of 8 with suspected serious injuries ,NUMBER ,2, ,crash
+COLLISION_TYPE ,Collision category that defines the crash ,TEXT ,1,See Column Code ,crash
+COMM_VEH_COUNT ,Total Commercial vehicles involved ,NUMBER ,2, ,crash
+CONS_ZONE_SPD_LIM ,Speed limit for the Construction Zone ,TEXT ,2, ,crash
+COUNTY ,County Code Number where crash occurred ,TEXT ,2,See Column Code ,crash
+CRASH_MONTH ,Month when the crash occurred ,TEXT ,2,  ,crash
+CRASH_YEAR ,Year when the crash occurred ,TEXT ,4,  ,crash
+CRN  ,Crash Record Number ,NUMBER ,2,Database key field that identifies a unique crash case ,crash
+DAY_OF_WEEK ,Day of the Week code when crash occurred ,TEXT ,1,See Column Code ,crash
+DEC_LAT ,Decimal format of the Latitude ,NUMBER ,2.4,Latitude expressed in decimal degrees 99.9999 ,crash
+DEC_LONG ,Decimal format of the Longitude ,NUMBER ,2.4,Longitude expressed in decimal degrees 99.9999 ,crash
+DISPATCH_TM ,Time police were dispatched to the scene ,TEXT ,4,HHMM (Hour Minute) ,crash
+DISTRICT ,District Number where crash occurred (Based on County) ,TEXT ,2,See Column Code ,crash
+DRIVER_COUNT_16YR ,Total amount of 16-year-old drivers ,NUMBER ,2,  ,crash
+DRIVER_COUNT_17YR ,Total amount of 17-year-old drivers ,NUMBER ,2,  ,crash
+DRIVER_COUNT_18YR ,Total amount of 18-year-old drivers ,NUMBER ,2, ,crash
+DRIVER_COUNT_19YR ,Total amount of 19-year old drivers ,NUMBER ,2, ,crash
+DRIVER_COUNT_20YR ,Total amount of 20-year-old drivers ,NUMBER ,2, ,crash
+DRIVER_COUNT_50_64YR ,Total amount of 50 to 64-year-old drivers ,NUMBER ,2, ,crash
+DRIVER_COUNT_65_74YR ,Total amount of 65 to 74-year-old drivers ,NUMBER ,2,  ,crash
+DRIVER_COUNT_75PLUS ,Total amount of drivers ages 75 and up ,NUMBER ,2, ,crash
+EST_HRS_CLOSED ,Estimated hours roadway was closed ,TEXT ,1,HHMM ,crash
+FATAL_COUNT ,Total amount of fatalities involved ,NUMBER ,2,  ,crash
+HEAVY_TRUCK_COUNT ,Total amount of Heavy Trucks involved ,NUMBER ,2,  ,crash
+HORSE_BUGGY_COUNT ,Total Number of Horse and Buggy Units involved in the Crash ,NUMBER ,2, ,crash
+HOUR_OF_DAY ,The hour of Day when the crash occurred ,TEXT ,2,00 to 23 ,crash
+ILLUMINATION ,Code that defines lighting at crash scene ,TEXT ,1,See Column Code ,crash
+INJURY_COUNT ,Total count of all injuries sustained ,NUMBER ,2, ,crash
+INTERSECT_TYPE ,Code that defines the Intersection Type ,TEXT ,2,See Column Code ,crash
+INTERSECTION_RELATED ,Was this midblock crash related to a nearby intersection?  ,TEXT ,1,"1=Y, 0 = N ",crash
+LANE_CLOSED ,Was there a lane closure? (Y/N) ,TEXT ,1,"1=Y, 0 = N ",crash
+LATITUDE ,GPS Latitude determined by PennDOT ,TEXT ,12,DD MM:SS.ddd ,crash
+LN_CLOSE_DIR ,Direction of traffic in closed lane (s) ,TEXT ,1,See Column Code ,crash
+LOCATION_TYPE ,Code that defines the crash location ,TEXT ,2,See Column Code ,crash
+LONGITUDE ,GPS Longitude determined by PennDOT (in negative degrees)  ,TEXT ,12,DD MM:SS.ddd ,crash
+MAX_SEVERITY_LEVEL ,Injury severity level of the crash ,TEXT ,1,See Column Code ,crash
+MCYCLE_DEATH_COUNT ,Total amount of Motorcyclist fatalities ,NUMBER ,2,  ,crash
+MCYCLE_ SUSP_SERIOUS _INJ_COUNT ,Total amount of Motorcyclist Suspected Serious Injuries ,NUMBER ,2,  ,crash
+MOTORCYCLE_COUNT ,Total amount of Motorcycles Involved ,NUMBER ,2,  ,crash
+MUNICIPALITY ,Municipality Code ,TEXT ,5,See Municipality Code ,crash
+NONMOTR_COUNT ,Total number of Non-motorists involved in the crash ,NUMBER ,2, ,crash
+NONMOTR_DEATH_COUNT ,Total number of Non-motorists killed in the crash ,NUMBER ,2, ,crash
+NONMOTR_SUSP_SERIOUS _INJ COUNT ,Total number of Non-motorists with suspected serious injures in the crash ,NUMBER ,2, ,crash
+NTFY_HIWY_MAINT ,PENNDOT highway maintenance notified? ,TEXT ,1,"1=Y, 0 = N ",crash
+PED_COUNT ,Total Pedestrians involved ,NUMBER ,2,  ,crash
+PED_DEATH_COUNT ,Total Pedestrian fatalities ,NUMBER ,2,  ,crash
+PED_ SUSP_SERIOUS _INJ_COUNT ,Total Pedestrians with an Injury Severity of “Suspected Serious Injury”  ,NUMBER ,2,  ,crash
+PERSON_COUNT ,Total People involved ,NUMBER ,2,  ,crash
+POLICE_AGCY ,Code of the Reporting Police Agency ,TEXT ,5,See Police Agency Code  ,crash
+POSSIBLE_INJ_COUNT ,Total number of People with an injury severity of “Possible Injury” ,NUMBER ,2,  ,crash
+RDWY_SURF_TYPE_CD ,Code for the Roadway surface type –only for fatal crashes ,TEXT ,2,See Column Code ,crash
+RELATION_TO_ROAD ,Code for the crash’s relativity to the road ,TEXT ,2,See Column Code ,crash
+ROAD_CONDITION ,Roadway Surface Condition Code ,TEXT ,1,See Column Code ,crash
+ROADWAY_CLEARED ,Time the roadway was opened to traffic ,TEXT ,4,0000-2359 or 9999 ,crash
+SCH_BUS_IND ,Did the crash involve a School Bus? (Y/N) ,TEXT ,1,Y = Yes N = No ,crash
+SCH_ZONE_IND ,Did the crash occur in a School Zone? (Y/N) ,TEXT ,1,Y = Yes N = No ,crash
+SECONDARY_CRASH ,Was this crash caused at least in part to a prior crash? ,TEXT ,1,Y = Yes N = No ,crash
+SMALL_TRUCK_COUNT ,Total amount of Small Trucks involved ,NUMBER ,2,  ,crash
+SPEC_JURIS_CD ,Code that defines any special jurisdiction – only for fatal crashes ,TEXT ,1,See Column Code ,crash
+SUSP_MINOR_INJ_COUNT ,Total number of People with an injury severity of Suspected Minor Injury ,NUMBER ,2, ,crash
+SUSP_SERIOUS_INJ_COUNT ,Total number of People with an injury severity of Suspected Serious Injury ,NUMBER ,2, ,crash
+SUV_COUNT ,Total count of sport utility vehicles involved ,NUMBER ,2,  ,crash
+TCD_FUNC_CD ,Code for Traffic Control Device state ,TEXT ,2,See Column Code ,crash
+TCD_TYPE ,Code that defines the Traffic Control Device ,TEXT ,1,See Column Code ,crash
+TFC_DETOUR_IND ,Was Traffic Detoured? (Y/N) ,TEXT ,1,"1=Y, 0 = N ",crash
+TIME_OF_DAY ,The Time of Day When the Crash Occurred ,TEXT ,4,0000 through 2359 ,crash
+TOT_INJ_COUNT ,Count of total injuries sustained by persons involved in this crash. Does not include fatal injuries. ,NUMBER ,2, ,crash
+TOTAL_UNITS ,Total count of all Vehicles and Pedestrians ,NUMBER ,2,  ,crash
+UNB_DEATH_COUNT ,No. of people killed not wearing a seatbelt ,NUMBER ,2,  ,crash
+UNB_ SUSP_SERIOUS _INJ_COUNT ,Total # of unbelted sustaining Suspected Serious Injuries ,NUMBER ,2,  ,crash
+UNBELTED_OCC_COUNT ,Total count of all unbelted occupants ,NUMBER ,2,  ,crash
+UNK_INJ_DEG_COUNT ,No. of injuries with unknown severity ,NUMBER ,2,  ,crash
+UNK_INJ_PER_COUNT ,No. of people that are unknown if injured ,NUMBER ,2,  ,crash
+URBAN_RURAL ,Code to classify crash as Urban or Rural ,TEXT ,1,"1= Rural, 2=Urbanized, 3=Urban  ",crash
+VAN_COUNT ,Total amount of vans involved ,NUMBER ,2,  ,crash
+VEHICLE_COUNT ,Total number of all motor vehicles involved in the crash ,NUMBER ,2,  ,crash
+WEATHER1 ,Code for the first weather condition at time of crash ,TEXT ,2,See Column Code ,crash
+WEATHER2 ,Code for the second weather condition at time of crash ,TEXT ,2,See Column Code ,crash
+WORK_ZONE_IND ,Did the crash occur in a work zone  ,TEXT ,1,"1=Y, 0 = N ",crash
+WORK_ZONE_LOC ,The Work Zone Location Code ,TEXT ,1,See Column Code ,crash
+WORK_ZONE_TYPE ,Code to define the type of Work Zone ,TEXT ,1,See Column Code ,crash
+WORKERS_PRES ,Were construction personnel present?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_CLOSE_DETOUR ,Was traffic rerouted due to work zone?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_FLAGGER ,Did Work zone have a flagman?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_LAW_OFFCR_IND ,Did Work zone have a patrolman?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_LN_CLOSURE ,Did Work zone have a lane closure? ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_MOVING ,Was there moving work in the zone?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_OTHER ,Was this a special type of work zone?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_SHLDER_MDN ,Was a median/shoulder in the zone?  ,TEXT ,1,"1=Y, 0 = N ",crash
+WZ_WORKERS_INJ_KILLED ,Were any Work Zone workers injured or killed as a result of this crash? ,TEXT ,1,"1=Y, 0 = N ",crash
+AXLE_CNT ,Number of axles on the vehicle ,TEXT ,2,  ,COMMVEH 
+CARGO_BD_TYPE ,Code for the Cargo Carrier’s Body Type ,TEXT ,1,See Column Code ,COMMVEH 
+CARRIER_ADDR1 ,Address of Carrier ,TEXT ,25, ,COMMVEH 
+CARRIER_ADDR2 ,Address of Carrier line 2 ,TEXT ,25, ,COMMVEH 
+CARRIER_CITY ,City of Carrier ,TEXT ,15, ,COMMVEH 
+CARRIER_NM ,Name of the Carrier ,TEXT ,32, ,COMMVEH 
+CARRIER_STATE ,State of Carrier ,TEXT ,2, ,COMMVEH 
+CARRIER_ZIP ,Zip Code of Carrier ,TEXT ,10, ,COMMVEH 
+CARRIER_TEL ,Telephone of Carrier ,TEXT ,10, ,COMMVEH 
+CRN  ,Crash Record Number ,NUMBER ,10,Database key field that identifies a unique crash case ,COMMVEH 
+GVWR ,Gross vehicle weight rating ,TEXT ,6,  ,COMMVEH 
+HAZMAT_CD1 ,Hazmat Code for material one onboard ,TEXT ,1,See Column Code  ,COMMVEH 
+HAZMAT_CD2 ,Hazmat Code for material two onboard ,TEXT ,1,See Column Code  ,COMMVEH 
+HAZMAT_CD3 ,Hazmat Code for material three onboard ,TEXT ,1,See Column Code ,COMMVEH 
+HAZMAT_CD4 ,Hazmat Code for material four onboard ,TEXT ,1,See Column Code  ,COMMVEH 
+HAZMAT_IND ,Yes/No indicator for Hazmat on board ,TEXT ,1,"1= Y, 0 = N ",COMMVEH 
+HAZMAT_REL_IND1 ,Yes/No indicator for Hazmat one released ,TEXT ,1,"1= Y, 0 = N ",COMMVEH 
+HAZMAT_REL_IND2 ,Yes/No indicator for Hazmat two released ,TEXT ,1,"1= Y, 0 = N ",COMMVEH 
+HAZMAT_REL_IND3 ,Yes/No indicator for Hazmat three released ,TEXT ,1,"1= Y, 0 = N ",COMMVEH 
+HAZMAT_REL_IND4 ,Yes/No indicator for Hazmat four released ,TEXT ,1,"1= Y, 0 = N ",COMMVEH 
+ICC_NUM ,Interstate commercial carrier number ,TEXT ,9,(not in use after 12/31/15) ,COMMVEH 
+OSIZE_LOAD_IND ,Oversize load indicator  ,TEXT ,1,"1= Y, 0 = N ",COMMVEH 
+PUC_NUM ,PA Utility Commission Number ,TEXT ,10,  ,COMMVEH 
+UNIT_NUM ,Unit number of the vehicle in the crash event ,NUMBER ,2,  ,COMMVEH 
+USDOT_NUM ,US Dept of Transportation Number ,TEXT ,8,        ,COMMVEH 
+VEH_CONFIG_CD ,Vehicle Configuration Code ,TEXT ,2,See Column Code ,COMMVEH 
+CRN  ,Crash Record Number ,NUMBER ,10,Database key field that identifies a unique crash case ,CYCLE 
+MC_ENGINE_SIZE ,Motorcycle engine size (cc) ,TEXT ,5, ,CYCLE 
+MC_PASSNGR_IND ,Did the Motorcycle have a passenger? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_BAG_IND ,Did the Motorcycle have Side bags?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_TRAIL_IND ,Did the Motorcycle have Trailer?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_EDC_IND ,Did Motorcycle Driver have safety training?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_EYEPRT_IND ,Did Motorcycle Driver wear Eye Protection? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_LNGSLV_IND ,Did Motorcycle Driver have Long sleeves?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_LNGPNTS_IND ,Did Motorcycle Driver wear Long pants? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_BOOTS_IND ,Did Motorcycle Driver wear Boots?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_HLMTON_IND ,Did Motorcycle Driver wear Helmet?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_HLMTDOT_IND ,Was Driver’s Helmet PENNDOT certified? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_DVR_HLMT_TYPE ,Code for Helmet type of the Motorcycle Driver ,TEXT ,1,See Column Code ,CYCLE 
+MC_PAS_EYEPRT_IND ,Did Motorcycle passenger wear Eye Protection?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_PAS_LNGSLV_IND ,Did Motorcycle passenger have Long sleeves?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_PAS_LNGPNTS_IND ,Did Motorcycle passenger wear long pants? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_PAS_BOOTS_IND ,Did Motorcycle passenger wear Boots? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_PAS_HLMTON_IND ,Did Motorcycle passenger wear a Helmet? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_PAS_HLMTDOT_IND ,Was passenger’s helmet PENNDOT cert.? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+MC_PAS_HLMT_TYPE ,Code for Helmet type of the Motorcycle pass. ,TEXT ,1,See Column Code ,CYCLE 
+PC_PASSNGR_IND ,Did the Pedal cycle have a passenger ? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+PC_HDLGHT_IND ,Did the Pedal cycle have  a Headlight  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+PC_HLMT_IND ,Did Pedal cycle driver wear a helmet?  ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+PC_REAR_RFLTR_IND ,Did Pedal cycle have a Rear Reflector? ,TEXT ,1,"1 = Y, 0 = N ",CYCLE 
+UNIT_NUM ,Unit number of the vehicle in the crash event ,NUMBER ,2, ,CYCLE 
+AGGRESSIVE_DRIVING ,At Least one Aggressive Driver Action ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ALCOHOL_RELATED ,At Least one Driver or Pedestrian with reported or suspected Alcohol Use ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ANGLE_CRASH ,First Harmful Event involved a vehicle striking another at an angle ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ATV ,Crash involved at least one All-TerrainVehicle (ATV). ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+BACKUP_PRIOR ,Indicates that traffic was backed up due to a prior crash ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+BACKUP_NONRECURRING ,Indicates that traffic was backed up due to a Nonrecurring special event ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+BACKUP_CONGESTION ,Indicates that traffic was backed up due to normal congestion ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+BICYCLE ,A Bicycle was involved  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+CELL_PHONE ,Driver Using Cell Phone (Hand Held or Hands Free) ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+CHILD_PASSENGER ,The Crash involved at least one vehicle passenger under the age of 12. ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+COMM_VEHICLE ,Crash has at least one involved Commercial Vehicle ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+CORE_NETWORK ,Crash took place on a Core Network Roadway. ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+CRN ,Crash Record Number – Identifies a unique crash ,NUMBER ,10,Database key field that identifies a unique crash case ,FLAG 
+CROSS_MEDIAN ,At least one unit Crossed a Median  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+CURVE_DVR_ERROR ,At Least one Driver Action Involving Curve Negotiation ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+CURVED_ROAD ,Curve in Road ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DEER_RELATED ,Deer Struck or Deer in Roadway ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DISTRACTED ,At Least one Driver Action Indicating a Distraction ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRINKING_DRIVER ,At least one Drinking Driver ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_16YR ,At Least one Driver 16 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_17YR ,At Least one Driver 17 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_18YR ,At Least one Driver 18 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_19YR ,At Least one Driver 19 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_20YR ,At Least one Driver 20 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_50_64YR ,At Least one Driver 50-64 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_65_74YR ,At Least one Driver 65-74 Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRIVER_75PLUS ,At Least one Driver 75 plus Years of Age ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRUG_RELATED ,Indicates either a motor vehicle driver or non-motorist (such as a bicyclist or pedestrian) had a condition of drug use or was suspected of drug use by police or had a positive drug test result indicating presence of a controlled substance. (Definition changed May 2022) ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+DRUGGED_DRIVER ,Indicates any motor vehicle driver had a condition of drug use or was suspected of drug use by police or had a positive drug test result indicating presence of a controlled substance. (Definition changed May 2022) ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+FATAL ,At Least one Fatality  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+FATAL_OR_SUSP_SERIOUS_INJ ,The crash has at least one person who was killed or sustained a Suspected Serious Injury ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+FATIGUE_ASLEEP ,At Least one Driver with a Condition listed Fatigued or Asleep  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+FIRE_IN_VEHICLE ,At least one Vehicle with Fire Damage ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HAZARDOUS_TRUCK ,At least one Heavy Truck carrying Hazardous Material ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_BARRIER ,At Least one Unit Hit a Barrier ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_BRIDGE ,At Least one Unit Hit a Bridge  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_DEER ,At Least one Unit Hit a Deer ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_EMBANKMENT ,At Least one Unit Hit an Embankment  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_FIXED_OBJECT ,Crash Description of Hit Fixed Object ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_GDRAIL ,At Least one Unit Hit a Guide Rail ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_GDRAIL_END ,At Least one Unit Hit a Guide Rail End ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_PARKED_VEHICLE ,At least one Legally or Illegally Parked Vehicle was struck ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_POLE ,At Least one Unit Hit a Pole ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HIT_TREE_SHRUB ,At Least one Unit Hit a Tree or Shrub ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HO_OPPDIR_SDSWP ,Crash Description of Head-on or Opposite Direction Sideswipe ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HORSE_BUGGY ,At least one Horse and Buggy Unit involved ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+HVY_TRUCK_RELATED ,At Least one Heavy Truck was involved ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ICY_ROAD ,Icy Road Indicator ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ILLEGAL_DRUG_RELATED ,At Least one Driver or Pedestrian had reported or suspected Illegal Drug Use ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ILLUMINATION_DARK ,Illumination Indicates that the Crash Scene Lighting was Dark ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+IMPAIRED_DRIVER ,At least one Driver was Impaired by Drugs or Alcohol ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+INJURY ,At least one Person Was Injured in the Crash ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+INJURY_OR_FATAL ,At least one Person was Injured or Killed in the Crash ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+INTERSECTION ,Crash took place at an Intersection ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+INTERSTATE ,Crash took place on a Non-Turnpike Interstate ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+LANE_DEPARTURE ,The crash had an indication that at least one vehicle departed their lane of travel during the crash events ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+LEFT_TURN ,The crash had at least 1 unit that performed a left turn movement. ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+LIMIT_65MPH ,The Crash took place on a roadway that had a posted Speed limit of 65 Miles Per Hour ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+LIMIT_70MPH ,The Crash took place on a roadway that had a posted Speed limit of 70 Miles Per Hour ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+LOCAL_ROAD ,The crash involved at least one Local ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+,Road ,,,,FLAG 
+LOCAL_ROAD_ONLY ,The crash involved only Local Roadway ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+MARIJUANA_DRUGGED_DRIVER ,The crash involved at least 1 driver who tested positive for the presence of marijuana ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+MARIJUANA_RELTAED ,"The crash involved at least 1 driver, pedestrian, or other non-motorist who tested positive for the presence of marijuana ",NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+MATURE_DRIVER ,The crash involved at least 1 driver over the age of 65 ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+MC_DRINKING_DRIVER ,At least one Motorcycle driver has reported or suspected Alcohol Use ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+MOTORCYCLE ,The crash involved at least one Motorcycle ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+MULTIPLE_VEHICLE ,Crash involved at least 2 vehicles ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+NHTSA_AGG_DRIVING ,The Crash meets the NHTSA definition of Aggressive Driving ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+NON_INTERSECTION ,The crash did not take place at an Intersection ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+NO_CLEARANCE ,At least one unit proceeded without clearance after a stop. ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+OPIOID_RELATED ,At least one Driver or Non-Motorist was suspected of drug use and tested positive for opioids ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+OTHER_FREEWAY  ,Indicates that the crash took place on a non-turnpike/non-interstate freeway ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+OVERTURNED ,The crash involved at least one Overturned Vehicle ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+PEDESTRIAN ,The crash involved at least one ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+,"Pedestrian, or Pedestrian Converyance ",,,,FLAG 
+PHANTOM_VEHICLE ,The crash involved at least one Unit that contributed to the crash but did not have any harmful events.  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+POSSIBLE_INJURY  ,The crash has at least one person who sustained a Possible Injury ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+PROPERTY_DAMAGE_ONLY ,The crash did not have any injuries or fatalities ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+PSP_REPORTED ,Crash Investigated by the Pennsylvania State Police ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+RAMP ,The crash involved an interchange ramp ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+REAR_END ,Crash Description of Rear End ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ROUNDABOUT ,The crash took place at a modern roundabout intersection. ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+RUNNING_RED_LT ,At least one Driver Ran a Red Light  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+RUNNING_STOP_SIGN ,At least one Driver Ran a Stop Sign ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+RURAL ,Crash took place in a rural municipality ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SCHOOL_BUS ,The crash involved at least one School Bus  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SCHOOL_BUS_UNIT ,The crash involved at least one School Bus Unit with a harmful event  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SCHOOL_ZONE ,The crash took place in a School Zone ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SHLDR_RELATED ,Shoulder Related Indicator ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SIGNALIZED_INT ,The crash took place at a Signalized Intersection ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SINGLE_VEHICLE ,The crash involved a single vehicle  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+SNOW_SLUSH_ROAD ,The crash involved a Snow or Slush covered Road  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SNOWMOBILE ,Crash involved at least one Snowmobile Unit ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SPEEDING ,At least one vehicle was Speeding ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SPEEDING_RELATED ,"At least one vehicle was Speeding, Racing or was Driving too fast for conditions  ",NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+STATE_ROAD ,The crash involved at least one State ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+,Owned Road ,,,,FLAG 
+STOP_CONTROLLED_INT ,The crash took place at a Stop Controlled Intersection  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+SUDDEN_DEER ,The crash involved a Deer in the ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+,Roadway ,,,,FLAG 
+SUSPECTED_MINOR_INJURY ,The crash has at least one person who sustained a Suspected Minor Injury ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+SUSPECTED_SERIOUS_INJURY ,The crash has at least one person who sustained a Suspected Serious Injury ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+ ,,,,,FLAG 
+SV_RUN_OFF_RD ,Single Vehicle Run Off Road  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+TAILGATING ,At least one Driver was Tailgating or Following too closely  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+TRAIN ,The crash involved a Train  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+TRAIN_TROLLEY ,The crash involved a  Train or Trolley  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+TROLLEY ,The crash involved a Trolley  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+TURNPIKE ,The crash took place on the Turnpike or a Turnpike Spur ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+UNBELTED ,Anyone in crash unbelted? (applicable vehicles only) ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+UNDERAGE_DRNK_DRV ,The crash involved at least one Under Age Drinking Driver ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+UNLICENSED ,The crash involved at least one Unlicensed Driver ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+UNSIGNALIZED_INT ,The crash took place at an Unsignalized Intersection ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+URBAN ,The crash took place in an Urban municipality ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+VEHICLE_FAILURE ,The crash involved at least one Vehicle Failure that contributed to the crash  ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+VEHICLE_TOWED ,At least one Vehicle was towed from the scene ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+VULNERABLE_ROADWAY_USER ,"The crash involved at least 1 vulnerable roadway user (pedestrian, pedestrian conveyance, bicyclist) ",NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+VULNERABLE_ROADWAY_USER_FATAL ,The crash involved at least 1 fatality to a vulnerable roadway user ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+WET_ROAD ,Wet Road Indicator ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+WORK_ZONE ,Work Zone Indicator ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+YOUNG_DRIVER ,The crash involved at least 1 driver age 16-20 ,NUMBER ,1,"0 = No, 1 = Yes ",FLAG 
+AGE ,AGE of Person ,NUMBER ,2," Those under the age of 1 are listed as 1, those over the age of 98 are listed as 98 and 99 indicates an unknown age. ",PERSON 
+AIRBAG_PADS ,Airbag deployment for motor vehicle occupant or bicycle/motorcycle protective gear   ,TEXT ,2,See Column Code ,PERSON 
+AIRBAG1 – AIRBAG4 ,Airbag(s) that were deployed for this person ,TEXT ,2,See Column Code ,PERSON 
+CLOTHING_TYPE ,Clothing Type – Only for Pedestrians ,TEXT ,2,See Column Code ,PERSON 
+CRN ,Crash Record Number ,NUMBER ,10,Database key field that identifies a unique crash case ,PERSON 
+DRUG_RESULT_CD1-4 ,Result(s) from drug testing for this Driver/Pedestrian ,TEXT ,3,See Table ,PERSON 
+DVR_LIC_STATE ,State of Licensed Driver ,TEXT ,2,See Column Code ,PERSON 
+DVR_PED_CONDITION ,Driver Pedestrian Condition Code ,TEXT ,1,See Column Code ,PERSON 
+EJECTION_IND ,Ejection Indicator – Only for vehicle occupants ,TEXT ,1,See Column Code ,PERSON 
+EJECT_PATH_CD ,Ejection Path Code– Only for vehicle occupants ,TEXT ,2,See Column Code ,PERSON 
+EXTRIC_IND ,Extrication Indicator– Only for vehicle occupants ,TEXT ,1,See Column Code ,PERSON 
+*INJ_SEVERITY ,Injury Severity Code ,TEXT ,1,See Column Code ,PERSON 
+PED_LOCATION ,Pedestrian Location Code ,TEXT ,2, See Column Code ,PERSON 
+PED_SIGNAL ,Pedestrian Signal Indicator ,TEXT ,1,See Column Code ,PERSON 
+PERSON_NUM ,Person Number – Sequential per Unit ,NUMBER ,2,  ,PERSON 
+PERSON_TYPE ,Person Type Code ,TEXT ,2,See Column Code ,PERSON 
+RESTRAINT_HELMET ,Restraint or Helmet ,TEXT ,2,See Column Code ,PERSON 
+SEAT_POSITION ,Seat in unit where person sat ,TEXT ,2,See Column Code ,PERSON 
+SEX ,Sex of this individual ,TEXT ,1,See Column Code ,PERSON 
+TRANSPORTED ,Transported to medical facility Y/N ,TEXT ,1,"1= Y, 0 = N ",PERSON 
+UNIT_NUM ,Unit number of the vehicle (or pedestrian) assigned to this person  ,NUMBER ,2,  ,PERSON 
+ACCESS_CTRL ,Access Control Code– only for state roads ,TEXT ,1,See Column Code ,ROADWAY 
+ADJ_RDWY_SEQ ,Adjusted Roadway Sequence Number ,NUMBER ,2,  ,ROADWAY 
+CRN ,Crash Record Number ,NUMBER ,2,Database key field that identifies a unique crash case ,ROADWAY 
+LANE_COUNT ,Travel Lane Count (Both Directions for Nondivided roads. Single Direction for Divided Highways) ,TEXT ,2,  ,ROADWAY 
+OFFSET ,Offset (in feet) within the Segment – only for state roads ,TEXT ,4, ,ROADWAY 
+RDWY_COUNTY ,Roadway County Code (could differ from County of Crash) ,TEXT ,2,See Column Code for COUNTY ,ROADWAY 
+RDWY_ORIENT ,Roadway Orientation Code ,TEXT ,1,See Column Code ,ROADWAY 
+RDWY_SEQ_NUM ,Crash Roadway Sequence Number ,NUMBER ,2,  ,ROADWAY 
+ROAD_OWNER ,"Roadway maintained by state, local or private jurisdiction.  ",TEXT ,2,See Column Code ,ROADWAY 
+ROUTE ,Route Number – only for state roads ,TEXT ,4,  ,ROADWAY 
+SEGMENT ,Segment Number– only for state roads ,TEXT ,4, ,ROADWAY 
+SPEED_LIMIT ,Speed Limit ,TEXT ,2, ,ROADWAY 
+STREET_NAME ,Name of the Roadway ,TEXT ,50,  ,ROADWAY 
+CRN  ,Crash Record Number ,NUMBER ,10,Database key field that identifies a unique crash case ,TRAILVEH 
+TRL_SEQ_NUM ,Trailer Sequence Number ,NUMBER ,2,  ,TRAILVEH 
+TRL_VEH_REG_STATE ,Trailer Registration State ,TEXT ,2,See State Codes ,TRAILVEH 
+TRL_VEH_TAG_NUM ,Trailer Registration Tag Number ,TEXT ,12, ,TRAILVEH 
+TRL_VEH_TAG_YR ,Trailer Registration Year ,TEXT ,2, ,TRAILVEH 
+TRL_VEH_TYPE_CD ,Trailer Type Code ,TEXT ,2,See Column Code ,TRAILVEH 
+UNIT_NUM ,Unit Number of the vehicle the trailer is associated with ,NUMBER ,2,  ,TRAILVEH 
+AVOID_MAN_CD ,Avoidance Maneuver Code - only for fatal crashes ,TEXT ,2,See Column Code ,VEHICLE 
+BODY_TYPE ,Body Type Code ,TEXT ,2,See Column Code ,VEHICLE 
+COMM_VEH ,Commercial Vehicle Indicator ,TEXT ,1,N=No U=Unknown Y=Yes ,VEHICLE 
+CRN  ,Crash Record Number ,NUMBER ,10,Database key field that identifies a unique crash case ,VEHICLE 
+DAMAGE_IND ,Damage Indicator ,TEXT ,1,See Column Code ,VEHICLE 
+DVR_PRES_IND ,Driver presence indicator  ,TEXT ,1,See Column Code ,VEHICLE 
+EMERG_VEH_USE_CD ,Special Vehicle use code– only for fatal crashes ,TEXT ,2,See Column Code ,VEHICLE 
+GRADE ,Grade Code ,TEXT ,1,See Column Code ,VEHICLE 
+IMPACT_POINT ,Initial Impact Point ,TEXT ,2,See Column Code ,VEHICLE 
+INS_IND ,Insurance Indicator Y/N ,TEXT ,1,"1 = Y, 0 = N ",VEHICLE 
+MAKE_CD ,Make Code ,TEXT ,4,See Vehicle Make Table ,VEHICLE 
+MODEL_YR ,Model Year of the Vehicle ,TEXT ,4, ,VEHICLE 
+OWNER_DRIVER ,"Was the vehicle owned by the Driver? If not, who owns the vehicle? ",TEXT ,2,See Column Code ,VEHICLE 
+PARTIAL_VIN  ,Vehicle Identification Number (First Eleven characters) ,TEXT ,11, ,VEHICLE 
+PEOPLE_IN_UNIT ,Total People in Unit ,NUMBER ,2,  ,VEHICLE 
+PRIN_IMP_PT ,Principle Impact Point – only for fatal crashes ,TEXT ,2,See Column Code for Impact Point ,VEHICLE 
+RDWY_ALIGNMENT ,Roadway Alignment Code ,TEXT ,1,See Column Code ,VEHICLE 
+SPECIAL_USAGE ,Special Usage of the Vehicle ,TEXT ,2,See Column Code ,VEHICLE 
+TRAVEL_DIRECTION ,Travel Direction of the vehicle ,TEXT ,1,See Column Code ,VEHICLE 
+TRAVEL_SPD ,Estimated Travel Speed  ,TEXT ,3, ,VEHICLE 
+TRL_VEH_CNT ,Trailing Vehicle Count ,TEXT ,1, ,VEHICLE 
+UNDER_RIDE_IND ,Under Ride damage indicator– only for fatal crashes ,TEXT ,1,See Column Code ,VEHICLE 
+UNIT_NUM ,Unit number assigned to the vehicle or pedestrian ,NUMBER ,2,  ,VEHICLE 
+UNIT_TYPE ,Unit Type ,TEXT ,2,See Column Code ,VEHICLE 
+VEH_COLOR_CD ,Vehicle Color Code ,TEXT ,2,See Column Code ,VEHICLE 
+VEH_MOVEMENT ,Vehicle Movement Code ,TEXT ,2,See Column Code ,VEHICLE 
+VEH_POSITION ,Vehicle Position Code ,TEXT ,2,See Column Code ,VEHICLE 
+VEH_REG_STATE ,Vehicle Registration State ,TEXT ,2,See State Codes ,VEHICLE 
+VEH_ROLE ,Vehicle Role  ,TEXT ,1,See Column Code ,VEHICLE 
+VEH_TYPE ,Vehicle Type ,TEXT ,2,See Column Code ,VEHICLE 
+VINA_BODY_TYPE_CD ,Body Type Code interpreted by VINA software ,TEXT ,3,See Column Code ,VEHICLE 
