@@ -1,0 +1,55 @@
+---
+title: "Exploration of Car Crash Data"
+output: html_notebook
+---
+
+# Load the data
+
+```{r}
+library(readr)
+print(getwd())
+crash_data_dir = "../source_data/crash_data"
+all_files = list.files(crash_data_dir, pattern="csv$", recursive=TRUE)
+
+read_crash_file <- function(file_type) {
+  read_csv(list.files(path = crash_data_dir, 
+                             pattern = paste0(file_type, 
+                                              "_[[:digit:]]{4}_Statewide.csv"), 
+                             recursive = TRUE, 
+                             full.names=TRUE))
+}
+# commveh = read_crash_file("COMMVEH")
+crash = read_crash_file("CRASH")
+# cycle = read_crash_file("CYCLE")
+# flag = read_crash_file("FLAG")
+# person = read_crash_file("PERSON")
+# roadway = read_crash_file("ROADWAY")
+# trailveh = read_crash_file("TRAILVEH")
+# vehicle = read_crash_file("VEHICLE")
+```
+
+# Visualize the data with regression line
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+
+crash %>% 
+  mutate(CRASH_DATE = ym(paste0(CRASH_YEAR, CRASH_MONTH))) %>% 
+  count(CRASH_DATE) %>% 
+  ggplot(aes(x = CRASH_DATE, y = n)) +
+  geom_smooth()
+ggsave("pandemic_crash_regression.png")
+```
+# Visualize data as a line plot
+
+```{r}
+crash %>% 
+  mutate(CRASH_DATE = ym(paste0(CRASH_YEAR, CRASH_MONTH))) %>% 
+  count(CRASH_DATE) %>% 
+  ggplot(aes(x = CRASH_DATE, y = n)) +
+  geom_line()
+
+ggsave("pandemic_crash_line.png")
+```
